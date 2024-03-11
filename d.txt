@@ -1,3 +1,4 @@
+=========///==========
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYbFVGZ29PcURsVnFsWkZEM0pzMFlB@172.233.51.96:8080#%F0%9F%98%84
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprVGpsTHhybmNLeDRpMkhJanhmQTNN@51.142.171.150:49499#%F0%9F%98%84
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNTd6VmJsVFFzNjBlZ1hVaXphcTRZ@51.142.173.34:27842#%F0%9F%98%84
@@ -53,7 +54,7 @@ vless://d342d11e-d424-4583-b36e-524ab1f0afa4@172.67.68.191:443?path=Path%2FTeleg
 vless://b0138d55-a493-4dc3-9932-c6f0391707c1@172.64.111.9:443?path=%2Fvless%2Fb0138d55-a493-4dc3-9932-c6f0391707c1%3Fed%3D2048&security=tls&encryption=none&host=edge.020770.xyz&type=ws&sni=edge.020770.xyz#%F0%9F%98%84
 ss://YWVzLTI1Ni1nY206bXBLb1lRdGtGNFh6M1RyWg==@62.113.115.180:21309#%F0%9F%98%84
 
-======================
+==========A============
 
 vless://b9ad895b-12ac-40fc-a5ac-a5b2a1285001@172.64.89.170:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=3k.pureboy.eu.org&type=ws&sni=3k.pureboy.eu.org#%F0%9F%99%83
 vless://29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2@188.114.99.243:443?path=Path%2FTelegram%40V2ray_alpha%2F%3Fed%3D2048&security=tls&encryption=none&host=w1.sylar8.eu.org&type=ws&sni=w1.sylar8.eu.org#%F0%9F%99%83
@@ -77,7 +78,7 @@ vless://7e29f2e2-e0ec-47c5-94ec-38ef90f7a106@discord.gg:2053?path=vless-ws%2F%3F
 vless://f4cec6cc-6177-423c-90f8-2ad9f0dd996b@172.67.84.80:2096?path=Path%2FTelegram--%40Rk_filtershking--%2F%3Fed%3D2048&security=tls&encryption=none&host=vpnct.arvancode.eu.org&fp=chrome&type=ws&sni=vpnct.arvancode.eu.org#%F0%9F%99%83
 vless://f4cec6cc-6177-423c-90f8-2ad9f0dd996b@iranserver.com:2096?path=Telegram%40SINABIGO%40SINABIGO%40SINABIGO%2F%3Fed%3D2048&security=tls&encryption=none&host=vpnct.arvancode.eu.org&fp=chrome&type=ws&sni=vpnct.arvancode.eu.org#%F0%9F%99%83
 
-===============================
+=============C==================
 
 vless://376894fa-1fc3-4285-9684-71e103d859ee@23.227.60.13:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=JoiN-BeDe-HAJIMAMAD-ChAnNeL-1-2-3.tImeClAsSiC.iR&type=ws#%F0%9F%98%8F
 vless://b0138d55-a493-4dc3-9932-c6f0391707c1@162.159.135.79:443?path=%2Fvless%2Fb0138d55-a493-4dc3-9932-c6f0391707c1%3Fed%3D2048&security=tls&encryption=none&host=edge.020770.xyz&type=ws&sni=edge.020770.xyz#%F0%9F%98%8F
