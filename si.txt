@@ -1,5 +1,6 @@
 { "dns": { "fakeip": { "enabled": true, "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18" }, "independent_cache": true, "rules": [ { "outbound": [ "any" ], "server": "local" }, { "disable_cache": true, "geosite": [ "category-ads-all" ], "server": "block" }, { "query_type": [ "A", "AAAA" ], "rewrite_ttl": 1, "server": "fakeip" }, { "clash_mode": "global", "server": "remote" }, { "clash_mode": "direct", "server": "local" }, { "geosite": "cn", "server": "local" } ], "servers": [ { "address": "tcp:\/\/77.88.8.8", "detour": "select", "tag": "remote" }, { "address": "tcp:\/\/77.88.8.8", "detour": "direct", "tag": "local" }, { "address": "rcode://success", "tag": "block" }, { "address": "fakeip", "tag": "fakeip" } ], "strategy": "prefer_ipv4" }, "experimental": { "clash_api": { "external_controller": "127.0.0.1:9090", "secret": "" } }, "inbounds": [ { "auto_route": true, "domain_strategy": "prefer_ipv4", "endpoint_independent_nat": true, "inet4_address": "172.19.0.1/30", "inet6_address": "2001:0470:f9da:fdfa::1/64", "mtu": 9000, "platform": { "http_proxy": { "enabled": true, "server": "127.0.0.1", "server_port": 2334 } }, "strict_route": true, "type": "tun" }, { "domain_strategy": "prefer_ipv4", "listen": "127.0.0.1", "listen_port": 2333, "tag": "socks-in", "type": "socks", "users": [] }, { "domain_strategy": "prefer_ipv4", "listen": "127.0.0.1", "listen_port": 2334, "tag": "mixed-in", "type": "mixed", "users": [] } ], "log": {}, "outbounds": [ { "tag": "select", "type": "selector", "outbounds": [ "AUTOTEST", "n1", "n2" ] }, { "tag": "AUTOTEST", "type": "urltest", "outbounds": [ "n1", "n2" ], "url": "https://cp.cloudflare.com/generate_204", "interval": "3m", "tolerance": 50 }, { "tag": "direct", "type": "direct" }, { "tag": "block", "type": "block" }, { "tag": "dns-out", "type": "dns" }, { 
-    "bean": {
+{
+    {
         "_v": 0,
         "addr": "213.183.63.69",
         "method": "aes-256-cfb",
@@ -17,18 +18,20 @@
     "gid": 0,
     "id": 1054,
     "traffic": {
-        "dl": 11407844,
-        "ul": 779531
+        "dl": 11458339,
+        "ul": 803286
     },
     "type": "shadowsocks",
     "yc": 258
- }, {     "bean": {
+}
+ }, {   
+    {
         "_v": 0,
         "addr": "213.183.63.69",
         "method": "aes-256-cfb",
         "name": "Se_",
-        "pass": "wfLC2y7rzZyCmuyt",
-        "port": 9093,
+        "pass": "FG5ddLsMPbV5CutE",
+        "port": 9050,
         "stream": {
             "ed_len": 0,
             "insecure": false,
@@ -38,10 +41,11 @@
         "uot": 0
     },
     "gid": 0,
-    "id": 1039,
+    "id": 1054,
     "traffic": {
-        "dl": 0,
-        "ul": 0
+        "dl": 11458339,
+        "ul": 803286
     },
     "type": "shadowsocks",
-    "yc": 265 } ], "route": { "auto_detect_interface": true, "rules": [ { "geosite": "category-ads-all", "outbound": "block" }, { "outbound": "dns-out", "port": 53 }, { "clash_mode": "direct", "outbound": "direct" }, { "clash_mode": "global", "outbound": "select" }, { "geoip": [ "ir", "private" ], "outbound": "direct" } ] } }
+    "yc": 258
+} ], "route": { "auto_detect_interface": true, "rules": [ { "geosite": "category-ads-all", "outbound": "block" }, { "outbound": "dns-out", "port": 53 }, { "clash_mode": "direct", "outbound": "direct" }, { "clash_mode": "global", "outbound": "select" }, { "geoip": [ "ir", "private" ], "outbound": "direct" } ] } }
