@@ -1,0 +1,365 @@
+{
+    "dns": {
+        "fakeip": {
+            "enabled": true,
+            "inet4_range": "198.18.0.0/15",
+            "inet6_range": "fc00::/18"
+        },
+        "independent_cache": true,
+        "rules": [
+            {
+                "outbound": [
+                    "any"
+                ],
+                "server": "local"
+            },
+            {
+                "disable_cache": true,
+                "geosite": [
+                    "category-ads-all"
+                ],
+                "server": "block"
+            },
+            {
+                "query_type": [
+                    "A",
+                    "AAAA"
+                ],
+                "rewrite_ttl": 1,
+                "server": "fakeip"
+            },
+            {
+                "clash_mode": "global",
+                "server": "remote"
+            },
+            {
+                "clash_mode": "direct",
+                "server": "local"
+            },
+            {
+                "geosite": "ir",
+                "server": "local"
+            }
+        ],
+        "servers": [
+            {
+                "address": "tcp:\/\/94.140.14.140",
+                "detour": "select",
+                "tag": "remote"
+            },
+            {
+                "address": "tcp:\/\/94.140.14.140",
+                "detour": "direct",
+                "tag": "local"
+            },
+            {
+                "address": "rcode://success",
+                "tag": "block"
+            },
+            {
+                "address": "fakeip",
+                "tag": "fakeip"
+            }
+        ],
+        "strategy": "prefer_ipv4"
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "secret": ""
+        }
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "domain_strategy": "",
+            "interface_name": "tun0",
+            "inet4_address": "172.19.0.1\/30",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "domain_strategy": "",
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "log": {},
+    "outbounds": [
+        {
+            "tag": "select",
+            "type": "selector",
+            "outbounds": [
+                "AUTOTEST",
+                "🇩🇪T.me/Wearestand",
+                "🇬🇧T.me/Wearestand",
+                "🇩🇪T.me/Wearestand 2"
+                
+        
+                
+
+            ]
+        },
+  {
+            "tag": "AUTOTEST",
+            "type": "urltest",
+            "outbounds": [
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "5m",
+      "tolerance": 50
+    },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+
+  
+
+             {
+      {
+    "bean": {
+        "_v": 0,
+        "addr": "213.183.63.69",
+        "method": "aes-256-cfb",
+        "name": "Se_",
+        "pass": "FG5ddLsMPbV5CutE",
+        "port": 9050,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 0,
+    "id": 1054,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": 258
+}
+{
+    "bean": {
+        "_v": 0,
+        "addr": "213.183.63.69",
+        "method": "aes-256-cfb",
+        "name": "Se_",
+        "pass": "wfLC2y7rzZyCmuyt",
+        "port": 9093,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 0,
+    "id": 1039,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": 265
+}
+{
+    "bean": {
+        "_v": 0,
+        "addr": "213.183.63.69",
+        "method": "aes-256-cfb",
+        "name": "Se_",
+        "pass": "TPqX8edgbAURcAMb",
+        "port": 9079,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 0,
+    "id": 1047,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": 266
+}
+{
+    "bean": {
+        "_v": 0,
+        "addr": "213.183.63.69",
+        "method": "aes-256-cfb",
+        "name": "Se_",
+        "pass": "f8npKgNzdkss2ytn",
+        "port": 9088,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 0,
+    "id": 1041,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": 267
+}
+{
+    "bean": {
+        "_v": 0,
+        "addr": "213.183.63.69",
+        "method": "aes-256-cfb",
+        "name": "Se_",
+        "pass": "ueLXVkvh4hckhErQ",
+        "port": 9060,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 0,
+    "id": 1037,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": 271
+}
+{
+    "bean": {
+        "_v": 0,
+        "addr": "77.72.5.113",
+        "method": "aes-256-cfb",
+        "name": "Se_",
+        "pass": "f8f7aCzcPKbsF8p3",
+        "port": 989,
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        },
+        "uot": 0
+    },
+    "gid": 0,
+    "id": 87,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "shadowsocks",
+    "yc": 273
+}
+{
+    "bean": {
+        "_v": 0,
+        "addr": "178.239.150.174",
+        "aid": 0,
+        "id": "2b7ce1d2-0372-4104-aa06-f7d999f26e1d",
+        "name": "Se_",
+        "port": 80,
+        "sec": "auto",
+        "stream": {
+            "ed_len": 0,
+            "insecure": false,
+            "mux_s": 0,
+            "net": "tcp"
+        }
+    },
+    "gid": 0,
+    "id": 1143,
+    "traffic": {
+        "dl": 0,
+        "ul": 0
+    },
+    "type": "vmess",
+    "yc": 329
+}
+        }
+      }
+    },
+    
+   {
+      n
+        }
+      }
+    },
+
+       {
+            n
+        }
+   
+
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "rules": [
+            {
+                "geosite": "category-ads-all",
+                "outbound": "block"
+            },
+            {
+                "outbound": "dns-out",
+                "port": 53
+            },
+            {
+                "clash_mode": "direct",
+                "outbound": "direct"
+            },
+            {
+                "clash_mode": "global",
+                "outbound": "select"
+            },
+            {
+                "geoip": [
+                    "ir",
+                    "private"
+                ],
+                "outbound": "direct"
+            }
+        ]
+    }
+}
