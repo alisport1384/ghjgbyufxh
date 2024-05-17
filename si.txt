@@ -140,13 +140,6 @@
             "type": "dns"
         },
 
-  
-
-             {
-      
- 
-
-    ],
     "route": {
         "auto_detect_interface": true,
         "rules": [
