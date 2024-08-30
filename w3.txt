@@ -5,8 +5,8 @@
     {
       "type": "wireguard",
       "tag": "Warp-IR2",
-      "server": "162.159.192.47",
-      "server_port": 7103,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
 
       "local_address": [
         "172.16.0.2/32",
@@ -23,8 +23,8 @@
       "type": "wireguard",
       "tag": "Warp-Main2",
       "detour": "Warp-IR2",
-      "server": "162.159.192.47",
-      "server_port": 7103,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
       
       "local_address": [
           "172.16.0.2/32",
@@ -39,8 +39,8 @@
     },{
       "type": "wireguard",
       "tag": "Warp-IR3",
-      "server": "162.159.192.166",
-      "server_port": 903,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
 
       "local_address": [
         "172.16.0.2/32",
@@ -57,8 +57,8 @@
       "type": "wireguard",
       "tag": "Warp-Main3",
       "detour": "Warp-IR3",
-      "server": "162.159.192.166",
-      "server_port": 903,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
       
       "local_address": [
           "172.16.0.2/32",
@@ -73,8 +73,8 @@
     },{
       "type": "wireguard",
       "tag": "Warp-IR4",
-      "server": "162.159.192.53",
-      "server_port": 903,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
 
       "local_address": [
         "172.16.0.2/32",
@@ -91,8 +91,8 @@
       "type": "wireguard",
       "tag": "Warp-Main4",
       "detour": "Warp-IR4",
-      "server": "162.159.192.53",
-      "server_port": 903,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
       
       "local_address": [
           "172.16.0.2/32",
@@ -107,8 +107,8 @@
     },{
       "type": "wireguard",
       "tag": "Warp-IR5",
-      "server": "162.159.192.53",
-      "server_port": 7103,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
 
       "local_address": [
         "172.16.0.2/32",
@@ -125,8 +125,8 @@
       "type": "wireguard",
       "tag": "Warp-Main5",
       "detour": "Warp-IR5",
-      "server": "162.159.192.53",
-      "server_port": 7103,
+      "server": "engage.cloudflareclient.com",
+      "server_port": 2408,
       
       "local_address": [
           "172.16.0.2/32",
