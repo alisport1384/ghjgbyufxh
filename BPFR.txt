@@ -94,7 +94,7 @@
         },
         {
             "type": "urltest",
-            "tag": " Best Ping 💥",
+            "tag": "💦 Best Ping 💥",
             "outbounds": [
                 " 1 - VLESS F - Domain : 443",
                 " 2 - VLESS F - Domain : 443",
@@ -127,7 +127,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "insecure": false,
-                "server_name": "aLisPORT1.alIspORtgrOUPS.worKeRs.dEV",
+                "server_name": "ALIsPoRT1.alISportGrOupS.woRKERS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -139,7 +139,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/NxEkNfvQeO1F9Rk8",
+                "path": "/EiVW1zLzIorUpRs7",
                 "type": "ws"
             },
             "tag": " 1 - VLESS F - Domain : 443",
@@ -158,7 +158,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ALIsPorT1.aliSpORTgROUPS.worKERS.DEV",
+                "server_name": "AliSPoRT1.AlIsporTgrOUpS.worKeRs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -170,7 +170,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/6ZkE7pVQSN47pg5U",
+                "path": "/CcjvqZdcnx3Mqlbh",
                 "type": "ws"
             },
             "tag": " 2 - VLESS F - Domain : 443",
@@ -189,7 +189,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "insecure": false,
-                "server_name": "AliSPOrt1.ALispORTGROups.workeRS.dEv",
+                "server_name": "aLIsporT1.aliSpOrtgrOuPS.wOrkerS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -201,7 +201,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/xhsukULlKBpLoQLs",
+                "path": "/Y2a9K7XBIsR3b14x",
                 "type": "ws"
             },
             "tag": " 3 - VLESS F - IPv4 : 443",
@@ -220,7 +220,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "insecure": false,
-                "server_name": "alISpORT1.alispOrTgroups.WorKERs.dev",
+                "server_name": "AlISpoRT1.AlisPorTGRoupS.workeRS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -232,7 +232,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/7kpl4SOaLnASyQLM",
+                "path": "/iJXLNoZHUbWg8wMz",
                 "type": "ws"
             },
             "tag": " 4 - VLESS F - IPv4 : 443",
@@ -251,7 +251,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "insecure": false,
-                "server_name": "alISPort1.alisPortGROUps.WOrkeRS.DeV",
+                "server_name": "aLIsPoRt1.aLisPoRTGROuPS.wOrKers.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -263,7 +263,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/Ej1KBjyij7flRVBv",
+                "path": "/uXWLKa01YE83VtUV",
                 "type": "ws"
             },
             "tag": " 5 - VLESS F - IPv6 : 443",
@@ -282,7 +282,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ALiSpORT1.alISPortgrOUPS.WorkErS.DEV",
+                "server_name": "ALIsporT1.AlISPoRtGroUps.wORkeRS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -294,7 +294,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/AfOMOsl6nESlzn7Y",
+                "path": "/txA5jTYiIl3Gnc4W",
                 "type": "ws"
             },
             "tag": " 6 - VLESS F - IPv6 : 443",
@@ -336,10 +336,6 @@
                     "geoip-ru"
                 ],
                 "outbound": "direct"
-            },
-            {
-                "network": "udp",
-                "outbound": "block"
             },
             {
                 "rule_set": [
