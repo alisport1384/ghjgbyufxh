@@ -83,26 +83,26 @@
             "type": "selector",
             "tag": "proxy",
             "outbounds": [
-                " Warp Pro Best Ping 🚀",
-                " WoW Pro Best Ping 🚀",
-                " Warp Pro 1 🇮🇷",
-                " WoW Pro 1 🌍"
+                " Warp Pro - Best Ping 🚀",
+                " WoW Pro - Best Ping 🚀",
+                " 1 - Warp 🇮🇷",
+                " 1 - WoW 🌍"
             ]
         },
         {
             "type": "urltest",
-            "tag": " Warp Pro Best Ping 🚀",
+            "tag": " Warp Pro - Best Ping 🚀",
             "outbounds": [
-                " Warp Pro 1 🇮🇷"
+                " 1 - Warp 🇮🇷"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30s"
         },
         {
             "type": "urltest",
-            "tag": " WoW Pro Best Ping 🚀",
+            "tag": " WoW Pro - Best Ping 🚀",
             "outbounds": [
-                " WoW Pro 1 🌍"
+                " 1 - WoW 🌍"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30s"
@@ -122,17 +122,17 @@
         {
             "local_address": [
                 "172.16.0.2/32",
-                "2606:4700:110:871f:e71f:6d79:84c0:71fa/128"
+                "2606:4700:110:8279:f591:37e8:4c1c:e22a/128"
             ],
             "mtu": 1280,
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "private_key": "uPqheYOajWcqTKiYfq2XZc7eUZ6v+Ix4x25Isj1MjHc=",
-            "reserved": "XOJr",
+            "private_key": "eCC7NlzFGz6gkSjLJxFS/I59KdnMAvmhQ8duIXCbNlY=",
+            "reserved": "aHAV",
             "server": "engage.cloudflareclient.com",
             "server_port": 2408,
             "type": "wireguard",
-            "detour": "",
-            "tag": " Warp Pro 1 🇮🇷",
+            "detour": " 1 - Warp 🇮🇷",
+            "tag": " 1 - WoW 🌍",
             "fake_packets_mode": "m4",
             "fake_packets": "10-15",
             "fake_packets_size": "5-10",
@@ -150,23 +150,8 @@
             "server": "engage.cloudflareclient.com",
             "server_port": 2408,
             "type": "wireguard",
-            "detour": "proxy-1",
-            "tag": " WoW Pro 1 🌍"
-        },
-        {
-            "local_address": [
-                "172.16.0.2/32",
-                "2606:4700:110:8279:f591:37e8:4c1c:e22a/128"
-            ],
-            "mtu": 1280,
-            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "private_key": "eCC7NlzFGz6gkSjLJxFS/I59KdnMAvmhQ8duIXCbNlY=",
-            "reserved": "aHAV",
-            "server": "engage.cloudflareclient.com",
-            "server_port": 2408,
-            "type": "wireguard",
             "detour": "",
-            "tag": "proxy-1",
+            "tag": " 1 - Warp 🇮🇷",
             "fake_packets_mode": "m4",
             "fake_packets": "10-15",
             "fake_packets_size": "5-10",
