@@ -94,7 +94,7 @@
         },
         {
             "type": "urltest",
-            "tag": "💦 Best Ping 💥",
+            "tag": " Best Ping 💥",
             "outbounds": [
                 " 1 - VLESS F - Domain : 443",
                 " 2 - VLESS F - Domain : 443",
