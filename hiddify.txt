@@ -29,32 +29,8 @@
                 "server": "dns-direct"
             },
             {
-                "domain": "www.gstatic.com",
-                "server": "dns-direct"
-            },
-            {
-                "clash_mode": "block",
-                "server": "dns-block"
-            },
-            {
-                "clash_mode": "direct",
-                "server": "dns-direct"
-            },
-            {
-                "clash_mode": "global",
-                "server": "dns-remote"
-            },
-            {
                 "rule_set": [
-                    "geosite-ir",
-                    "geosite-cn"
-                ],
-                "server": "dns-direct"
-            },
-            {
-                "rule_set": [
-                    "geosite-ir",
-                    "geosite-cn"
+                    "geosite-ir"
                 ],
                 "server": "dns-direct"
             },
@@ -63,8 +39,7 @@
                 "rule_set": [
                     "geosite-malware",
                     "geosite-phishing",
-                    "geosite-cryptominers",
-                    "geosite-category-ads-all"
+                    "geosite-cryptominers"
                 ],
                 "server": "dns-block"
             }
@@ -267,7 +242,7 @@
                 "💦 76 - VLESS C - IPv4 : 443"
             ],
             "url": "https://www.gstatic.com/generate_204",
-            "interval": "10s"
+            "interval": "90s"
         },
         {
             "type": "direct",
@@ -283,14 +258,14 @@
         },
         {
             "type": "vless",
-            "server": "alisport1.alisportgroups.workers.dev",
+            "server": "alisport0.pages.dev",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLispOrT1.ALiSportGRoUPS.Workers.dEV",
+                "Insecure": true,
+                "server_name": "AlIsPorT0.paGES.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -300,28 +275,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/S4uLuCG4iLgZs8Au",
+                "path": "/heZbau7dAXFlwD8m/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 1 - VLESS F - Domain : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlIsPOrt1.AlIsPoRtgrOUpS.WORKErS.dEv",
+                "Insecure": true,
+                "server_name": "aLiSPoRT0.PaGeS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -331,28 +306,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/mlUCxKMpo2ajv3vt",
+                "path": "/JahHUWoaOXClHNHf/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 2 - VLESS F - Domain : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
-            "server": "104.21.25.11",
+            "server": "172.66.44.249",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aliSpOrt1.alispORtgroUps.wORKERs.dEV",
+                "Insecure": true,
+                "server_name": "aLIsPORt0.pAGeS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -362,28 +337,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/co9p4TcwtouQSsvE",
+                "path": "/fZFiCzBRM90hSaIW/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 3 - VLESS F - IPv4 : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
-            "server": "172.67.221.140",
+            "server": "172.66.47.7",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aliSPORT1.AliSPORTgrOUpS.wORkERS.dEV",
+                "Insecure": true,
+                "server_name": "aLISport0.paGES.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -393,28 +368,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/2z7eNUcqTPBT0qs4",
+                "path": "/JquS3n2b4nSObQVb/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 4 - VLESS F - IPv4 : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3033::6815:190b]",
+            "server": "[2606:4700:310c::ac42:2cf9]",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLiSport1.aLISporTGroups.WORkeRS.DeV",
+                "Insecure": true,
+                "server_name": "aLisPorT0.PAGes.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -424,28 +399,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/MBO2v7GtDj7HPw6A",
+                "path": "/WkmBdL8rNfaZuumJ/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 5 - VLESS F - IPv6 : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3037::ac43:dd8c]",
+            "server": "[2606:4700:310c::ac42:2f07]",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLISpoRT1.alIsportgrOUpS.woRKERs.dev",
+                "Insecure": true,
+                "server_name": "aLisPort0.PagES.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -455,28 +430,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/WsOUsZ1uP0JHZGUS",
+                "path": "/PamjMIYHDF839Z8x/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 6 - VLESS F - IPv6 : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.21.215.200",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLIsporT1.AlISporTgRouPs.WorkErS.deV",
+                "Insecure": true,
+                "server_name": "aliSpOrt0.Pages.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -486,28 +461,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/4Ht3ihy7DsFDigBY",
+                "path": "/DnioHOYeJm8Xvs1l/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 7 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.24.197.99",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aliSpOrT1.AlISPortgroups.WOrKErs.dEV",
+                "Insecure": true,
+                "server_name": "alispORT0.pAGEs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -517,28 +492,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/SboM5wYSy925LCYB",
+                "path": "/YxmpexwbkEFrwvOG/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 8 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.167.134",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLiSPOrt1.alISPORTGrOuPS.WorKErs.dEv",
+                "Insecure": true,
+                "server_name": "ALISpORt0.pAGeS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -548,28 +523,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/xnTYfX39aKYCF3Ba",
+                "path": "/5ggFVOAkP0ntN0bR/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 9 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.21.61.16",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLiSpORT1.alIspoRTGrOUPs.WOrKErS.DeV",
+                "Insecure": true,
+                "server_name": "aLISpOrt0.PAGeS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -579,28 +554,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/RNDMv2XBpHC8a63l",
+                "path": "/D1q6e6joEQSD12j3/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 10 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.24.236.16",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLisporT1.aLISPOrTgROUPS.WOrkERS.DEv",
+                "Insecure": true,
+                "server_name": "ALiSporT0.PagES.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -610,28 +585,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/FZl9HaCdlLEnrRAx",
+                "path": "/3b2cKlxQc6GV7b7o/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 11 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.17.128.64",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALisPoRT1.alisPOrtGRoUps.wOrKERS.DeV",
+                "Insecure": true,
+                "server_name": "aLISPorT0.PAgES.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -641,28 +616,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/i4sOFDFYfkYc4cvm",
+                "path": "/1TzZhtEZgOIleqkL/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 12 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.28.81",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALiSPOrT1.aliSpORTgROUPs.WorkErS.DEv",
+                "Insecure": true,
+                "server_name": "AliSport0.PaGeS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -672,28 +647,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/GpdNM6WVOAfW0J7l",
+                "path": "/CPkUYlloQuaRghZU/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 13 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.25.90.97",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLiSPOrT1.AlisportgroUps.wORkers.dev",
+                "Insecure": true,
+                "server_name": "AlispoRT0.pAGeS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -703,28 +678,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/Lm2aoHF2GjQPAslm",
+                "path": "/i2gjmgOiaHuvRrZ7/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 14 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.176.238",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIspoRt1.ALISpORTgRoupS.WoRkERS.DEv",
+                "Insecure": true,
+                "server_name": "ALispoRT0.PAgEs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -734,28 +709,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/3hhTbmyuNzgdgXSa",
+                "path": "/Eyik3KHewWXZ7Dna/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 15 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.52.129",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIspOrT1.aLisPortgRoupS.wOrkerS.DeV",
+                "Insecure": true,
+                "server_name": "alIsPorT0.paGEs.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -765,28 +740,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/D7UZ5iZifrtbgD2M",
+                "path": "/TRAONlSBSy4hqQnd/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 16 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.18.121.226",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLisPorT1.ALIspoRtGRouPs.wORkErS.dEv",
+                "Insecure": true,
+                "server_name": "aLisPoRT0.PAGEs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -796,28 +771,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/S95UXWK6wzAvSUG7",
+                "path": "/hVuk8WE6TPrFwHGt/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 17 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.17.29.115",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIspOrt1.aLispOrTGrOups.wORkerS.deV",
+                "Insecure": true,
+                "server_name": "alISpORT0.PAges.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -827,28 +802,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/tuwiNvRmUsZfQG52",
+                "path": "/0Lxa8fRLNj6SZAsG/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 18 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.25.196.189",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLIsPOrt1.ALIsporTGrOUpS.WorkeRs.DEv",
+                "Insecure": true,
+                "server_name": "ALisPort0.pAgES.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -858,28 +833,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/kehpVpB22HxJsxMS",
+                "path": "/TaZPb8DPpImdeOV3/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 19 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.22.51.49",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlisPort1.alIsportGroUps.WorKers.dEv",
+                "Insecure": true,
+                "server_name": "aliSPoRt0.pAGes.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -889,28 +864,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/tO8epogjIsqh1Pw7",
+                "path": "/7OtPrPytrLnoLiDs/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 20 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "8.17.205.18",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "alIsPort1.AlISPoRtgROUPS.WorkERS.dEv",
+                "Insecure": true,
+                "server_name": "aLisPoRt0.pAges.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -920,28 +895,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/BBPToGv0ob7FioXU",
+                "path": "/NP0of9JC2yvDvBF2/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 21 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.167.215",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlISpORT1.alisPorTGrOups.WorKERs.dEv",
+                "Insecure": true,
+                "server_name": "alISPORt0.pAgES.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -951,28 +926,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/521xV3NdPSP2ujLy",
+                "path": "/hNAAts8B9d3452q1/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 22 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.18.213.200",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALispoRt1.ALISporTgROuPS.WOrKers.DEv",
+                "Insecure": true,
+                "server_name": "AlIsPOrt0.pAges.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -982,28 +957,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/tbbbIh0lL9Y87iWC",
+                "path": "/hbvqgEg5VCLEMaCk/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 23 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.105.33",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "alISPorT1.aliSpORTGROuPS.woRkerS.Dev",
+                "Insecure": true,
+                "server_name": "AlISpoRt0.PAGes.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1013,28 +988,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/uS0fIU4IQhEAKTb0",
+                "path": "/nmV1YnbatR75Ovhp/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 24 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.203.36",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlispORT1.aLiSpOrTgRoUPS.WoRKerS.dEv",
+                "Insecure": true,
+                "server_name": "ALiSpOrT0.PAgEs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1044,28 +1019,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/pbWPxAPWugy9VQAR",
+                "path": "/PDxhWeLcF2EWGzRN/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 25 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.1.5",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLisPOrT1.aLispOrtgROUPs.wOrKeRS.DeV",
+                "Insecure": true,
+                "server_name": "AlIsPOrt0.PAGeS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1075,28 +1050,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/2jOcedGIR5E70RgS",
+                "path": "/PFwjrXllkPO45dw1/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 26 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "45.8.105.41",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIsporT1.ALisPorTgRoUPs.wOrKERS.deV",
+                "Insecure": true,
+                "server_name": "alIsPOrt0.PAGeS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,28 +1081,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/JmGT8LA0QXGncyNJ",
+                "path": "/QHRjIhMjqVN6zaaK/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 27 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.113.228",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLisport1.AliSPortGrOuPS.wORkerS.DEv",
+                "Insecure": true,
+                "server_name": "ALIspoRT0.PAgeS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1137,28 +1112,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/7jPIrY1KQSsJQW4l",
+                "path": "/lCo12PP0xgThy7QD/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 28 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.22.4.5",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "Alisport1.ALispORTgROuPS.wORkErs.DeV",
+                "Insecure": true,
+                "server_name": "aLISport0.PAgeS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1168,28 +1143,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/PwOtLYDQ0P5RJz2Q",
+                "path": "/svcy7oavRXODv56N/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 29 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.18.221.92",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlIspOrt1.AlisPORTGroUps.workeRs.dEv",
+                "Insecure": true,
+                "server_name": "alIsporT0.paGEs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1199,28 +1174,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/EJDnwkTneTllzATw",
+                "path": "/tggtpQeWHfM2u6Oq/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 30 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "31.22.116.27",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AliSporT1.alispORTgROuPs.woRkerS.DeV",
+                "Insecure": true,
+                "server_name": "AliSpoRt0.pAgEs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1230,28 +1205,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/rltXcC8gxiogmMHs",
+                "path": "/PLOcDSmSYJIrws4I/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 31 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.25.153.117",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALISPoRt1.AlisPortgroups.wOrKeRs.deV",
+                "Insecure": true,
+                "server_name": "aLispORt0.paGeS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1261,28 +1236,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/4wfSsVugGNrWrNfn",
+                "path": "/3MFb6l94bDcDit2J/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 32 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.228.56",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALiSpORt1.AlispoRTgrOUPs.WoRkeRS.DEv",
+                "Insecure": true,
+                "server_name": "aLISporT0.PAGES.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1292,28 +1267,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/gkHEdzvMZRlE9GKF",
+                "path": "/L8BUwPYNT7Vd5Q5B/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 33 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.23.102.78",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aliSPort1.aLisPoRTGrOups.WoRkerS.DEV",
+                "Insecure": true,
+                "server_name": "alISPORT0.PAgeS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1323,28 +1298,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/VUKBFv9CJ6A8VEum",
+                "path": "/TqF0PB4U1xub51AD/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 34 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.55.68",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLiSpORT1.AlISpORTgROUpS.WoRKERs.Dev",
+                "Insecure": true,
+                "server_name": "ALISPoRt0.PAGEs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1354,28 +1329,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/Hn6flQKTWylCtuO2",
+                "path": "/Omttz7jlR9DBRJVL/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 35 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.20.60.215",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIsPOrt1.AlispOrtGroups.worKErs.DEV",
+                "Insecure": true,
+                "server_name": "aLisporT0.pAges.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1385,28 +1360,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/mJS5sWTILNKh5i3C",
+                "path": "/Ra1QvwYQww4eUoqy/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 36 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.79.150",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aliSPorT1.aLIsPOrTgroUPS.wOrKErs.dEV",
+                "Insecure": true,
+                "server_name": "ALispOrt0.PaGeS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1416,28 +1391,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/tybYVhoL9uWmLmPA",
+                "path": "/8Jb6jhXJQbOffTrQ/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 37 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.187.163",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALisPOrT1.aLisPOrtGrOUPS.worKeRS.DEv",
+                "Insecure": true,
+                "server_name": "aLIsPoRT0.PAGEs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1447,28 +1422,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/RqUqHotJmbWugJvm",
+                "path": "/5Ivrz40Nf3dINYsQ/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 38 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.18.244.110",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALisPort1.AlISPortgrOUPs.woRKERS.DEV",
+                "Insecure": true,
+                "server_name": "AlISpoRt0.pAges.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1478,28 +1453,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/me2ZzprIvTndYp47",
+                "path": "/dsHhqd0BSUcPaiDF/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 39 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.21.31.209",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALiSPort1.AlispORtgrOuPS.WOrKeRs.DeV",
+                "Insecure": true,
+                "server_name": "AliSport0.PaGES.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1509,28 +1484,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/fWmEYFBcBVdJHvw3",
+                "path": "/noyFPz8gB7wMtK6G/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 40 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.21.100.239",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALiSPOrt1.ALispOrTGROuPs.WorkErS.Dev",
+                "Insecure": true,
+                "server_name": "aliSpOrt0.paGES.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1540,28 +1515,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/2L4ck6i3fZG4x32a",
+                "path": "/lsghFmqswWJ2yciK/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 41 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.17.214.59",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AliSPoRT1.ALiSPorTgROUpS.WOrkerS.dEV",
+                "Insecure": true,
+                "server_name": "AlISPort0.pageS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1571,28 +1546,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/fT7wtDEXGdMQ0ddG",
+                "path": "/bykgeGUuzgQPP9Op/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 42 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.176.64",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlISPorT1.AliSPortGroups.worKErS.deV",
+                "Insecure": true,
+                "server_name": "AliSPoRt0.pAGEs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1602,28 +1577,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/YJiwWh1CsjZFN8iG",
+                "path": "/E1w9qifCZvyyeW8Q/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 43 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.17.27.189",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALispOrT1.aLiSpOrtGroUPS.WorKerS.Dev",
+                "Insecure": true,
+                "server_name": "ALiSport0.paGEs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1633,28 +1608,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/CVjHgCFUsRAImA9y",
+                "path": "/8jepI1mf8tMAESoJ/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 44 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.21.203.68",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALiSpoRt1.aLIspOrTgrouPS.WoRKERs.dEv",
+                "Insecure": true,
+                "server_name": "alIsPORT0.PAGes.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1664,28 +1639,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/ztoga2hFMk3IuyAJ",
+                "path": "/iK8iNlZNVcjErxDa/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 45 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.6.239",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "alISporT1.aLISpORTGrOuPS.WOrkerS.Dev",
+                "Insecure": true,
+                "server_name": "alIsPOrT0.PAGEs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1695,28 +1670,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/9i3ghhC5jkAk7NK4",
+                "path": "/00ag4hOUsM4zhBUl/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 46 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.24.162.9",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLiSPoRT1.aLISPORTGRouPs.wOrkErs.deV",
+                "Insecure": true,
+                "server_name": "alIsport0.PAgES.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1726,28 +1701,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/ufdh5vciEc0eeFDN",
+                "path": "/w8krZzX1IX4GS0hI/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 47 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.21.18.160",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlisporT1.AlispOrTgROUpS.wOrKers.DeV",
+                "Insecure": true,
+                "server_name": "alISPoRT0.pAGeS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1757,28 +1732,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/jM6sR3tbpfn5D8BO",
+                "path": "/ENe7ObPBa5Et66V6/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 48 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.0.191",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "alisPOrT1.aLispORTGrouPs.worKerS.dev",
+                "Insecure": true,
+                "server_name": "AliSporT0.pagEs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1788,28 +1763,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/rVIYgDlV6601MdN2",
+                "path": "/qFffoL6jGO2szLwq/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 49 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.17.104.29",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "alisPOrT1.AliSpoRtgroUPS.wOrKERS.dev",
+                "Insecure": true,
+                "server_name": "AlisPOrt0.paGes.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1819,28 +1794,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/cW1wsfZQRjeRUYti",
+                "path": "/tzZlGI9Ij6appnLJ/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 50 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.35.207",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIspoRT1.ALIsPoRTgRoups.WorKErs.dev",
+                "Insecure": true,
+                "server_name": "AliSPoRt0.PageS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1850,28 +1825,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/txecSCGwWbVffXPb",
+                "path": "/adLcaxbAtMUUayPq/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 51 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.21.18.197",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "alIspORT1.aLISpOrtGrOUPS.WORkERs.deV",
+                "Insecure": true,
+                "server_name": "alISport0.pAgeS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1881,28 +1856,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/B8L5Qsg4Lu2qZLBe",
+                "path": "/gBUlqf7levdCXpXg/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 52 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.17.172.119",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlispOrT1.ALIsportGRouPS.WoRkers.Dev",
+                "Insecure": true,
+                "server_name": "ALIsPOrt0.pageS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1912,28 +1887,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/O8maoBhbKnfoXf1e",
+                "path": "/sflt3gLrdWabhGIS/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 53 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.44.22",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AliSPORt1.ALISpoRTgrOuPS.WOrKerS.dev",
+                "Insecure": true,
+                "server_name": "AliSPoRt0.PaGeS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1943,28 +1918,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/ANJfBxHRAlb3jAC3",
+                "path": "/RM1hSRvraA0qPJIk/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 54 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.252.238",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "Alisport1.aliSpOrTGRoUPs.WOrKErS.DeV",
+                "Insecure": true,
+                "server_name": "aLispORt0.paGeS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1974,28 +1949,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/RaXZtbOiO8DI2si1",
+                "path": "/ktDIjqAgUTpY6OZo/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 55 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.20.208.59",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLispOrt1.aliSportGROUpS.WORkerS.dev",
+                "Insecure": true,
+                "server_name": "AlispoRt0.pAGEs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2005,28 +1980,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/1rQEzxvJgz0aunG6",
+                "path": "/ULDERqTpAnVX4nlt/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 56 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.17.240.14",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIsPORt1.AlISpORTGrOups.worKers.deV",
+                "Insecure": true,
+                "server_name": "aLISpoRT0.PAgES.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2036,28 +2011,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/RRS4rGfJ3R4a3IuI",
+                "path": "/axIpGHT2KlhVKLrK/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 57 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.20.48.47",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALispOrt1.AlISpOrTgROUPS.worKErs.dEv",
+                "Insecure": true,
+                "server_name": "alIspoRt0.pAGES.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2067,28 +2042,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/EDQW54riKFcueq8o",
+                "path": "/YPuTsjEByqPOPusO/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 58 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.21.207.92",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "alispOrt1.AlISPorTgRoUps.wORKeRs.deV",
+                "Insecure": true,
+                "server_name": "ALIsPORt0.PagES.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2098,28 +2073,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/YczqsQ900EvEcSc1",
+                "path": "/0nL9JwtJMvm4Lku9/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 59 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.77.102",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIsporT1.AlispORTGROuPS.WorKERS.Dev",
+                "Insecure": true,
+                "server_name": "AlIspoRT0.PaGEs.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2129,28 +2104,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/CLxulckIangTvG4p",
+                "path": "/Uur96mCihzhedBVo/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 60 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.17.227.185",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIspoRT1.ALispORTgrOuPs.worKERS.dEV",
+                "Insecure": true,
+                "server_name": "aLISpOrT0.pAGES.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2160,28 +2135,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/dVy0Pv2kACgvXYmE",
+                "path": "/ZjQTCqWEWSySNs4Z/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 61 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.113.68",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AliSport1.ALISPORtGROUPS.WORkerS.DEV",
+                "Insecure": true,
+                "server_name": "aLISpORt0.PaGes.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2191,28 +2166,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/Jg7BRE2Di7Gi2SZ0",
+                "path": "/trV4UpwK7vL5LNaL/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 62 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.18.23.199",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlISporT1.aLIspORTGrouPS.WOrkErs.dev",
+                "Insecure": true,
+                "server_name": "AliSPOrT0.PAgeS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2222,28 +2197,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/cDhODeVcjHfN8Cao",
+                "path": "/qF4CpUEFFGYtgX6l/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 63 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.20.7.149",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "alispOrT1.aLISpOrTgrOuPs.wOrkeRs.Dev",
+                "Insecure": true,
+                "server_name": "alisPorT0.pages.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2253,28 +2228,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/bFS1bP6agRFc5RW5",
+                "path": "/2CoD5YuuD4E0NRM5/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 64 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "31.43.179.50",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLisPOrT1.ALispORtGroUPS.woRkerS.DeV",
+                "Insecure": true,
+                "server_name": "ALisPoRt0.pAGeS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2284,28 +2259,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/29f0P4FJGzuGnHNZ",
+                "path": "/vnswqyv7OJu0OfsY/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 65 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.17.188.34",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALispOrt1.aLISpORtgroUps.workERs.Dev",
+                "Insecure": true,
+                "server_name": "ALISPOrt0.paGEs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2315,28 +2290,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/DSPvKelL0n5gc6ZY",
+                "path": "/U782lHTDEmx9zPrw/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 66 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.48.208",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "ALIsPorT1.ALIsporTgroups.workeRs.DeV",
+                "Insecure": true,
+                "server_name": "alISpoRT0.PAgES.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2346,28 +2321,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/NeXECmBVLR4V4fpj",
+                "path": "/OSdt12htfEopKhWF/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 67 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.19.69.16",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AlISPOrt1.AlIspoRtgrouPs.WORKeRS.dEv",
+                "Insecure": true,
+                "server_name": "aLispOrT0.pAges.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2377,28 +2352,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/R5ywLnEAJqPGkmGi",
+                "path": "/oG1zveGXEgpq7xvJ/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 68 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.213.18",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "alispoRT1.ALiSPoRtGroupS.WoRkERs.deV",
+                "Insecure": true,
+                "server_name": "alISPORt0.PAgEs.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2408,28 +2383,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/mIyMqJrNJRL7ZREQ",
+                "path": "/XsemEcS9T7OIyPfn/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 69 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.21.7.55",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLISpOrt1.aLIsPoRtGRoUps.worKeRS.DEV",
+                "Insecure": true,
+                "server_name": "AlISpoRT0.PAGES.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2439,28 +2414,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/goi1VnnttmqHndxi",
+                "path": "/hy9CUecVVISGzSDN/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 70 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.20.136.49",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "AliSport1.ALISportgrOups.wOrKers.Dev",
+                "Insecure": true,
+                "server_name": "AliSPOrt0.pagEs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2470,28 +2445,28 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/Knr94FLf7uMRhe9v",
+                "path": "/Q4YQkLIgInFXEwS2/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 71 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "104.16.76.31",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
-                "insecure": true,
-                "server_name": "aLispoRT1.AlIspORTgROUPS.WORKeRs.deV",
+                "Insecure": true,
+                "server_name": "aliSport0.PagEs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -2501,23 +2476,23 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "alisport1.alisportgroups.workers.dev"
+                    "Host": "alisport0.pages.dev"
                 },
-                "path": "/LNJSmf99nRXjyvO4",
+                "path": "/wxsusliU5am8MLqQ/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 72 - VLESS F - Clean IP : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
             "server": "fast.com",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
@@ -2534,21 +2509,21 @@
                 "headers": {
                     "Host": "shit.mtnirancell.ir"
                 },
-                "path": "/azZxiGZww1mZ2hPS",
+                "path": "/GNmdxYH2SfpoZJiq/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 73 - VLESS C - Domain : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
-            "server": "104.17.97.65",
+            "server": "104.17.131.43",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
@@ -2565,21 +2540,21 @@
                 "headers": {
                     "Host": "shit.mtnirancell.ir"
                 },
-                "path": "/wDLYrY3qMGiNssF9",
+                "path": "/MoEh8Rqs1w214OGU/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 74 - VLESS C - IPv4 : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
-            "server": "45.159.218.177",
+            "server": "104.19.7.3",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
@@ -2596,21 +2571,21 @@
                 "headers": {
                     "Host": "shit.mtnirancell.ir"
                 },
-                "path": "/jnHaCVV4EYoRxRrV",
+                "path": "/dRZ4JAuzkMnO2EVP/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 75 - VLESS C - IPv4 : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         },
         {
             "type": "vless",
-            "server": "104.20.202.177",
+            "server": "104.24.58.1",
             "server_port": 443,
-            "uuid": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+            "uuid": "16caaea1-413b-4f98-8b8e-d4f14f09a142",
             "tls": {
                 "alpn": "http/1.1",
                 "enabled": true,
@@ -2627,14 +2602,14 @@
                 "headers": {
                     "Host": "shit.mtnirancell.ir"
                 },
-                "path": "/cfRae74pNwJQ9R7u",
+                "path": "/TYJRVvIT9rdUrqoo/NjUuMTA5LjE2Ny4zOQ==",
                 "type": "ws"
             },
             "tag": "💦 76 - VLESS C - IPv4 : 443",
             "tls_fragment": {
                 "enabled": true,
-                "size": "100-200",
-                "sleep": "5-10"
+                "size": "10-30",
+                "sleep": "1-5"
             }
         }
     ],
@@ -2650,32 +2625,17 @@
                 "outbound": "dns-out"
             },
             {
-                "clash_mode": "direct",
-                "outbound": "direct"
-            },
-            {
-                "clash_mode": "block",
-                "outbound": "block"
-            },
-            {
-                "clash_mode": "global",
-                "outbound": "proxy"
-            },
-            {
                 "rule_set": [
-                    "geosite-cn",
                     "geosite-ir",
-                    "geoip-ir",
-                    "geoip-cn"
+                    "geoip-ir"
                 ],
                 "outbound": "direct"
             },
             {
                 "rule_set": [
-                    "geosite-category-ads-all",
-                    "geosite-cryptominers",
-                    "geosite-phishing",
                     "geosite-malware",
+                    "geosite-phishing",
+                    "geosite-cryptominers",
                     "geoip-malware",
                     "geoip-phishing"
                 ],
@@ -2696,44 +2656,9 @@
         "rule_set": [
             {
                 "type": "remote",
-                "tag": "geosite-ir",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geoip-ir",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geosite-cn",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geoip-cn",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
                 "tag": "geosite-malware",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
-                "tag": "geoip-malware",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
                 "download_detour": "direct"
             },
             {
@@ -2745,13 +2670,6 @@
             },
             {
                 "type": "remote",
-                "tag": "geoip-phishing",
-                "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
-                "download_detour": "direct"
-            },
-            {
-                "type": "remote",
                 "tag": "geosite-cryptominers",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
@@ -2759,9 +2677,30 @@
             },
             {
                 "type": "remote",
-                "tag": "geosite-category-ads-all",
+                "tag": "geoip-malware",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-phishing",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geosite-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
                 "download_detour": "direct"
             }
         ],
@@ -2782,7 +2721,7 @@
             "store_fakeip": true
         },
         "clash_api": {
-            "external_controller": "127.0.0.1:9090",
+            "external_controller": "0.0.0.0:9090",
             "external_ui": "yacd",
             "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
             "external_ui_download_detour": "direct",
