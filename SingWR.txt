@@ -155,7 +155,7 @@
                 "💦 20 - VLESS C - IPv4 : 80"
             ],
             "url": "https://www.gstatic.com/generate_204",
-            "interval": "s"
+            "interval": "90s"
         },
         {
             "type": "direct",
@@ -178,7 +178,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "Insecure": true,
-                "server_name": "ALISport1.ALISPOrTgrOUps.WoRkErs.dev",
+                "server_name": "alIspoRT1.aLiSpoRTGROUpS.WOrKErS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -190,7 +190,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/oeQXgACCWzGb9IvM",
+                "path": "/bUSIfUToepl4m7XD",
                 "type": "ws"
             },
             "tag": "💦 1 - VLESS - Domain : 443"
@@ -204,7 +204,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "Insecure": true,
-                "server_name": "AlispoRt1.aliSpOrTGroUPs.WorKErS.Dev",
+                "server_name": "AlisPoRt1.alISporTGroups.wOrkeRs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -216,7 +216,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/dDF3CGxGJKhj7PqQ",
+                "path": "/kGxV5PbzhM0ZVfY4",
                 "type": "ws"
             },
             "tag": "💦 2 - VLESS - Domain : 443"
@@ -230,7 +230,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "Insecure": true,
-                "server_name": "ALispOrt1.alISPoRTGroUPs.woRkeRS.dEv",
+                "server_name": "ALisPORT1.ALISPortgROUPs.WoRKerS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -242,7 +242,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/Zy7LOyq1OI11HLa1",
+                "path": "/ho5HUBReEHoNZXJR",
                 "type": "ws"
             },
             "tag": "💦 3 - VLESS - IPv4 : 443"
@@ -256,7 +256,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "Insecure": true,
-                "server_name": "AlISporT1.aLIsPorTgrOUPS.WORkeRs.dev",
+                "server_name": "ALiSport1.AlISpOrTgRoUPS.WOrKers.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -268,7 +268,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/gRiUCumNI3wAGzbs",
+                "path": "/4JEzkI9iPEroMGnH",
                 "type": "ws"
             },
             "tag": "💦 4 - VLESS - IPv4 : 443"
@@ -282,7 +282,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "Insecure": true,
-                "server_name": "aLispoRt1.alispOrtgroUPS.worKERS.DEV",
+                "server_name": "AlIsPorT1.ALISPorTGrOuPs.worKErS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -294,7 +294,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/OIrXI1DS5P0cqpXa",
+                "path": "/LK7kH7k0qcMGyjZZ",
                 "type": "ws"
             },
             "tag": "💦 5 - VLESS - IPv6 : 443"
@@ -308,7 +308,7 @@
                 "alpn": "http/1.1",
                 "enabled": true,
                 "Insecure": true,
-                "server_name": "alispoRt1.AlIsPortGROups.workERs.deV",
+                "server_name": "ALiSpORT1.AlISPORTGROUPS.WoRkers.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -320,7 +320,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/0q5AGF9fmhBeZPws",
+                "path": "/Qz8WfoIsfEabLplH",
                 "type": "ws"
             },
             "tag": "💦 6 - VLESS - IPv6 : 443"
@@ -346,7 +346,7 @@
                 "headers": {
                     "Host": "fast.com"
                 },
-                "path": "/reKIOEsgHfj0ErGW",
+                "path": "/JVDtpOUZrNLPHUv4",
                 "type": "ws"
             },
             "tag": "💦 7 - VLESS C - Domain : 443"
@@ -372,7 +372,7 @@
                 "headers": {
                     "Host": "fast.com"
                 },
-                "path": "/pkfFtA2vJNO9GIK5",
+                "path": "/PBcuTdsI37J1UQ2Q",
                 "type": "ws"
             },
             "tag": "💦 8 - VLESS C - IPv4 : 443"
@@ -398,7 +398,7 @@
                 "headers": {
                     "Host": "fast.com"
                 },
-                "path": "/vEc6oJiDM1AzOdQZ",
+                "path": "/kuDuqQ8S7eSxHJZm",
                 "type": "ws"
             },
             "tag": "💦 9 - VLESS C - IPv4 : 443"
@@ -424,7 +424,7 @@
                 "headers": {
                     "Host": "fast.com"
                 },
-                "path": "/LdSHCqi1hQIW9dys",
+                "path": "/cxI4wLOYVSSrc2Io",
                 "type": "ws"
             },
             "tag": "💦 10 - VLESS C - IPv4 : 443"
@@ -440,7 +440,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/ZNoMtoSVqwXYrCAY",
+                "path": "/KRO4gHYDCExfRkrf",
                 "type": "ws"
             },
             "tag": "💦 11 - VLESS - Domain : 80"
@@ -456,7 +456,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/pckxCCroXFHEdhnk",
+                "path": "/bKvfhSHo3sgSm3d1",
                 "type": "ws"
             },
             "tag": "💦 12 - VLESS - Domain : 80"
@@ -472,7 +472,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/kNF7SIizK8MzNy9S",
+                "path": "/vn4AgjjiglfWRnJg",
                 "type": "ws"
             },
             "tag": "💦 13 - VLESS - IPv4 : 80"
@@ -488,7 +488,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/vlfD4pyRp3cKePaf",
+                "path": "/qmrZ9Czna5Is57W6",
                 "type": "ws"
             },
             "tag": "💦 14 - VLESS - IPv4 : 80"
@@ -504,7 +504,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/PZUHCKp0xFcl9FfD",
+                "path": "/NzxRK75b5pu3zL62",
                 "type": "ws"
             },
             "tag": "💦 15 - VLESS - IPv6 : 80"
@@ -520,7 +520,7 @@
                 "headers": {
                     "Host": "alisport1.alisportgroups.workers.dev"
                 },
-                "path": "/LajGFhKjKmPquL7o",
+                "path": "/mbeCnWysP7laL90K",
                 "type": "ws"
             },
             "tag": "💦 16 - VLESS - IPv6 : 80"
@@ -536,7 +536,7 @@
                 "headers": {
                     "Host": "fast.com"
                 },
-                "path": "/F7fEa3DBIlaMZqHU",
+                "path": "/n7xeZyvQZ9Ihb5pd",
                 "type": "ws"
             },
             "tag": "💦 17 - VLESS C - Domain : 80"
@@ -552,7 +552,7 @@
                 "headers": {
                     "Host": "fast.com"
                 },
-                "path": "/4M4mZTD7mN6Axz1m",
+                "path": "/ix2UGwhGQdpnyHKF",
                 "type": "ws"
             },
             "tag": "💦 18 - VLESS C - IPv4 : 80"
@@ -568,7 +568,7 @@
                 "headers": {
                     "Host": "fast.com"
                 },
-                "path": "/37oyJdNI3UXCWffK",
+                "path": "/kxqH2ad5KPVCTv1q",
                 "type": "ws"
             },
             "tag": "💦 19 - VLESS C - IPv4 : 80"
@@ -584,7 +584,7 @@
                 "headers": {
                     "Host": "fast.com"
                 },
-                "path": "/byYAPhimnWkVv5eu",
+                "path": "/viZlgQJckaDYt2f4",
                 "type": "ws"
             },
             "tag": "💦 20 - VLESS C - IPv4 : 80"
