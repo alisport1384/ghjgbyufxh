@@ -114,7 +114,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -123,7 +123,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "proxy"
@@ -133,9 +133,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "100-200",
-                        "interval": "5-10"
+                        "interval": "1-5"
                     },
                     "domainStrategy": "UseIP"
                 },
@@ -354,7 +354,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/CBqhz3B2bh32WGh6?ed=2560"
+                        "path": "/UHjTfCmubiutYAzn?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -363,7 +363,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "alISPOrt1.aliSPoRtGRoUPS.workERs.DeV"
+                        "serverName": "alisPORt1.ALisPoRTGrouPs.workeRS.dev"
                     }
                 },
                 "tag": "proxy"
@@ -373,9 +373,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "100-200",
-                        "interval": "5-10"
+                        "interval": "1-5"
                     },
                     "domainStrategy": "UseIP"
                 },
@@ -565,7 +565,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.21.25.11",
+                            "address": "172.67.221.140",
                             "port": 443,
                             "users": [
                                 {
@@ -588,7 +588,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/t5i4QJjDlKUymBTv?ed=2560"
+                        "path": "/Z0dbBOqKtZ2GBi5M?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -597,7 +597,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLispOrT1.AlisPORTGrOupS.woRkErs.deV"
+                        "serverName": "ALIsPorT1.ALISpoRTGroUps.wORkers.DeV"
                     }
                 },
                 "tag": "proxy"
@@ -607,9 +607,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "100-200",
-                        "interval": "5-10"
+                        "interval": "1-5"
                     },
                     "domainStrategy": "UseIP"
                 },
@@ -799,7 +799,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.221.140",
+                            "address": "104.21.25.11",
                             "port": 443,
                             "users": [
                                 {
@@ -822,7 +822,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/keENlOuNuZOt2dvA?ed=2560"
+                        "path": "/7n6nHIwBt30eW1nn?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -831,7 +831,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "alisPOrt1.aLIspORTGrOupS.wOrkeRS.Dev"
+                        "serverName": "AlispOrt1.ALisportgRoUpS.WOrKERs.dEV"
                     }
                 },
                 "tag": "proxy"
@@ -841,9 +841,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "100-200",
-                        "interval": "5-10"
+                        "interval": "1-5"
                     },
                     "domainStrategy": "UseIP"
                 },
@@ -1056,7 +1056,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/62eFBFH9IIwKVqm2?ed=2560"
+                        "path": "/havofA7LK0KFq12U?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -1065,7 +1065,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "alIspoRt1.aLISPortgROUps.WORkerS.deV"
+                        "serverName": "AlISPoRt1.aLiSPOrtGroUPs.WorKerS.dEV"
                     }
                 },
                 "tag": "proxy"
@@ -1075,9 +1075,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "100-200",
-                        "interval": "5-10"
+                        "interval": "1-5"
                     },
                     "domainStrategy": "UseIP"
                 },
@@ -1290,7 +1290,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/mXcinZ6YHR776BXD?ed=2560"
+                        "path": "/KpdYkpta1i1Y6GH8?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -1299,7 +1299,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLiSPORT1.AliSPoRTgrOUps.wORKErS.DEv"
+                        "serverName": "ALIsporT1.aLiSpoRtGROUps.workErs.deV"
                     }
                 },
                 "tag": "proxy"
@@ -1309,9 +1309,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "100-200",
-                        "interval": "5-10"
+                        "interval": "1-5"
                     },
                     "domainStrategy": "UseIP"
                 },
@@ -1532,7 +1532,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -1541,7 +1541,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-1"
@@ -1574,7 +1574,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/CBqhz3B2bh32WGh6?ed=2560"
+                        "path": "/UHjTfCmubiutYAzn?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -1583,52 +1583,10 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "alISPOrt1.aliSPoRtGRoUPS.workERs.DeV"
+                        "serverName": "alisPORt1.ALisPoRTGrouPs.workeRS.dev"
                     }
                 },
                 "tag": "prox-2"
-            },
-            {
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "104.21.25.11",
-                            "port": 443,
-                            "users": [
-                                {
-                                    "id": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
-                                    "encryption": "none",
-                                    "level": 8
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "security": "tls",
-                    "sockopt": {
-                        "dialerProxy": "fragment"
-                    },
-                    "wsSettings": {
-                        "headers": {
-                            "Host": "alisport1.alisportgroups.workers.dev",
-                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-                        },
-                        "path": "/t5i4QJjDlKUymBTv?ed=2560"
-                    },
-                    "tlsSettings": {
-                        "allowInsecure": true,
-                        "fingerprint": "randomized",
-                        "alpn": [
-                            "h2",
-                            "http/1.1"
-                        ],
-                        "serverName": "aLispOrT1.AlisPORTGrOupS.woRkErs.deV"
-                    }
-                },
-                "tag": "prox-3"
             },
             {
                 "protocol": "vless",
@@ -1658,7 +1616,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/keENlOuNuZOt2dvA?ed=2560"
+                        "path": "/Z0dbBOqKtZ2GBi5M?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -1667,7 +1625,49 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "alisPOrt1.aLIspORTGrOupS.wOrkeRS.Dev"
+                        "serverName": "ALIsPorT1.ALISpoRTGroUps.wORkers.DeV"
+                    }
+                },
+                "tag": "prox-3"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.21.25.11",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "01ef0f48-4df5-4a5b-be03-91940a2a85d4",
+                                    "encryption": "none",
+                                    "level": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "alisport1.alisportgroups.workers.dev",
+                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+                        },
+                        "path": "/7n6nHIwBt30eW1nn?ed=2560"
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "fingerprint": "randomized",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "AlispOrt1.ALisportgRoUpS.WOrKERs.dEV"
                     }
                 },
                 "tag": "prox-4"
@@ -1700,7 +1700,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/62eFBFH9IIwKVqm2?ed=2560"
+                        "path": "/havofA7LK0KFq12U?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -1709,7 +1709,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "alIspoRt1.aLISPortgROUps.WORkerS.deV"
+                        "serverName": "AlISPoRt1.aLiSPOrtGroUPs.WorKerS.dEV"
                     }
                 },
                 "tag": "prox-5"
@@ -1742,7 +1742,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/mXcinZ6YHR776BXD?ed=2560"
+                        "path": "/KpdYkpta1i1Y6GH8?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -1751,7 +1751,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLiSPORT1.AliSPoRTgrOUps.wORKErS.DEv"
+                        "serverName": "ALIsporT1.aLiSpoRtGROUps.workErs.deV"
                     }
                 },
                 "tag": "prox-6"
@@ -1761,9 +1761,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "100-200",
-                        "interval": "5-10"
+                        "interval": "1-5"
                     },
                     "domainStrategy": "UseIP"
                 },
@@ -1878,7 +1878,7 @@
             ]
         },
         "observatory": {
-            "probeInterval": "90s",
+            "probeInterval": "s",
             "probeURL": "https://www.gstatic.com/generate_204",
             "subjectSelector": [
                 "prox"
@@ -1901,10 +1901,10 @@
                     "127.0.0.1"
                 ],
                 "alisport1.alisportgroups.workers.dev": [
-                    "172.67.221.140",
                     "104.21.25.11",
-                    "2606:4700:3033::6815:190b",
-                    "2606:4700:3037::ac43:dd8c"
+                    "172.67.221.140",
+                    "2606:4700:3037::ac43:dd8c",
+                    "2606:4700:3033::6815:190b"
                 ]
             },
             "servers": [
@@ -2002,7 +2002,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2011,7 +2011,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-1"
@@ -2021,7 +2021,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "10-20",
                         "interval": "1-1"
                     },
@@ -2062,7 +2062,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2071,7 +2071,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-2"
@@ -2081,7 +2081,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "20-30",
                         "interval": "1-1"
                     },
@@ -2122,7 +2122,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2131,7 +2131,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-3"
@@ -2141,7 +2141,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "30-40",
                         "interval": "1-1"
                     },
@@ -2182,7 +2182,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2191,7 +2191,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-4"
@@ -2201,7 +2201,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "40-50",
                         "interval": "1-1"
                     },
@@ -2242,7 +2242,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2251,7 +2251,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-5"
@@ -2261,7 +2261,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "50-60",
                         "interval": "1-1"
                     },
@@ -2302,7 +2302,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2311,7 +2311,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-6"
@@ -2321,7 +2321,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "60-70",
                         "interval": "1-1"
                     },
@@ -2362,7 +2362,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2371,7 +2371,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-7"
@@ -2381,7 +2381,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "70-80",
                         "interval": "1-1"
                     },
@@ -2422,7 +2422,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2431,7 +2431,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-8"
@@ -2441,7 +2441,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "80-90",
                         "interval": "1-1"
                     },
@@ -2482,7 +2482,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2491,7 +2491,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-9"
@@ -2501,7 +2501,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "90-100",
                         "interval": "1-1"
                     },
@@ -2542,7 +2542,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2551,7 +2551,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-10"
@@ -2561,7 +2561,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "10-30",
                         "interval": "1-1"
                     },
@@ -2602,7 +2602,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2611,7 +2611,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-11"
@@ -2621,7 +2621,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "20-40",
                         "interval": "1-1"
                     },
@@ -2662,7 +2662,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2671,7 +2671,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-12"
@@ -2681,7 +2681,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "30-50",
                         "interval": "1-1"
                     },
@@ -2722,7 +2722,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2731,7 +2731,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-13"
@@ -2741,7 +2741,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "40-60",
                         "interval": "1-1"
                     },
@@ -2782,7 +2782,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2791,7 +2791,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-14"
@@ -2801,7 +2801,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "50-70",
                         "interval": "1-1"
                     },
@@ -2842,7 +2842,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2851,7 +2851,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-15"
@@ -2861,7 +2861,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "60-80",
                         "interval": "1-1"
                     },
@@ -2902,7 +2902,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2911,7 +2911,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-16"
@@ -2921,7 +2921,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "70-90",
                         "interval": "1-1"
                     },
@@ -2962,7 +2962,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -2971,7 +2971,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-17"
@@ -2981,7 +2981,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "80-100",
                         "interval": "1-1"
                     },
@@ -3022,7 +3022,7 @@
                             "Host": "alisport1.alisportgroups.workers.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/2ImQegIhQQchasyq?ed=2560"
+                        "path": "/CZi5hH7SNK34pwLT?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": true,
@@ -3031,7 +3031,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "aLIsPORT1.ALiSPortgrOuPS.WOrkERs.dEv"
+                        "serverName": "aliSpOrt1.ALISpORTGRoUps.WORkers.DEV"
                     }
                 },
                 "tag": "prox-18"
@@ -3041,7 +3041,7 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "100-200",
                         "interval": "1-1"
                     },
@@ -3157,7 +3157,7 @@
             ]
         },
         "observatory": {
-            "probeInterval": "90s",
+            "probeInterval": "s",
             "probeURL": "https://www.gstatic.com/generate_204",
             "subjectSelector": [
                 "prox"
@@ -3180,16 +3180,16 @@
                     "127.0.0.1"
                 ],
                 "cloudflare-dns.com": [
-                    "104.16.248.249",
                     "104.16.249.249",
+                    "104.16.248.249",
                     "104.16.132.229",
                     "104.16.133.229",
-                    "104.17.110.184",
                     "104.17.111.184",
+                    "104.17.110.184",
                     "2606:4700::6810:f8f9",
                     "2606:4700::6810:f9f9",
-                    "2606:4700::6810:84e5",
                     "2606:4700::6810:85e5",
+                    "2606:4700::6810:84e5",
                     "2606:4700::6811:6eb8",
                     "2606:4700::6811:6fb8"
                 ]
@@ -3255,9 +3255,9 @@
                 "protocol": "freedom",
                 "settings": {
                     "fragment": {
-                        "packets": "tlshello",
+                        "packets": "1-1",
                         "length": "100-200",
-                        "interval": "5-10"
+                        "interval": "1-5"
                     },
                     "domainStrategy": "UseIP"
                 },
