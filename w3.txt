@@ -1,1 +1,145 @@
-{ "dns": { "fakeip": { "enabled": true, "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18" }, "independent_cache": true, "rules": [ { "outbound": [ "any" ], "server": "local" }, { "disable_cache": true, "geosite": [ "category-ads-all" ], "server": "block" }, { "query_type": [ "A", "AAAA" ], "rewrite_ttl": 1, "server": "fakeip" }, { "clash_mode": "global", "server": "remote" }, { "clash_mode": "direct", "server": "local" }, { "geosite": "cn", "server": "local" } ], "servers": [ { "address": "tcp:\/\/77.88.8.8", "detour": "select", "tag": "remote" }, { "address": "tcp:\/\/77.88.8.8", "detour": "direct", "tag": "local" }, { "address": "rcode://success", "tag": "block" }, { "address": "fakeip", "tag": "fakeip" } ], "strategy": "prefer_ipv4" }, "experimental": { "clash_api": { "external_controller": "127.0.0.1:9090", "secret": "" } }, "inbounds": [ { "auto_route": true, "domain_strategy": "prefer_ipv4", "endpoint_independent_nat": true, "inet4_address": "172.19.0.1/30", "inet6_address": "2001:0470:f9da:fdfa::1/64", "mtu": 9000, "platform": { "http_proxy": { "enabled": true, "server": "127.0.0.1", "server_port": 2334 } }, "strict_route": true, "type": "tun" }, { "domain_strategy": "prefer_ipv4", "listen": "127.0.0.1", "listen_port": 2333, "tag": "socks-in", "type": "socks", "users": [] }, { "domain_strategy": "prefer_ipv4", "listen": "127.0.0.1", "listen_port": 2334, "tag": "mixed-in", "type": "mixed", "users": [] } ], "log": {}, "outbounds": [ { "tag": "select", "type": "selector", "outbounds": [ "AUTOTEST", "n1", "n2" ] }, { "tag": "AUTOTEST", "type": "urltest", "outbounds": [ "n1", "n2" ], "url": "https://cp.cloudflare.com/generate_204", "interval": "3m", "tolerance": 50 }, { "tag": "direct", "type": "direct" }, { "tag": "block", "type": "block" }, { "tag": "dns-out", "type": "dns" }, { "type": "wireguard", "tag": "n1", "server": "188.114.98.155", "server_port": 943, "local_address": [ "172.16.0.2\/32", "2606:4700:110:8f1e:45c2:5192:8db2:4316/128" ], "private_key": "OEYyrg426Gub4mLqBJv6/2v5NIG30kD6s1/UK3Q/K1E=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved":[16,72,25], "mtu": 1280 }, { "type": "wireguard", "tag": "n2", "server": "188.114.97.25", "server_port": 1387, "local_address": [ "172.16.0.2\/32", "2606:4700:110:84d1:7a7a:543:c596:3168/128" ], "private_key": "yBbfqKjlNQz0cKeUDJQFjqNhvzb0XvgrrZUaxHNp6UU=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved":[112,137,86], "mtu": 1120 } ], "route": { "auto_detect_interface": true, "rules": [ { "geosite": "category-ads-all", "outbound": "block" }, { "outbound": "dns-out", "port": 53 }, { "clash_mode": "direct", "outbound": "direct" }, { "clash_mode": "global", "outbound": "select" }, { "geoip": [ "ir", "private" ], "outbound": "direct" } ] } }
+{
+  "remarks": "W",
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "tag": "remote-dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "domains": [
+          "full:engage.cloudflareclient.com"
+        ],
+        "skipFallback": true
+      }
+    ],
+    "queryStrategy": "UseIP",
+    "tag": "dns"
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "port": 10853,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "1.1.1.1",
+        "network": "tcp,udp",
+        "port": 53
+      },
+      "tag": "dns-in"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "wireguard",
+      "settings": {
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:840d:2ec1:d0d3:6fa5:ec23/128"
+        ],
+        "mtu": 1280,
+        "peers": [
+          {
+            "endpoint": "engage.cloudflareclient.com:2408",
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "keepAlive": 5
+          }
+        ],
+        "reserved": [
+          193,
+          67,
+          215
+        ],
+        "secretKey": "eKfmqxoGdY5pYd/xP18gHGKJOh/i80r7sluIk5jHRks="
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "inboundTag": [
+          "dns-in"
+        ],
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "remote-dns"
+        ],
+        "outboundTag": "proxy",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "dns"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "network": "tcp,udp",
+        "outboundTag": "proxy",
+        "type": "field"
+      }
+    ]
+  },
+  "stats": {}
+}
