@@ -1,215 +1,247 @@
 {
-  "remarks": "wIR",
-  "log": {
-    "loglevel": "warning"
-  },
-  "dns": {
-    "servers": [
-      {
-        "address": "1.1.1.1",
-        "tag": "remote-dns"
-      },
-      {
-        "address": "8.8.8.8",
-        "domains": [
-          "full:162.159.192.7"
+    "log": {
+        "disabled": true,
+        "timestamp": true
+    },
+    "dns": {
+        "servers": [
+            {
+                "type": "udp",
+                "server": "1.1.1.1",
+                "detour": "ðŸ’¦ Warp - Best Ping ðŸš€",
+                "tag": "dns-remote"
+            },
+            {
+                "type": "udp",
+                "server": "8.8.8.8",
+                "tag": "dns-direct"
+            }
         ],
-        "skipFallback": true
-      }
+        "rules": [
+            {
+                "clash_mode": "Direct",
+                "server": "dns-direct"
+            },
+            {
+                "clash_mode": "Global",
+                "server": "dns-remote"
+            },
+            {
+                "type": "logical",
+                "mode": "and",
+                "rules": [
+                    {
+                        "rule_set": [
+                            "geosite-ir"
+                        ]
+                    },
+                    {
+                        "rule_set": "geoip-ir"
+                    }
+                ],
+                "action": "route",
+                "server": "dns-direct"
+            }
+        ],
+        "strategy": "prefer_ipv4",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "address": [
+                "172.19.0.1/28"
+            ],
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "mixed"
+        },
+        {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "listen": "127.0.0.1",
+            "listen_port": 2080
+        }
     ],
-    "queryStrategy": "UseIP",
-    "tag": "dns"
-  },
-  "inbounds": [
-    {
-      "listen": "127.0.0.1",
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
+    "outbounds": [
+        {
+            "type": "selector",
+            "tag": "âœ… Selector",
+            "outbounds": [
+                "ðŸ’¦ Warp - Best Ping ðŸš€",
+                "ðŸ’¦ WoW - Best Ping ðŸš€",
+                "ðŸ’¦ 1 - Warp ðŸ‡®ðŸ‡·",
+                "ðŸ’¦ 1 - WoW ðŸŒ"
+            ],
+            "interrupt_exist_connections": false
+        },
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "urltest",
+            "tag": "ðŸ’¦ Warp - Best Ping ðŸš€",
+            "outbounds": [
+                "ðŸ’¦ 1 - Warp ðŸ‡®ðŸ‡·"
+            ],
+            "url": "https://8.8.8.8/dns-query",
+            "interrupt_exist_connections": false,
+            "interval": "30s"
+        },
+        {
+            "type": "urltest",
+            "tag": "ðŸ’¦ WoW - Best Ping ðŸš€",
+            "outbounds": [
+                "ðŸ’¦ 1 - WoW ðŸŒ"
+            ],
+            "url": "https://www.gstatic.com/generate_204",
+            "interrupt_exist_connections": false,
+            "interval": "30s"
+        }
+    ],
+    "endpoints": [
+        {
+            "tag": "ðŸ’¦ 1 - Warp ðŸ‡®ðŸ‡·",
+            "type": "wireguard",
+            "address": [
+                "172.16.0.2/32",
+                "2606:4700:110:813a:d85:25cd:d62d:29ca/128"
+            ],
+            "mtu": 1280,
+            "peers": [
+                {
+                    "address": "162.159.192.5",
+                    "port": 890,
+                    "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+                    "reserved": [
+                        116,
+                        51,
+                        132
+                    ],
+                    "allowed_ips": [
+                        "0.0.0.0/0",
+                        "::/0"
+                    ],
+                    "persistent_keepalive_interval": 5
+                }
+            ],
+            "private_key": "N/owyV5pBpCIhL77/XVTiaC5nqf/X2u9jwpXrgEJ7a8="
+        },
+        {
+            "tag": "ðŸ’¦ 1 - WoW ðŸŒ",
+            "detour": "ðŸ’¦ 1 - Warp ðŸ‡®ðŸ‡·",
+            "type": "wireguard",
+            "address": [
+                "172.16.0.2/32",
+                "2606:4700:110:88f7:59f1:8813:d335:6666/128"
+            ],
+            "mtu": 1280,
+            "peers": [
+                {
+                    "address": "162.159.192.7",
+                    "port": 1002,
+                    "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+                    "reserved": [
+                        51,
+                        33,
+                        42
+                    ],
+                    "allowed_ips": [
+                        "0.0.0.0/0",
+                        "::/0"
+                    ],
+                    "persistent_keepalive_interval": 5
+                }
+            ],
+            "private_key": "D7esiK7Qe7A5xx594FugXNCRSDHw56NiAGPQxeFc8q4="
+        }
+    ],
+    "route": {
+        "rules": [
+            {
+                "ip_cidr": "172.19.0.2",
+                "action": "hijack-dns"
+            },
+            {
+                "clash_mode": "Direct",
+                "outbound": "direct"
+            },
+            {
+                "clash_mode": "Global",
+                "outbound": "âœ… Selector"
+            },
+            {
+                "action": "sniff"
+            },
+            {
+                "protocol": "dns",
+                "action": "hijack-dns"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir"
+                ],
+                "action": "route",
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geoip-ir"
+                ],
+                "action": "route",
+                "outbound": "direct"
+            }
         ],
+        "rule_set": [
+            {
+                "type": "remote",
+                "tag": "geosite-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+                "download_detour": "direct"
+            }
+        ],
+        "auto_detect_interface": true,
+        "default_domain_resolver": {
+            "server": "dns-direct",
+            "strategy": "prefer_ipv4",
+            "rewrite_ttl": 60
+        },
+        "final": "âœ… Selector"
+    },
+    "ntp": {
         "enabled": true,
-        "routeOnly": true
-      },
-      "tag": "mixed-in"
+        "server": "time.cloudflare.com",
+        "server_port": 123,
+        "domain_resolver": "dns-direct",
+        "interval": "30m",
+        "write_to_system": false
     },
-    {
-      "listen": "127.0.0.1",
-      "port": 10853,
-      "protocol": "dokodemo-door",
-      "settings": {
-        "address": "1.1.1.1",
-        "network": "tcp,udp",
-        "port": 53
-      },
-      "tag": "dns-in"
-    }
-  ],
-  "outbounds": [
-    {
-      "protocol": "wireguard",
-      "settings": {
-        "address": [
-          "172.16.0.2/32",
-          "2606:4700:110:88c8:552c:fdfa:5525:1d6b/128"
-        ],
-        "mtu": 1280,
-        "peers": [
-          {
-            "endpoint": "162.159.192.7:1002",
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "keepAlive": 5
-          }
-        ],
-        "reserved": [
-          247,
-          211,
-          50
-        ],
-        "secretKey": "j3vNNQJaibik2NsnIXrG1CvTVdrKiqBi+SpqgehSUJM="
-      },
-      "streamSettings": {
-        "sockopt": {
-          "dialerProxy": "udp-noise"
+    "experimental": {
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": true
+        },
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "ui",
+            "default_mode": "Rule",
+            "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+            "external_ui_download_detour": "direct"
         }
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "noises": [
-          {
-            "type": "rand",
-            "packet": "50-100",
-            "delay": "1-1",
-            "applyTo": "ip"
-          },
-          {
-            "type": "rand",
-            "packet": "50-100",
-            "delay": "1-1",
-            "applyTo": "ip"
-          },
-          {
-            "type": "rand",
-            "packet": "50-100",
-            "delay": "1-1",
-            "applyTo": "ip"
-          },
-          {
-            "type": "rand",
-            "packet": "50-100",
-            "delay": "1-1",
-            "applyTo": "ip"
-          },
-          {
-            "type": "rand",
-            "packet": "50-100",
-            "delay": "1-1",
-            "applyTo": "ip"
-          }
-        ],
-        "domainStrategy": "UseIPv4v6"
-      },
-      "tag": "udp-noise"
-    },
-    {
-      "protocol": "dns",
-      "settings": {
-        "nonIPQuery": "reject"
-      },
-      "tag": "dns-out"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      },
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
     }
-  ],
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "inboundTag": [
-          "mixed-in"
-        ],
-        "port": 53,
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "dns-in"
-        ],
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "remote-dns"
-        ],
-        "outboundTag": "proxy",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "dns"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:private"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "geoip:private"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "network": "tcp,udp",
-        "outboundTag": "proxy",
-        "type": "field"
-      }
-    ]
-  },
-  "policy": {
-    "levels": {
-      "0": {
-        "connIdle": 300,
-        "handshake": 4,
-        "uplinkOnly": 1,
-        "downlinkOnly": 1
-      }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
-    }
-  },
-  "stats": {}
 }
