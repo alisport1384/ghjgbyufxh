@@ -1,0 +1,1971 @@
+{
+    "log": {
+        "disabled": false,
+        "level": "warn",
+        "timestamp": true
+    },
+    "dns": {
+        "servers": [
+            {
+                "type": "https",
+                "server": "8.8.8.8",
+                "detour": "âœ… Selector",
+                "tag": "dns-remote"
+            },
+            {
+                "type": "udp",
+                "server": "8.8.8.8",
+                "tag": "dns-direct"
+            }
+        ],
+        "rules": [
+            {
+                "clash_mode": "Direct",
+                "server": "dns-direct"
+            },
+            {
+                "clash_mode": "Global",
+                "server": "dns-remote"
+            }
+        ],
+        "strategy": "prefer_ipv4",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "address": [
+                "172.19.0.1/28"
+            ],
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "mixed"
+        },
+        {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "listen": "127.0.0.1",
+            "listen_port": 2080
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "ðŸ’¦ 1 - VLESS F - Clean IP : 443",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACSaCs1.alispoRtGrOUPS-24f.wOrkErs.DEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiWFphSnUyZEloczFVSnMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 2 - VLESS F - Domain : 443",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCSacs1.alIsPorTGrOups-24F.WORkeRS.DEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiUk1mWG9VVVdkbFplNk9SIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 3 - VLESS F - IPv4 : 443",
+            "type": "vless",
+            "server": "172.67.149.174",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcsacS1.ALIspORTgroUPs-24F.WOrKeRs.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiS2hrelpjaENmRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 4 - VLESS F - IPv4 : 443",
+            "type": "vless",
+            "server": "104.21.39.229",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCSaCS1.aLisPOrTgRouPS-24F.woRkERS.DEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiWDd4SGI4YnRRbDJCb04iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 5 - VLESS F - IPv6 : 443",
+            "type": "vless",
+            "server": "[2606:4700:3034::6815:27e5]",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acSACs1.ALisPoRTGRouPs-24F.WORkERs.DEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRm1zM245bEt2bmhLIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 6 - VLESS F - IPv6 : 443",
+            "type": "vless",
+            "server": "[2606:4700:3032::ac43:95ae]",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCSacS1.aLisPortgROUPs-24f.woRKers.DEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiOFRRSW8wa3p5MyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 7 - VLESS F - Clean IP : 443",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acSaCs1.alIsPortGRouPS-24f.woRkeRs.DEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiVDBDSkgweXE0NmtnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 8 - VLESS F - Clean IP : 443",
+            "type": "vless",
+            "server": "fred.ns.cloudflare.com",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACSaCS1.AlISpOrtGroUPS-24F.woRKers.Dev",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiU204azZia3dwSFlIMXo5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 9 - VLESS F - Clean IP : 443",
+            "type": "vless",
+            "server": "magali.ns.cloudflare.com",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acSaCS1.ALIspORtGROUps-24f.WORKErs.DEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiTmNqVkNzVVdUdUM0TFBSNiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 10 - VLESS F - Clean IP : 8443",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcSaCS1.ALIsPOrtgRoUPS-24f.worKERs.DeV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiakFGYTBsNHkwIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 11 - VLESS F - Domain : 8443",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acsACs1.AlisPoRTgROupS-24f.woRkERs.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiUXMyQlNYYXN1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 12 - VLESS F - IPv4 : 8443",
+            "type": "vless",
+            "server": "172.67.149.174",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcSAcS1.alISPORTgROups-24f.wOrkeRs.dEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiSkd2RmIzVGE0dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 13 - VLESS F - IPv4 : 8443",
+            "type": "vless",
+            "server": "104.21.39.229",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcSacS1.AlIspoRtgRoups-24f.wOrKErs.Dev",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZmM5cjA3OFQyNCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 14 - VLESS F - IPv6 : 8443",
+            "type": "vless",
+            "server": "[2606:4700:3034::6815:27e5]",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcsACS1.alISpOrTGrouPs-24f.workeRs.DeV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRU1nWWxnSFhjVnhjIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 15 - VLESS F - IPv6 : 8443",
+            "type": "vless",
+            "server": "[2606:4700:3032::ac43:95ae]",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsacs1.aLisporTgRoupS-24f.WorKers.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiT2VzdnZQNjZrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 16 - VLESS F - Clean IP : 8443",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acSACs1.AlIsPoRTgrouPs-24F.WorkERS.DEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiSDNPUXpYcGMyeFUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 17 - VLESS F - Clean IP : 8443",
+            "type": "vless",
+            "server": "fred.ns.cloudflare.com",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsACS1.AlIsPoRtgroUps-24F.WORkeRs.Dev",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiQlNCYkhFZ2M2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 18 - VLESS F - Clean IP : 8443",
+            "type": "vless",
+            "server": "magali.ns.cloudflare.com",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCSaCS1.aLisportgROuPs-24f.wOrkerS.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiR2pzeVc5TkgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 19 - VLESS F - Clean IP : 2053",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acsAcs1.aLISPoRtGROUpS-24F.WorKERs.DeV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoicVhSVk9oTzlIRHBuUE5MbyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 20 - VLESS F - Domain : 2053",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acsACs1.ALisPoRTgroupS-24f.WorkeRs.DEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiTUVHU3pJTXo3Z2ZGQzNNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 21 - VLESS F - IPv4 : 2053",
+            "type": "vless",
+            "server": "172.67.149.174",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACSACs1.AliSpOrtgRoUpS-24f.wOrKerS.dev",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiWHhiWEE4ZzEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 22 - VLESS F - IPv4 : 2053",
+            "type": "vless",
+            "server": "104.21.39.229",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acSAcs1.ALIsPOrtGrouPs-24f.workErs.dEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiOE94Q3RWUTVtbFoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 23 - VLESS F - IPv6 : 2053",
+            "type": "vless",
+            "server": "[2606:4700:3034::6815:27e5]",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCsaCS1.ALISpOrtgROUps-24F.wORKeRS.DEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiSXU4YzRyamFreXZUejg1ZyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 24 - VLESS F - IPv6 : 2053",
+            "type": "vless",
+            "server": "[2606:4700:3032::ac43:95ae]",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsaCs1.AlIsPoRtgRouPs-24f.wOrkerS.dEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiM0FUUzEyYVV1UVIyIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 25 - VLESS F - Clean IP : 2053",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acsACS1.alisporTgRoupS-24F.woRKeRS.dEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoid1hqdDdDNjV3IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 26 - VLESS F - Clean IP : 2053",
+            "type": "vless",
+            "server": "fred.ns.cloudflare.com",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACSACS1.AlISPORtGroUpS-24f.woRkers.DeV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoidjh5ZkVxNERTWEhIUiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 27 - VLESS F - Clean IP : 2053",
+            "type": "vless",
+            "server": "magali.ns.cloudflare.com",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACSAcs1.ALIsPORTgroups-24f.workeRS.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRXRHZkg0R0ppZDdTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 28 - VLESS F - Clean IP : 2083",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcSaCs1.ALIsPorTgrOUPs-24f.wOrkERs.DeV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoidVVIZmVPYk9QZyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 29 - VLESS F - Domain : 2083",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcSacs1.aliSPortGroups-24f.workErs.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiQkNuUHl6MWF5dHY3RyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 30 - VLESS F - IPv4 : 2083",
+            "type": "vless",
+            "server": "172.67.149.174",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACSacS1.aLIsPORtGrOupS-24f.wORKerS.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiR2ZUamkwSEN2UWRrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 31 - VLESS F - IPv4 : 2083",
+            "type": "vless",
+            "server": "104.21.39.229",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acsAcs1.alIspOrTGrOUpS-24f.wORKErs.DEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiaVNma29oTlpTTXNYc2oiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 32 - VLESS F - IPv6 : 2083",
+            "type": "vless",
+            "server": "[2606:4700:3034::6815:27e5]",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acSacS1.ALisPOrTGrOuPS-24F.wOrkerS.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiV0dRRkVpUEN2a2NhdiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 33 - VLESS F - IPv6 : 2083",
+            "type": "vless",
+            "server": "[2606:4700:3032::ac43:95ae]",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCsacS1.AlIsPORtgroups-24f.WORKerS.Dev",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRTVvZ2YzTE5lQ0tTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 34 - VLESS F - Clean IP : 2083",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsaCs1.aLispORTgrOuPs-24f.woRkeRs.dEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoibnVPUkJwRUh3aSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 35 - VLESS F - Clean IP : 2083",
+            "type": "vless",
+            "server": "fred.ns.cloudflare.com",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCsaCS1.AliSPOrTGrOuPs-24f.worKERS.DEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiTVB3enNKWGkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 36 - VLESS F - Clean IP : 2083",
+            "type": "vless",
+            "server": "magali.ns.cloudflare.com",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsACs1.AlisPoRTGrouPs-24f.wORkers.dEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiQVllRnVhVkJhNE5EV2EiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 37 - VLESS F - Clean IP : 2087",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acSACS1.aLisportgrOUpS-24F.WORKers.DeV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiUGVqOUZ5ajJESEc0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 38 - VLESS F - Domain : 2087",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsAcs1.aLISpoRTgRoUps-24F.WOrkeRS.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiQ1ZUSDFtak55RjFJNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 39 - VLESS F - IPv4 : 2087",
+            "type": "vless",
+            "server": "172.67.149.174",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCsACS1.aliSPoRtGrOUPS-24f.worKeRs.DeV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiVGdCbjNnTWUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 40 - VLESS F - IPv4 : 2087",
+            "type": "vless",
+            "server": "104.21.39.229",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsaCS1.ALiSPORTgroupS-24f.wOrkers.dEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiUk9lZXlmYkp2MkdzIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 41 - VLESS F - IPv6 : 2087",
+            "type": "vless",
+            "server": "[2606:4700:3034::6815:27e5]",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcsACS1.AlISPOrtGROuPS-24f.woRKeRS.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZjhUcVMxWjJWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 42 - VLESS F - IPv6 : 2087",
+            "type": "vless",
+            "server": "[2606:4700:3032::ac43:95ae]",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acSacS1.alIspORTGrOuPS-24F.WoRkeRs.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoielVGTzNPWE51IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 43 - VLESS F - Clean IP : 2087",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCsaCs1.ALiSportGroUps-24F.WorKErs.dev",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiUG1yVHRmUTFOeFg1TUoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 44 - VLESS F - Clean IP : 2087",
+            "type": "vless",
+            "server": "fred.ns.cloudflare.com",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acsACS1.alISpORTgrOups-24f.WOrKeRS.DEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiNWVrd1FwYjl2QUNQayIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 45 - VLESS F - Clean IP : 2087",
+            "type": "vless",
+            "server": "magali.ns.cloudflare.com",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsAcS1.alispORTGROuPS-24f.wOrKERS.DeV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiMFdtYXBmb1FvdExlcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 46 - VLESS F - Clean IP : 2096",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCSAcs1.alISPorTGrOUps-24f.wORKERS.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiSlZVc0Z0V0xBZ0xrMlhUZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 47 - VLESS F - Domain : 2096",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acSaCs1.ALiSpoRtgROuPS-24F.woRkerS.Dev",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiM0xiY0liV0Y0bVdjeWF4ciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 48 - VLESS F - IPv4 : 2096",
+            "type": "vless",
+            "server": "172.67.149.174",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACSacs1.ALISPorTgROuPs-24f.WorkErs.deV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoidFE4bEpnM1IiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 49 - VLESS F - IPv4 : 2096",
+            "type": "vless",
+            "server": "104.21.39.229",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Acsacs1.AlISPOrTGRoUps-24F.wORkers.dEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoicENwSzAya0VNMG9SZVRPIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 50 - VLESS F - IPv6 : 2096",
+            "type": "vless",
+            "server": "[2606:4700:3034::6815:27e5]",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acsaCs1.AlIspoRTgRoups-24F.wOrKerS.DEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRmR2TUVyN2xlWm82V2IiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 51 - VLESS F - IPv6 : 2096",
+            "type": "vless",
+            "server": "[2606:4700:3032::ac43:95ae]",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCsaCs1.ALiSPoRTgrouPs-24F.WORkers.DEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZVdZTnVWOVAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 52 - VLESS F - Clean IP : 2096",
+            "type": "vless",
+            "server": "acsacs1.alisportgroups-24f.workers.dev",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acsaCs1.AliSpoRTGrOuPs-24f.wORKeRS.DEV",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiaG4wU1Z3S1gxN2M1ZzYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 53 - VLESS F - Clean IP : 2096",
+            "type": "vless",
+            "server": "fred.ns.cloudflare.com",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCSAcs1.aLispORtGROUpS-24f.woRKers.DEv",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiNGphc1J5UVRqdjFwYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 54 - VLESS F - Clean IP : 2096",
+            "type": "vless",
+            "server": "magali.ns.cloudflare.com",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "uuid": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsaCS1.AlispoRtGRouPs-24f.woRKers.dev",
+                "record_fragment": true,
+                "insecure": true,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZDdCaWEyYUo3TDBiIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.alisportgroups-24f.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "selector",
+            "tag": "âœ… Selector",
+            "outbounds": [
+                "ðŸ’¦ Best Ping ðŸš€",
+                "ðŸ’¦ 1 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 2 - VLESS F - Domain : 443",
+                "ðŸ’¦ 3 - VLESS F - IPv4 : 443",
+                "ðŸ’¦ 4 - VLESS F - IPv4 : 443",
+                "ðŸ’¦ 5 - VLESS F - IPv6 : 443",
+                "ðŸ’¦ 6 - VLESS F - IPv6 : 443",
+                "ðŸ’¦ 7 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 8 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 9 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 10 - VLESS F - Clean IP : 8443",
+                "ðŸ’¦ 11 - VLESS F - Domain : 8443",
+                "ðŸ’¦ 12 - VLESS F - IPv4 : 8443",
+                "ðŸ’¦ 13 - VLESS F - IPv4 : 8443",
+                "ðŸ’¦ 14 - VLESS F - IPv6 : 8443",
+                "ðŸ’¦ 15 - VLESS F - IPv6 : 8443",
+                "ðŸ’¦ 16 - VLESS F - Clean IP : 8443",
+                "ðŸ’¦ 17 - VLESS F - Clean IP : 8443",
+                "ðŸ’¦ 18 - VLESS F - Clean IP : 8443",
+                "ðŸ’¦ 19 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 20 - VLESS F - Domain : 2053",
+                "ðŸ’¦ 21 - VLESS F - IPv4 : 2053",
+                "ðŸ’¦ 22 - VLESS F - IPv4 : 2053",
+                "ðŸ’¦ 23 - VLESS F - IPv6 : 2053",
+                "ðŸ’¦ 24 - VLESS F - IPv6 : 2053",
+                "ðŸ’¦ 25 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 26 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 27 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 28 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 29 - VLESS F - Domain : 2083",
+                "ðŸ’¦ 30 - VLESS F - IPv4 : 2083",
+                "ðŸ’¦ 31 - VLESS F - IPv4 : 2083",
+                "ðŸ’¦ 32 - VLESS F - IPv6 : 2083",
+                "ðŸ’¦ 33 - VLESS F - IPv6 : 2083",
+                "ðŸ’¦ 34 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 35 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 36 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 37 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 38 - VLESS F - Domain : 2087",
+                "ðŸ’¦ 39 - VLESS F - IPv4 : 2087",
+                "ðŸ’¦ 40 - VLESS F - IPv4 : 2087",
+                "ðŸ’¦ 41 - VLESS F - IPv6 : 2087",
+                "ðŸ’¦ 42 - VLESS F - IPv6 : 2087",
+                "ðŸ’¦ 43 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 44 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 45 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 46 - VLESS F - Clean IP : 2096",
+                "ðŸ’¦ 47 - VLESS F - Domain : 2096",
+                "ðŸ’¦ 48 - VLESS F - IPv4 : 2096",
+                "ðŸ’¦ 49 - VLESS F - IPv4 : 2096",
+                "ðŸ’¦ 50 - VLESS F - IPv6 : 2096",
+                "ðŸ’¦ 51 - VLESS F - IPv6 : 2096",
+                "ðŸ’¦ 52 - VLESS F - Clean IP : 2096",
+                "ðŸ’¦ 53 - VLESS F - Clean IP : 2096",
+                "ðŸ’¦ 54 - VLESS F - Clean IP : 2096"
+            ],
+            "interrupt_exist_connections": false
+        },
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "urltest",
+            "tag": "ðŸ’¦ Best Ping ðŸš€",
+            "outbounds": [
+                "ðŸ’¦ 1 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 2 - VLESS F - Domain : 443",
+                "ðŸ’¦ 3 - VLESS F - IPv4 : 443",
+                "ðŸ’¦ 4 - VLESS F - IPv4 : 443",
+                "ðŸ’¦ 5 - VLESS F - IPv6 : 443",
+                "ðŸ’¦ 6 - VLESS F - IPv6 : 443",
+                "ðŸ’¦ 7 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 8 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 9 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 10 - VLESS F - Clean IP : 8443",
+                "ðŸ’¦ 11 - VLESS F - Domain : 8443",
+                "ðŸ’¦ 12 - VLESS F - IPv4 : 8443",
+                "ðŸ’¦ 13 - VLESS F - IPv4 : 8443",
+                "ðŸ’¦ 14 - VLESS F - IPv6 : 8443",
+                "ðŸ’¦ 15 - VLESS F - IPv6 : 8443",
+                "ðŸ’¦ 16 - VLESS F - Clean IP : 8443",
+                "ðŸ’¦ 17 - VLESS F - Clean IP : 8443",
+                "ðŸ’¦ 18 - VLESS F - Clean IP : 8443",
+                "ðŸ’¦ 19 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 20 - VLESS F - Domain : 2053",
+                "ðŸ’¦ 21 - VLESS F - IPv4 : 2053",
+                "ðŸ’¦ 22 - VLESS F - IPv4 : 2053",
+                "ðŸ’¦ 23 - VLESS F - IPv6 : 2053",
+                "ðŸ’¦ 24 - VLESS F - IPv6 : 2053",
+                "ðŸ’¦ 25 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 26 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 27 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 28 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 29 - VLESS F - Domain : 2083",
+                "ðŸ’¦ 30 - VLESS F - IPv4 : 2083",
+                "ðŸ’¦ 31 - VLESS F - IPv4 : 2083",
+                "ðŸ’¦ 32 - VLESS F - IPv6 : 2083",
+                "ðŸ’¦ 33 - VLESS F - IPv6 : 2083",
+                "ðŸ’¦ 34 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 35 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 36 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 37 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 38 - VLESS F - Domain : 2087",
+                "ðŸ’¦ 39 - VLESS F - IPv4 : 2087",
+                "ðŸ’¦ 40 - VLESS F - IPv4 : 2087",
+                "ðŸ’¦ 41 - VLESS F - IPv6 : 2087",
+                "ðŸ’¦ 42 - VLESS F - IPv6 : 2087",
+                "ðŸ’¦ 43 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 44 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 45 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 46 - VLESS F - Clean IP : 2096",
+                "ðŸ’¦ 47 - VLESS F - Domain : 2096",
+                "ðŸ’¦ 48 - VLESS F - IPv4 : 2096",
+                "ðŸ’¦ 49 - VLESS F - IPv4 : 2096",
+                "ðŸ’¦ 50 - VLESS F - IPv6 : 2096",
+                "ðŸ’¦ 51 - VLESS F - IPv6 : 2096",
+                "ðŸ’¦ 52 - VLESS F - Clean IP : 2096",
+                "ðŸ’¦ 53 - VLESS F - Clean IP : 2096",
+                "ðŸ’¦ 54 - VLESS F - Clean IP : 2096"
+            ],
+            "url": "https://www.gstatic.com/generate_204",
+            "interrupt_exist_connections": false,
+            "interval": "30s"
+        }
+    ],
+    "route": {
+        "rules": [
+            {
+                "ip_cidr": "172.19.0.2",
+                "action": "hijack-dns"
+            },
+            {
+                "clash_mode": "Direct",
+                "outbound": "direct"
+            },
+            {
+                "clash_mode": "Global",
+                "outbound": "âœ… Selector"
+            },
+            {
+                "action": "sniff"
+            },
+            {
+                "protocol": "dns",
+                "action": "hijack-dns"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "network": "udp",
+                "action": "reject"
+            }
+        ],
+        "auto_detect_interface": true,
+        "default_domain_resolver": {
+            "server": "dns-direct",
+            "strategy": "prefer_ipv4",
+            "rewrite_ttl": 60
+        },
+        "final": "âœ… Selector"
+    },
+    "ntp": {
+        "enabled": true,
+        "server": "time.cloudflare.com",
+        "server_port": 123,
+        "domain_resolver": "dns-direct",
+        "interval": "30m",
+        "write_to_system": false
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": true
+        },
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "ui",
+            "default_mode": "Rule",
+            "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+            "external_ui_download_detour": "direct"
+        }
+    }
+}
