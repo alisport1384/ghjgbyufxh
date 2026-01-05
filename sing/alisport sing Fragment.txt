@@ -52,19 +52,19 @@
     ],
     "outbounds": [
         {
-            "tag": "ðŸ’¦ 1 - VLESS F - Clean IP : 443",
+            "tag": "ðŸ’¦ 1 - VLESS F - Domain : 443",
             "type": "vless",
             "server": "acsacs1.ali-sport1384.workers.dev",
             "server_port": 443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acsAcs1.Ali-SporT1384.WOrkERs.Dev",
+                "server_name": "ACSAcS1.Ali-SpoRt1384.WoRKERS.deV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -75,7 +75,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiN1BSbVFqUzhKVGM2NUgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoib0FGR1NUbG1HZDgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -88,15 +88,15 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acSacS1.alI-SPoRT1384.WOrkeRS.DEv",
+                "server_name": "AcsacS1.ALI-SPOrT1384.wOrkers.DEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -107,7 +107,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiUDBMdnlOVFoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiUEJpYjR0dkQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -118,17 +118,17 @@
         {
             "tag": "ðŸ’¦ 3 - VLESS F - IPv4 : 443",
             "type": "vless",
-            "server": "172.67.191.129",
+            "server": "188.114.97.0",
             "server_port": 443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCSacS1.ali-spoRt1384.WorkERS.Dev",
+                "server_name": "aCSACs1.aLI-SPoRt1384.WOrkErS.Dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -139,7 +139,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiOUZNTzNxWTJKaTUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiMnVRalVLenQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -150,17 +150,17 @@
         {
             "tag": "ðŸ’¦ 4 - VLESS F - IPv4 : 443",
             "type": "vless",
-            "server": "104.21.49.175",
+            "server": "188.114.96.0",
             "server_port": 443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcSACs1.ALi-SPORT1384.workErS.deV",
+                "server_name": "ACSAcS1.alI-SPort1384.WORKERS.DEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -171,7 +171,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiRFQ0aGsyN3pJaiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiT0lDdThuTFNsIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -182,17 +182,17 @@
         {
             "tag": "ðŸ’¦ 5 - VLESS F - IPv6 : 443",
             "type": "vless",
-            "server": "[2606:4700:3030::6815:31af]",
+            "server": "[2a06:98c1:3120::]",
             "server_port": 443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACsacS1.AlI-spOrt1384.WoRkers.dev",
+                "server_name": "acsaCs1.Ali-SPOrt1384.WOrKERs.DeV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -203,7 +203,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoibjFsSDJlR2x1ZThqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoidGVoV0VZWUpXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -214,17 +214,17 @@
         {
             "tag": "ðŸ’¦ 6 - VLESS F - IPv6 : 443",
             "type": "vless",
-            "server": "[2606:4700:3037::ac43:bf81]",
+            "server": "[2a06:98c1:3121::]",
             "server_port": 443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCsACs1.aLi-sPORt1384.WorkeRs.DEv",
+                "server_name": "aCSACS1.alI-sport1384.WORkeRS.dEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -235,7 +235,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoic3NUWVFIa2h6M1MzaFAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiT0RmZ21ibFRPeHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -246,17 +246,17 @@
         {
             "tag": "ðŸ’¦ 7 - VLESS F - Clean IP : 443",
             "type": "vless",
-            "server": "fred.ns.cloudflare.com",
+            "server": "104.17.149.244",
             "server_port": 443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acsacs1.ALi-Sport1384.WORkERs.dev",
+                "server_name": "AcsACs1.ALi-spoRT1384.workErs.dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -267,7 +267,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiZlZMbmV0Wk8iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiNzFxdEV3M3JRMGRIRUZHIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -278,17 +278,17 @@
         {
             "tag": "ðŸ’¦ 8 - VLESS F - Clean IP : 443",
             "type": "vless",
-            "server": "magali.ns.cloudflare.com",
+            "server": "104.24.26.221",
             "server_port": 443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCSAcS1.AlI-sPoRt1384.WoRKERS.dev",
+                "server_name": "AcsACS1.AlI-spOrt1384.wOrkErs.deV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -299,7 +299,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiMW9hOWROS3I2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoiZDg0NU1hamk2em4yMTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -308,51 +308,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 9 - VLESS F - Clean IP : 443",
-            "type": "vless",
-            "server": "acsacs1.ali-sport1384.workers.dev",
-            "server_port": 443,
-            "tcp_fast_open": false,
-            "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
-            "packet_encoding": "",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "aCsaCS1.aLi-SpOrt1384.woRkERS.DEv",
-                "record_fragment": true,
-                "insecure": true,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiWm5qQjdZRkkyNWNrVElIYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs1.ali-sport1384.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 10 - VLESS F - Clean IP : 8443",
+            "tag": "ðŸ’¦ 9 - VLESS F - Domain : 8443",
             "type": "vless",
             "server": "acsacs1.ali-sport1384.workers.dev",
             "server_port": 8443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acSACs1.alI-SPorT1384.WorkeRs.DEV",
+                "server_name": "ACSaCs1.ali-SPorT1384.wORKerS.dEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -363,7 +331,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiVW9IQ3JmSFliMEsiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoicW5nMERqazQwM1J6IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -372,19 +340,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 11 - VLESS F - Domain : 8443",
+            "tag": "ðŸ’¦ 10 - VLESS F - Domain : 8443",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCSACs1.aLi-spoRt1384.WorKERS.dEv",
+                "server_name": "aCSaCS1.alI-SporT1384.worKers.dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -395,7 +363,39 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoicjE5RkFwQ3hUc3d1ciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiNWJWV2hIZ0kiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs1.ali-sport1384.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 11 - VLESS F - IPv4 : 8443",
+            "type": "vless",
+            "server": "188.114.97.0",
+            "server_port": 8443,
+            "tcp_fast_open": true,
+            "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
+            "packet_encoding": "",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsacS1.ALI-sporT1384.wORKErS.DeV",
+                "record_fragment": true,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZ254QjFhVkJyektkbSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -406,17 +406,17 @@
         {
             "tag": "ðŸ’¦ 12 - VLESS F - IPv4 : 8443",
             "type": "vless",
-            "server": "172.67.191.129",
+            "server": "188.114.96.0",
             "server_port": 8443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACsACs1.aLi-spoRT1384.worKErS.dEv",
+                "server_name": "aCsaCs1.aLi-SpOrT1384.wORKErS.DeV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -427,7 +427,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiRjM4dGdRbk8wIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoidENOZlU2NWluNWZrTkpnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -436,19 +436,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 13 - VLESS F - IPv4 : 8443",
+            "tag": "ðŸ’¦ 13 - VLESS F - IPv6 : 8443",
             "type": "vless",
-            "server": "104.21.49.175",
+            "server": "[2a06:98c1:3120::]",
             "server_port": 8443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCSAcS1.ALi-SpORT1384.wORkErs.dEv",
+                "server_name": "aCSaCs1.ALi-sPOrT1384.WoRKERS.Dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -459,7 +459,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiWHlUV0FicG9ZYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiU1hHdnJqWDkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -470,17 +470,17 @@
         {
             "tag": "ðŸ’¦ 14 - VLESS F - IPv6 : 8443",
             "type": "vless",
-            "server": "[2606:4700:3030::6815:31af]",
+            "server": "[2a06:98c1:3121::]",
             "server_port": 8443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acsACS1.AlI-spoRt1384.woRkeRs.DeV",
+                "server_name": "acsACS1.aLi-SpOrt1384.WoRkErS.DEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -491,7 +491,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiRTdRc2FQRUFraUdIZG5lSiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiTklrdWRWeDlNazVjSGg1QyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -500,19 +500,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 15 - VLESS F - IPv6 : 8443",
+            "tag": "ðŸ’¦ 15 - VLESS F - Clean IP : 8443",
             "type": "vless",
-            "server": "[2606:4700:3037::ac43:bf81]",
+            "server": "104.17.149.244",
             "server_port": 8443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCsaCS1.Ali-spORt1384.WORkERS.dEV",
+                "server_name": "aCSACS1.aLi-SPORT1384.WOrkErS.Dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -523,7 +523,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiWnBqNzF0NjZmRiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoibnltd3Y1eTNqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -534,17 +534,17 @@
         {
             "tag": "ðŸ’¦ 16 - VLESS F - Clean IP : 8443",
             "type": "vless",
-            "server": "fred.ns.cloudflare.com",
+            "server": "104.24.26.221",
             "server_port": 8443,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcsACS1.ALI-SporT1384.WOrkers.dEv",
+                "server_name": "AcSAcs1.ALI-SPORt1384.woRkerS.DeV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -555,7 +555,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiU2ZzYVRsNTRvUlg5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoiWlYxa3VMYVpCRk9mIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -564,83 +564,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 17 - VLESS F - Clean IP : 8443",
-            "type": "vless",
-            "server": "magali.ns.cloudflare.com",
-            "server_port": 8443,
-            "tcp_fast_open": false,
-            "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
-            "packet_encoding": "",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "acsAcs1.AlI-spORT1384.WorKers.dev",
-                "record_fragment": true,
-                "insecure": true,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiRDIxeVlTcG9rSEEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs1.ali-sport1384.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 18 - VLESS F - Clean IP : 8443",
-            "type": "vless",
-            "server": "acsacs1.ali-sport1384.workers.dev",
-            "server_port": 8443,
-            "tcp_fast_open": false,
-            "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
-            "packet_encoding": "",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ACSacs1.alI-Sport1384.WORKErS.dev",
-                "record_fragment": true,
-                "insecure": true,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiVUhNMXJ2NjAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs1.ali-sport1384.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 19 - VLESS F - Clean IP : 2053",
+            "tag": "ðŸ’¦ 17 - VLESS F - Domain : 2053",
             "type": "vless",
             "server": "acsacs1.ali-sport1384.workers.dev",
             "server_port": 2053,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcSACs1.ali-SPORt1384.WOrkERs.dEv",
+                "server_name": "AcsACS1.ali-spORT1384.woRKeRS.Dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -651,7 +587,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoidmxTaHlITVA3ZnI2TUl2QSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiZzlOR3JzazJ5MW5tR3ZiIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -660,19 +596,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 20 - VLESS F - Domain : 2053",
+            "tag": "ðŸ’¦ 18 - VLESS F - Domain : 2053",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2053,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcsaCs1.ALI-sport1384.WorkerS.DeV",
+                "server_name": "AcsACS1.aLI-SPOrt1384.WorkERs.DEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -683,7 +619,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoid2xON1ltUmkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoieE5pbmlwTFIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -692,19 +628,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 21 - VLESS F - IPv4 : 2053",
+            "tag": "ðŸ’¦ 19 - VLESS F - IPv4 : 2053",
             "type": "vless",
-            "server": "172.67.191.129",
+            "server": "188.114.97.0",
             "server_port": 2053,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acsACS1.ALi-SporT1384.WoRkERs.dev",
+                "server_name": "AcSacS1.ALI-SpoRt1384.WOrKerS.dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -715,7 +651,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiVThONzFuZlUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiNG9RdTdETnMwIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -724,19 +660,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 22 - VLESS F - IPv4 : 2053",
+            "tag": "ðŸ’¦ 20 - VLESS F - IPv4 : 2053",
             "type": "vless",
-            "server": "104.21.49.175",
+            "server": "188.114.96.0",
             "server_port": 2053,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcSAcS1.alI-SPORt1384.WOrKeRs.DEV",
+                "server_name": "aCsAcS1.ALI-sPOrT1384.wOrkeRs.deV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -747,7 +683,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiaU1SaTg5ckQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiTkJGVVBpZmZhWmdRIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -756,19 +692,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 23 - VLESS F - IPv6 : 2053",
+            "tag": "ðŸ’¦ 21 - VLESS F - IPv6 : 2053",
             "type": "vless",
-            "server": "[2606:4700:3030::6815:31af]",
+            "server": "[2a06:98c1:3120::]",
             "server_port": 2053,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACsACs1.ALi-sPOrT1384.WORkeRS.DEv",
+                "server_name": "AcSaCS1.aLi-sporT1384.WorKERS.dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -779,7 +715,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiNHk3YjNCdmoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiTU1Mc2ZDdGNSSzVWTExSIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -788,19 +724,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 24 - VLESS F - IPv6 : 2053",
+            "tag": "ðŸ’¦ 22 - VLESS F - IPv6 : 2053",
             "type": "vless",
-            "server": "[2606:4700:3037::ac43:bf81]",
+            "server": "[2a06:98c1:3121::]",
             "server_port": 2053,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACSacs1.ALi-sPOrt1384.wORkErs.DEV",
+                "server_name": "acSaCS1.alI-SPORT1384.wORkERs.dEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -811,7 +747,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiUkQ2TUhvbWUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiQmdVTHliaXMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -820,19 +756,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 25 - VLESS F - Clean IP : 2053",
+            "tag": "ðŸ’¦ 23 - VLESS F - Clean IP : 2053",
             "type": "vless",
-            "server": "fred.ns.cloudflare.com",
+            "server": "104.17.149.244",
             "server_port": 2053,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acSAcS1.aLI-SPORT1384.WOrkerS.DEV",
+                "server_name": "acSACS1.ALi-SpoRT1384.wORkerS.dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -843,7 +779,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiVFlRakVvY1JnamswOEFVNSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiN1E0TFo2SFpLZDUwRCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -852,19 +788,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 26 - VLESS F - Clean IP : 2053",
+            "tag": "ðŸ’¦ 24 - VLESS F - Clean IP : 2053",
             "type": "vless",
-            "server": "magali.ns.cloudflare.com",
+            "server": "104.24.26.221",
             "server_port": 2053,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCsACS1.ali-SPorT1384.WoRKERs.deV",
+                "server_name": "Acsacs1.AlI-SPORT1384.wORKeRs.dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -875,7 +811,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoib21zMHJTeFhKY05weSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiYjlxa0NXeWZTSVA1aGthIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -884,51 +820,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 27 - VLESS F - Clean IP : 2053",
-            "type": "vless",
-            "server": "acsacs1.ali-sport1384.workers.dev",
-            "server_port": 2053,
-            "tcp_fast_open": false,
-            "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
-            "packet_encoding": "",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "aCSAcS1.ali-sPort1384.WoRkeRS.DEV",
-                "record_fragment": true,
-                "insecure": true,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiOERpZ1ZSN1pkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs1.ali-sport1384.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 28 - VLESS F - Clean IP : 2083",
+            "tag": "ðŸ’¦ 25 - VLESS F - Domain : 2083",
             "type": "vless",
             "server": "acsacs1.ali-sport1384.workers.dev",
             "server_port": 2083,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACSaCs1.ALi-sPorT1384.workeRS.DEv",
+                "server_name": "ACsaCs1.AlI-SPORT1384.WOrkERS.dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -939,7 +843,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiZURUUXhPWjN2WnNoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoibnRKMlNWY1d0ciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -948,19 +852,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 29 - VLESS F - Domain : 2083",
+            "tag": "ðŸ’¦ 26 - VLESS F - Domain : 2083",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2083,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCSAcS1.ALI-spOrt1384.wORkERS.dEv",
+                "server_name": "aCSacS1.alI-sPOrt1384.WoRKeRs.dEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -971,7 +875,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiUUQyS0poUnJEUmZyQ1pHIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoiUm5LQmx1NUZZTVBCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -980,19 +884,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 30 - VLESS F - IPv4 : 2083",
+            "tag": "ðŸ’¦ 27 - VLESS F - IPv4 : 2083",
             "type": "vless",
-            "server": "172.67.191.129",
+            "server": "188.114.97.0",
             "server_port": 2083,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACSacs1.aLi-sPORT1384.wOrKErS.DEv",
+                "server_name": "ACSaCS1.aLI-sPOrT1384.wORKERS.DEv",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1003,7 +907,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiZFlTMkRQMmt1Y3lJWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiSzBIblE1VmdiTGx3Z0dyIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1012,19 +916,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 31 - VLESS F - IPv4 : 2083",
+            "tag": "ðŸ’¦ 28 - VLESS F - IPv4 : 2083",
             "type": "vless",
-            "server": "104.21.49.175",
+            "server": "188.114.96.0",
             "server_port": 2083,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCSACs1.alI-sporT1384.WOrKERS.DeV",
+                "server_name": "AcSACs1.alI-sPoRT1384.wOrkeRS.deV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1035,7 +939,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiMG9hTkhkdFJHUUhKdXlxdSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiaWJQZHhJaUx5Z3EiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1044,19 +948,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 32 - VLESS F - IPv6 : 2083",
+            "tag": "ðŸ’¦ 29 - VLESS F - IPv6 : 2083",
             "type": "vless",
-            "server": "[2606:4700:3030::6815:31af]",
+            "server": "[2a06:98c1:3120::]",
             "server_port": 2083,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCSaCs1.ALI-SPorT1384.wOrKErs.dEv",
+                "server_name": "acSaCs1.ALI-spOrt1384.wOrkeRs.deV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1067,7 +971,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiRHZZYkhaV3lKd2ZGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoiZ0VjQ2w2aWgwdW1YeTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1076,19 +980,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 33 - VLESS F - IPv6 : 2083",
+            "tag": "ðŸ’¦ 30 - VLESS F - IPv6 : 2083",
             "type": "vless",
-            "server": "[2606:4700:3037::ac43:bf81]",
+            "server": "[2a06:98c1:3121::]",
             "server_port": 2083,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACsacS1.AlI-SPoRt1384.WOrkERs.Dev",
+                "server_name": "acsaCs1.aLi-sPort1384.WOrkErs.dEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1099,7 +1003,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiVEZzbnhSR3ZRSW9YRiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiQ0prSFRrUTluIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1108,19 +1012,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 34 - VLESS F - Clean IP : 2083",
+            "tag": "ðŸ’¦ 31 - VLESS F - Clean IP : 2083",
             "type": "vless",
-            "server": "fred.ns.cloudflare.com",
+            "server": "104.17.149.244",
             "server_port": 2083,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcsACs1.aLI-SPORt1384.workerS.dEv",
+                "server_name": "acSACS1.ali-spORT1384.woRkeRs.Dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1131,7 +1035,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoibXVJR1ExY0ZZa0syIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoiMjRFQ1ZEbW1FV291Y1YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1140,19 +1044,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 35 - VLESS F - Clean IP : 2083",
+            "tag": "ðŸ’¦ 32 - VLESS F - Clean IP : 2083",
             "type": "vless",
-            "server": "magali.ns.cloudflare.com",
+            "server": "104.24.26.221",
             "server_port": 2083,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcsAcs1.ALI-SpoRt1384.woRkers.dEv",
+                "server_name": "ACSacs1.Ali-spoRt1384.wOrKers.Dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1163,7 +1067,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiZldWOHFlRjNQc3hJYjBqbSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiUVY3ZzZVYjhuN2ZNejVjIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1172,51 +1076,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 36 - VLESS F - Clean IP : 2083",
-            "type": "vless",
-            "server": "acsacs1.ali-sport1384.workers.dev",
-            "server_port": 2083,
-            "tcp_fast_open": false,
-            "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
-            "packet_encoding": "",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ACsaCS1.Ali-Sport1384.wOrKeRS.dEv",
-                "record_fragment": true,
-                "insecure": true,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiZHJBYWVoZ25qb2lRTUYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs1.ali-sport1384.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 37 - VLESS F - Clean IP : 2087",
+            "tag": "ðŸ’¦ 33 - VLESS F - Domain : 2087",
             "type": "vless",
             "server": "acsacs1.ali-sport1384.workers.dev",
             "server_port": 2087,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACsACS1.aLI-sPorT1384.wORKErs.dEv",
+                "server_name": "ACSaCS1.ali-sport1384.WOrKERS.dEv",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1227,7 +1099,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiOHN5ZEtIQ09tRnprbSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiUHQyZDBWNWxEVVZDS1p6IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1236,19 +1108,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 38 - VLESS F - Domain : 2087",
+            "tag": "ðŸ’¦ 34 - VLESS F - Domain : 2087",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2087,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCSAcS1.alI-sPoRt1384.WORKERs.DEv",
+                "server_name": "aCSAcs1.ali-SpORt1384.wOrkers.dEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1259,7 +1131,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiMEdsUGQ0c1BVWWVpTDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiWTNScU9pNElFUGxOdW0iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1268,19 +1140,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 39 - VLESS F - IPv4 : 2087",
+            "tag": "ðŸ’¦ 35 - VLESS F - IPv4 : 2087",
             "type": "vless",
-            "server": "172.67.191.129",
+            "server": "188.114.97.0",
             "server_port": 2087,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcSaCS1.Ali-SpoRT1384.WorkErs.DEv",
+                "server_name": "ACSAcS1.aLi-SporT1384.wOrkers.dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1291,7 +1163,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiYjk4cHlDVFA0VkYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoibWN4Z0ZCWWtXWHciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1300,19 +1172,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 40 - VLESS F - IPv4 : 2087",
+            "tag": "ðŸ’¦ 36 - VLESS F - IPv4 : 2087",
             "type": "vless",
-            "server": "104.21.49.175",
+            "server": "188.114.96.0",
             "server_port": 2087,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcSacS1.ALi-SporT1384.WOrkeRS.DeV",
+                "server_name": "AcSaCs1.ali-SPOrT1384.woRkers.DeV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1323,7 +1195,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiS2x1T0hNRzdlZyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoieTBQOHlPdEE1dnV0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1332,19 +1204,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 41 - VLESS F - IPv6 : 2087",
+            "tag": "ðŸ’¦ 37 - VLESS F - IPv6 : 2087",
             "type": "vless",
-            "server": "[2606:4700:3030::6815:31af]",
+            "server": "[2a06:98c1:3120::]",
             "server_port": 2087,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acsACs1.Ali-sPOrT1384.WORKErS.deV",
+                "server_name": "acsaCS1.aLI-spoRt1384.worKers.deV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1355,7 +1227,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoidFV0VnE4ZTV5TCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoicWlPRThrZUUxSnEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1364,19 +1236,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 42 - VLESS F - IPv6 : 2087",
+            "tag": "ðŸ’¦ 38 - VLESS F - IPv6 : 2087",
             "type": "vless",
-            "server": "[2606:4700:3037::ac43:bf81]",
+            "server": "[2a06:98c1:3121::]",
             "server_port": 2087,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acSAcS1.aLI-SPorT1384.WoRkers.DEv",
+                "server_name": "AcSAcS1.ALI-SpORt1384.woRkErS.DEv",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1387,7 +1259,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoianJJZnpXUnI3bHk2ZTJDTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiQ21tR3pMM0E4QzBTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1396,19 +1268,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 43 - VLESS F - Clean IP : 2087",
+            "tag": "ðŸ’¦ 39 - VLESS F - Clean IP : 2087",
             "type": "vless",
-            "server": "fred.ns.cloudflare.com",
+            "server": "104.17.149.244",
             "server_port": 2087,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACsAcS1.ALI-SPORT1384.WoRKeRS.Dev",
+                "server_name": "acSacS1.alI-sport1384.WorkErs.DeV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1419,7 +1291,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiVlpOTktFQjIyVHRGQjEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiY3RWVFZldzdPU2FVcFoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1428,19 +1300,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 44 - VLESS F - Clean IP : 2087",
+            "tag": "ðŸ’¦ 40 - VLESS F - Clean IP : 2087",
             "type": "vless",
-            "server": "magali.ns.cloudflare.com",
+            "server": "104.24.26.221",
             "server_port": 2087,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acsACS1.ALi-sporT1384.WORkERS.dEv",
+                "server_name": "AcsACs1.ALI-sPORT1384.WOrKers.DEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1451,7 +1323,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiZllyQmkwYkc1YVFGWHI0OSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiYm1GWXFDODE5T1RyViIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1460,51 +1332,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 45 - VLESS F - Clean IP : 2087",
-            "type": "vless",
-            "server": "acsacs1.ali-sport1384.workers.dev",
-            "server_port": 2087,
-            "tcp_fast_open": false,
-            "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
-            "packet_encoding": "",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "AcsacS1.ali-SPORt1384.worKERs.dev",
-                "record_fragment": true,
-                "insecure": true,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiZ05hbTVwNlJJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs1.ali-sport1384.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 46 - VLESS F - Clean IP : 2096",
+            "tag": "ðŸ’¦ 41 - VLESS F - Domain : 2096",
             "type": "vless",
             "server": "acsacs1.ali-sport1384.workers.dev",
             "server_port": 2096,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCsaCs1.Ali-spORt1384.wORKERs.dev",
+                "server_name": "aCsaCS1.ALI-SpoRt1384.WOrKers.dEv",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1515,7 +1355,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiYUlyVXRkWWEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiTkxBV2xFeVlJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1524,19 +1364,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 47 - VLESS F - Domain : 2096",
+            "tag": "ðŸ’¦ 42 - VLESS F - Domain : 2096",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2096,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "AcSaCs1.ALi-spOrT1384.WorkERS.DEV",
+                "server_name": "aCSACS1.ali-spOrT1384.WOrKERS.DEv",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1547,7 +1387,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiWkpDT0lxVU5ZaDY5eiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiUm4wa0pXYlJlcHMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1556,19 +1396,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 48 - VLESS F - IPv4 : 2096",
+            "tag": "ðŸ’¦ 43 - VLESS F - IPv4 : 2096",
             "type": "vless",
-            "server": "172.67.191.129",
+            "server": "188.114.97.0",
             "server_port": 2096,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACSAcS1.AlI-sPOrT1384.worKeRS.DEv",
+                "server_name": "ACsaCs1.ali-SporT1384.workErS.DEv",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1579,7 +1419,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoibFhlbjY1clpIeDMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiMXhIYnF6Z2laWTM2ZSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1588,19 +1428,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 49 - VLESS F - IPv4 : 2096",
+            "tag": "ðŸ’¦ 44 - VLESS F - IPv4 : 2096",
             "type": "vless",
-            "server": "104.21.49.175",
+            "server": "188.114.96.0",
             "server_port": 2096,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acsaCs1.alI-sPort1384.WoRKeRs.deV",
+                "server_name": "ACSACs1.ALi-sPOrt1384.workERS.dEv",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1611,7 +1451,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiSVVFbWxUeVBiMnciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+                "path": "/eyJqdW5rIjoiZzVGZTFJNHV6d20iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1620,19 +1460,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 50 - VLESS F - IPv6 : 2096",
+            "tag": "ðŸ’¦ 45 - VLESS F - IPv6 : 2096",
             "type": "vless",
-            "server": "[2606:4700:3030::6815:31af]",
+            "server": "[2a06:98c1:3120::]",
             "server_port": 2096,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "acSaCS1.Ali-SpOrt1384.wORkERS.deV",
+                "server_name": "aCSacS1.ALi-spoRT1384.wORkeRS.DEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1643,7 +1483,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiQkI1Y3RkV3F2T1YxaU9FIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoiTGRnWVB0VzNraEpzZGFjIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1652,19 +1492,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 51 - VLESS F - IPv6 : 2096",
+            "tag": "ðŸ’¦ 46 - VLESS F - IPv6 : 2096",
             "type": "vless",
-            "server": "[2606:4700:3037::ac43:bf81]",
+            "server": "[2a06:98c1:3121::]",
             "server_port": 2096,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "aCsacs1.alI-sPort1384.woRkErs.dev",
+                "server_name": "ACSacS1.alI-sPOrt1384.WorkERS.DeV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1675,7 +1515,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiRWh6MTF0NG9SQk5CIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoiaFBRZHlvbWoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1684,19 +1524,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 52 - VLESS F - Clean IP : 2096",
+            "tag": "ðŸ’¦ 47 - VLESS F - Clean IP : 2096",
             "type": "vless",
-            "server": "fred.ns.cloudflare.com",
+            "server": "104.17.149.244",
             "server_port": 2096,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACSaCs1.ALi-SPORt1384.WORKERs.dEv",
+                "server_name": "acsacS1.aLI-sPoRT1384.wORKers.DEV",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1707,7 +1547,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoib3hyZmpScUlJN0tSaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/eyJqdW5rIjoiRWtmYTR6QzV5R05RIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1716,19 +1556,19 @@
             }
         },
         {
-            "tag": "ðŸ’¦ 53 - VLESS F - Clean IP : 2096",
+            "tag": "ðŸ’¦ 48 - VLESS F - Clean IP : 2096",
             "type": "vless",
-            "server": "magali.ns.cloudflare.com",
+            "server": "104.24.26.221",
             "server_port": 2096,
-            "tcp_fast_open": false,
+            "tcp_fast_open": true,
             "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
             "packet_encoding": "",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACsacS1.aLi-sPoRt1384.WORkErS.Dev",
+                "server_name": "AcSaCs1.aLI-SPORT1384.wOrkERS.Dev",
                 "record_fragment": true,
-                "insecure": true,
+                "insecure": false,
                 "alpn": [
                     "http/1.1"
                 ],
@@ -1739,39 +1579,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoidnZCcVJ1VFdWY1lwNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs1.ali-sport1384.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 54 - VLESS F - Clean IP : 2096",
-            "type": "vless",
-            "server": "acsacs1.ali-sport1384.workers.dev",
-            "server_port": 2096,
-            "tcp_fast_open": false,
-            "uuid": "faa9bfdd-3a32-4df8-9f84-dd1788513f84",
-            "packet_encoding": "",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "acSAcS1.ali-SPORt1384.wORkERS.DeV",
-                "record_fragment": true,
-                "insecure": true,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoieUptWm1BZDBkOXRuIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+                "path": "/eyJqdW5rIjoiQmhpT2FIT05yZ2g2cSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
@@ -1784,7 +1592,7 @@
             "tag": "âœ… Selector",
             "outbounds": [
                 "ðŸ’¦ Best Ping ðŸš€",
-                "ðŸ’¦ 1 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 1 - VLESS F - Domain : 443",
                 "ðŸ’¦ 2 - VLESS F - Domain : 443",
                 "ðŸ’¦ 3 - VLESS F - IPv4 : 443",
                 "ðŸ’¦ 4 - VLESS F - IPv4 : 443",
@@ -1792,52 +1600,46 @@
                 "ðŸ’¦ 6 - VLESS F - IPv6 : 443",
                 "ðŸ’¦ 7 - VLESS F - Clean IP : 443",
                 "ðŸ’¦ 8 - VLESS F - Clean IP : 443",
-                "ðŸ’¦ 9 - VLESS F - Clean IP : 443",
-                "ðŸ’¦ 10 - VLESS F - Clean IP : 8443",
-                "ðŸ’¦ 11 - VLESS F - Domain : 8443",
+                "ðŸ’¦ 9 - VLESS F - Domain : 8443",
+                "ðŸ’¦ 10 - VLESS F - Domain : 8443",
+                "ðŸ’¦ 11 - VLESS F - IPv4 : 8443",
                 "ðŸ’¦ 12 - VLESS F - IPv4 : 8443",
-                "ðŸ’¦ 13 - VLESS F - IPv4 : 8443",
+                "ðŸ’¦ 13 - VLESS F - IPv6 : 8443",
                 "ðŸ’¦ 14 - VLESS F - IPv6 : 8443",
-                "ðŸ’¦ 15 - VLESS F - IPv6 : 8443",
+                "ðŸ’¦ 15 - VLESS F - Clean IP : 8443",
                 "ðŸ’¦ 16 - VLESS F - Clean IP : 8443",
-                "ðŸ’¦ 17 - VLESS F - Clean IP : 8443",
-                "ðŸ’¦ 18 - VLESS F - Clean IP : 8443",
-                "ðŸ’¦ 19 - VLESS F - Clean IP : 2053",
-                "ðŸ’¦ 20 - VLESS F - Domain : 2053",
-                "ðŸ’¦ 21 - VLESS F - IPv4 : 2053",
-                "ðŸ’¦ 22 - VLESS F - IPv4 : 2053",
-                "ðŸ’¦ 23 - VLESS F - IPv6 : 2053",
-                "ðŸ’¦ 24 - VLESS F - IPv6 : 2053",
-                "ðŸ’¦ 25 - VLESS F - Clean IP : 2053",
-                "ðŸ’¦ 26 - VLESS F - Clean IP : 2053",
-                "ðŸ’¦ 27 - VLESS F - Clean IP : 2053",
-                "ðŸ’¦ 28 - VLESS F - Clean IP : 2083",
-                "ðŸ’¦ 29 - VLESS F - Domain : 2083",
-                "ðŸ’¦ 30 - VLESS F - IPv4 : 2083",
-                "ðŸ’¦ 31 - VLESS F - IPv4 : 2083",
-                "ðŸ’¦ 32 - VLESS F - IPv6 : 2083",
-                "ðŸ’¦ 33 - VLESS F - IPv6 : 2083",
-                "ðŸ’¦ 34 - VLESS F - Clean IP : 2083",
-                "ðŸ’¦ 35 - VLESS F - Clean IP : 2083",
-                "ðŸ’¦ 36 - VLESS F - Clean IP : 2083",
-                "ðŸ’¦ 37 - VLESS F - Clean IP : 2087",
-                "ðŸ’¦ 38 - VLESS F - Domain : 2087",
-                "ðŸ’¦ 39 - VLESS F - IPv4 : 2087",
-                "ðŸ’¦ 40 - VLESS F - IPv4 : 2087",
-                "ðŸ’¦ 41 - VLESS F - IPv6 : 2087",
-                "ðŸ’¦ 42 - VLESS F - IPv6 : 2087",
-                "ðŸ’¦ 43 - VLESS F - Clean IP : 2087",
-                "ðŸ’¦ 44 - VLESS F - Clean IP : 2087",
-                "ðŸ’¦ 45 - VLESS F - Clean IP : 2087",
-                "ðŸ’¦ 46 - VLESS F - Clean IP : 2096",
-                "ðŸ’¦ 47 - VLESS F - Domain : 2096",
-                "ðŸ’¦ 48 - VLESS F - IPv4 : 2096",
-                "ðŸ’¦ 49 - VLESS F - IPv4 : 2096",
-                "ðŸ’¦ 50 - VLESS F - IPv6 : 2096",
-                "ðŸ’¦ 51 - VLESS F - IPv6 : 2096",
-                "ðŸ’¦ 52 - VLESS F - Clean IP : 2096",
-                "ðŸ’¦ 53 - VLESS F - Clean IP : 2096",
-                "ðŸ’¦ 54 - VLESS F - Clean IP : 2096"
+                "ðŸ’¦ 17 - VLESS F - Domain : 2053",
+                "ðŸ’¦ 18 - VLESS F - Domain : 2053",
+                "ðŸ’¦ 19 - VLESS F - IPv4 : 2053",
+                "ðŸ’¦ 20 - VLESS F - IPv4 : 2053",
+                "ðŸ’¦ 21 - VLESS F - IPv6 : 2053",
+                "ðŸ’¦ 22 - VLESS F - IPv6 : 2053",
+                "ðŸ’¦ 23 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 24 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 25 - VLESS F - Domain : 2083",
+                "ðŸ’¦ 26 - VLESS F - Domain : 2083",
+                "ðŸ’¦ 27 - VLESS F - IPv4 : 2083",
+                "ðŸ’¦ 28 - VLESS F - IPv4 : 2083",
+                "ðŸ’¦ 29 - VLESS F - IPv6 : 2083",
+                "ðŸ’¦ 30 - VLESS F - IPv6 : 2083",
+                "ðŸ’¦ 31 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 32 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 33 - VLESS F - Domain : 2087",
+                "ðŸ’¦ 34 - VLESS F - Domain : 2087",
+                "ðŸ’¦ 35 - VLESS F - IPv4 : 2087",
+                "ðŸ’¦ 36 - VLESS F - IPv4 : 2087",
+                "ðŸ’¦ 37 - VLESS F - IPv6 : 2087",
+                "ðŸ’¦ 38 - VLESS F - IPv6 : 2087",
+                "ðŸ’¦ 39 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 40 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 41 - VLESS F - Domain : 2096",
+                "ðŸ’¦ 42 - VLESS F - Domain : 2096",
+                "ðŸ’¦ 43 - VLESS F - IPv4 : 2096",
+                "ðŸ’¦ 44 - VLESS F - IPv4 : 2096",
+                "ðŸ’¦ 45 - VLESS F - IPv6 : 2096",
+                "ðŸ’¦ 46 - VLESS F - IPv6 : 2096",
+                "ðŸ’¦ 47 - VLESS F - Clean IP : 2096",
+                "ðŸ’¦ 48 - VLESS F - Clean IP : 2096"
             ],
             "interrupt_exist_connections": false
         },
@@ -1849,7 +1651,7 @@
             "type": "urltest",
             "tag": "ðŸ’¦ Best Ping ðŸš€",
             "outbounds": [
-                "ðŸ’¦ 1 - VLESS F - Clean IP : 443",
+                "ðŸ’¦ 1 - VLESS F - Domain : 443",
                 "ðŸ’¦ 2 - VLESS F - Domain : 443",
                 "ðŸ’¦ 3 - VLESS F - IPv4 : 443",
                 "ðŸ’¦ 4 - VLESS F - IPv4 : 443",
@@ -1857,52 +1659,46 @@
                 "ðŸ’¦ 6 - VLESS F - IPv6 : 443",
                 "ðŸ’¦ 7 - VLESS F - Clean IP : 443",
                 "ðŸ’¦ 8 - VLESS F - Clean IP : 443",
-                "ðŸ’¦ 9 - VLESS F - Clean IP : 443",
-                "ðŸ’¦ 10 - VLESS F - Clean IP : 8443",
-                "ðŸ’¦ 11 - VLESS F - Domain : 8443",
+                "ðŸ’¦ 9 - VLESS F - Domain : 8443",
+                "ðŸ’¦ 10 - VLESS F - Domain : 8443",
+                "ðŸ’¦ 11 - VLESS F - IPv4 : 8443",
                 "ðŸ’¦ 12 - VLESS F - IPv4 : 8443",
-                "ðŸ’¦ 13 - VLESS F - IPv4 : 8443",
+                "ðŸ’¦ 13 - VLESS F - IPv6 : 8443",
                 "ðŸ’¦ 14 - VLESS F - IPv6 : 8443",
-                "ðŸ’¦ 15 - VLESS F - IPv6 : 8443",
+                "ðŸ’¦ 15 - VLESS F - Clean IP : 8443",
                 "ðŸ’¦ 16 - VLESS F - Clean IP : 8443",
-                "ðŸ’¦ 17 - VLESS F - Clean IP : 8443",
-                "ðŸ’¦ 18 - VLESS F - Clean IP : 8443",
-                "ðŸ’¦ 19 - VLESS F - Clean IP : 2053",
-                "ðŸ’¦ 20 - VLESS F - Domain : 2053",
-                "ðŸ’¦ 21 - VLESS F - IPv4 : 2053",
-                "ðŸ’¦ 22 - VLESS F - IPv4 : 2053",
-                "ðŸ’¦ 23 - VLESS F - IPv6 : 2053",
-                "ðŸ’¦ 24 - VLESS F - IPv6 : 2053",
-                "ðŸ’¦ 25 - VLESS F - Clean IP : 2053",
-                "ðŸ’¦ 26 - VLESS F - Clean IP : 2053",
-                "ðŸ’¦ 27 - VLESS F - Clean IP : 2053",
-                "ðŸ’¦ 28 - VLESS F - Clean IP : 2083",
-                "ðŸ’¦ 29 - VLESS F - Domain : 2083",
-                "ðŸ’¦ 30 - VLESS F - IPv4 : 2083",
-                "ðŸ’¦ 31 - VLESS F - IPv4 : 2083",
-                "ðŸ’¦ 32 - VLESS F - IPv6 : 2083",
-                "ðŸ’¦ 33 - VLESS F - IPv6 : 2083",
-                "ðŸ’¦ 34 - VLESS F - Clean IP : 2083",
-                "ðŸ’¦ 35 - VLESS F - Clean IP : 2083",
-                "ðŸ’¦ 36 - VLESS F - Clean IP : 2083",
-                "ðŸ’¦ 37 - VLESS F - Clean IP : 2087",
-                "ðŸ’¦ 38 - VLESS F - Domain : 2087",
-                "ðŸ’¦ 39 - VLESS F - IPv4 : 2087",
-                "ðŸ’¦ 40 - VLESS F - IPv4 : 2087",
-                "ðŸ’¦ 41 - VLESS F - IPv6 : 2087",
-                "ðŸ’¦ 42 - VLESS F - IPv6 : 2087",
-                "ðŸ’¦ 43 - VLESS F - Clean IP : 2087",
-                "ðŸ’¦ 44 - VLESS F - Clean IP : 2087",
-                "ðŸ’¦ 45 - VLESS F - Clean IP : 2087",
-                "ðŸ’¦ 46 - VLESS F - Clean IP : 2096",
-                "ðŸ’¦ 47 - VLESS F - Domain : 2096",
-                "ðŸ’¦ 48 - VLESS F - IPv4 : 2096",
-                "ðŸ’¦ 49 - VLESS F - IPv4 : 2096",
-                "ðŸ’¦ 50 - VLESS F - IPv6 : 2096",
-                "ðŸ’¦ 51 - VLESS F - IPv6 : 2096",
-                "ðŸ’¦ 52 - VLESS F - Clean IP : 2096",
-                "ðŸ’¦ 53 - VLESS F - Clean IP : 2096",
-                "ðŸ’¦ 54 - VLESS F - Clean IP : 2096"
+                "ðŸ’¦ 17 - VLESS F - Domain : 2053",
+                "ðŸ’¦ 18 - VLESS F - Domain : 2053",
+                "ðŸ’¦ 19 - VLESS F - IPv4 : 2053",
+                "ðŸ’¦ 20 - VLESS F - IPv4 : 2053",
+                "ðŸ’¦ 21 - VLESS F - IPv6 : 2053",
+                "ðŸ’¦ 22 - VLESS F - IPv6 : 2053",
+                "ðŸ’¦ 23 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 24 - VLESS F - Clean IP : 2053",
+                "ðŸ’¦ 25 - VLESS F - Domain : 2083",
+                "ðŸ’¦ 26 - VLESS F - Domain : 2083",
+                "ðŸ’¦ 27 - VLESS F - IPv4 : 2083",
+                "ðŸ’¦ 28 - VLESS F - IPv4 : 2083",
+                "ðŸ’¦ 29 - VLESS F - IPv6 : 2083",
+                "ðŸ’¦ 30 - VLESS F - IPv6 : 2083",
+                "ðŸ’¦ 31 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 32 - VLESS F - Clean IP : 2083",
+                "ðŸ’¦ 33 - VLESS F - Domain : 2087",
+                "ðŸ’¦ 34 - VLESS F - Domain : 2087",
+                "ðŸ’¦ 35 - VLESS F - IPv4 : 2087",
+                "ðŸ’¦ 36 - VLESS F - IPv4 : 2087",
+                "ðŸ’¦ 37 - VLESS F - IPv6 : 2087",
+                "ðŸ’¦ 38 - VLESS F - IPv6 : 2087",
+                "ðŸ’¦ 39 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 40 - VLESS F - Clean IP : 2087",
+                "ðŸ’¦ 41 - VLESS F - Domain : 2096",
+                "ðŸ’¦ 42 - VLESS F - Domain : 2096",
+                "ðŸ’¦ 43 - VLESS F - IPv4 : 2096",
+                "ðŸ’¦ 44 - VLESS F - IPv4 : 2096",
+                "ðŸ’¦ 45 - VLESS F - IPv6 : 2096",
+                "ðŸ’¦ 46 - VLESS F - IPv6 : 2096",
+                "ðŸ’¦ 47 - VLESS F - Clean IP : 2096",
+                "ðŸ’¦ 48 - VLESS F - Clean IP : 2096"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interrupt_exist_connections": false,
