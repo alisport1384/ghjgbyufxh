@@ -1,5 +1,5 @@
 {
-  "remarks": "Best Ping"
+  "remarks": "Best Ping",
   "version": {
     "min": "25.10.15"
   },
