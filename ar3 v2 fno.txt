@@ -1,5 +1,5 @@
 {
-  "remarks": "Ping",
+  "remarks": "Best Ping",
   "version": {
     "min": "25.10.15"
   },
@@ -90,7 +90,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -126,7 +126,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -162,7 +162,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -198,7 +198,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -234,7 +234,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -270,7 +270,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -306,7 +306,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -342,7 +342,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -378,7 +378,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -414,7 +414,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -450,7 +450,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -486,7 +486,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -522,7 +522,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -558,7 +558,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -594,7 +594,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -630,7 +630,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -666,7 +666,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -702,7 +702,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -738,7 +738,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -774,7 +774,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -810,7 +810,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -846,7 +846,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -882,7 +882,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -918,7 +918,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -954,7 +954,7 @@
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -994,11 +994,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1038,11 +1038,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1082,11 +1082,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1126,11 +1126,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1170,11 +1170,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1214,11 +1214,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1258,11 +1258,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1302,11 +1302,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1346,11 +1346,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1390,11 +1390,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1434,11 +1434,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1478,11 +1478,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1522,11 +1522,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1566,11 +1566,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1610,11 +1610,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1654,11 +1654,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1698,11 +1698,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1742,11 +1742,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1786,11 +1786,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1830,11 +1830,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1874,11 +1874,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1918,11 +1918,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -1962,11 +1962,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -2006,11 +2006,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -2050,11 +2050,11 @@
           "alpn": [
             "http/1.1"
           ],
-          "allowInsecure": true
+          "allowInsecure": false
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
