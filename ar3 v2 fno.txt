@@ -85,7 +85,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiY2Y2T24wTmQyN1BaIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM1LjEyNS4xOTEuOSJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiOVZaaHl5YlIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -121,7 +121,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiWWpvZlF6a2ZReSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEzNS4xMjUuMTkxLjkiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiVGtkY0NvemQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -136,42 +136,6 @@
         }
       },
       "tag": "proxy-2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.21.39.229",
-            "port": 80,
-            "users": [
-              {
-                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiRUliME1jcmV2Y2JVOW5LaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEzNS4xMjUuMTkxLjkiXX0=?ed=2560"
-        },
-        "security": "none",
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-3"
     },
     {
       "protocol": "vless",
@@ -193,7 +157,43 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiWjI2V3REekYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiT1c1R1VlR0tneXA3TCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS4xMzMuNDQuMjEiXX0=?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.21.39.229",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoibWMwQmJTZHoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -229,7 +229,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiWElUQ0ZiSkxmcSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEzNS4xMjUuMTkxLjkiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiVUd2d0pvd0giLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -265,7 +265,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiT0hGY01hcnBkaiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEzNS4xMjUuMTkxLjkiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiNEhINmtRb1ciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -301,7 +301,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiMXhqOHplcWhCSmNkbE9NIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM1LjEyNS4xOTEuOSJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoia25pTGlvMzE4QklHejZoZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS4xMzMuNDQuMjEiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -337,7 +337,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiYUZkUFo2QmtydzJKIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM1LjEyNS4xOTEuOSJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoieTNqM2dxMng3N2tPa0wiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -373,7 +373,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiYllSTG91Y29yIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM1LjEyNS4xOTEuOSJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiWTNyaXdHVG1hUnhLM1IiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -409,7 +409,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiQzd6V0hpTG0iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiajlBd0plYWVyMHZWRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS4xMzMuNDQuMjEiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -445,7 +445,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiQmgzd3BVVUtLWVIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiQXdCRFd0dzFyIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -460,6 +460,510 @@
         }
       },
       "tag": "proxy-11"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.248.29",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoibWhXQjJLMDNHekw5bVBlIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-12"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.172.30",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiZnJyNHI3bWNiWXZrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-13"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.218.229",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiSnBRSnNlbjRDbUoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-14"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.185.241",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiVWZWbEo0UmdGbE5KWUlKIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-15"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.192.29",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiYlN6SW5mOEFwaDI1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-16"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.222.226",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiSktuSEtvaWM3ak9nSFVGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-17"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.5.189",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiWjVzRkVGUGdGOVlBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-18"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.134.245",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoibVdqQVU1SVR5S0YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-19"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.79.73",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiQ3k0M3VZa2toTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS4xMzMuNDQuMjEiXX0=?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-20"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.95.114",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiSmhjWkE1Z3pGRHRUbmJRaCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS4xMzMuNDQuMjEiXX0=?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-21"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.129.53",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiRTd0d2k1dmlmN1pkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-22"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.132.229",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiOWJqRGJFdjRpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-23"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.230.21",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiZkNsZHhLbWsiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-24"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.21.86.183",
+            "port": 80,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiOUUySlhmbHVnbERVIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-25"
     },
     {
       "protocol": "vless",
@@ -481,11 +985,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoibTRSQjBHVllidTgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoieERZcVRFYVciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCsacs1.alISPOrTGROuPs-24f.WorKeRs.Dev",
+          "serverName": "aCSACS1.aLiSPORtGROUps-24f.workers.DEV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -503,7 +1007,7 @@
           }
         }
       },
-      "tag": "proxy-12"
+      "tag": "proxy-26"
     },
     {
       "protocol": "vless",
@@ -525,11 +1029,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiVllacTR1cktYaDBjIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM1LjEyNS4xOTEuOSJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiSU1Gc0R2aXlZOGgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCSACs1.aliSpORtGROups-24f.woRkErS.Dev",
+          "serverName": "ACSAcS1.alISPorTGroups-24F.WorKErS.DEV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -547,51 +1051,7 @@
           }
         }
       },
-      "tag": "proxy-13"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.21.39.229",
-            "port": 443,
-            "users": [
-              {
-                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiSHZudW1RNVh4VzAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "aCsaCs1.aLiSpORTGROupS-24f.WorkErs.DEV",
-          "fingerprint": "firefox",
-          "alpn": [
-            "http/1.1"
-          ],
-          "allowInsecure": true
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "tcpFastOpen": false,
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-14"
+      "tag": "proxy-27"
     },
     {
       "protocol": "vless",
@@ -613,11 +1073,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoieWhmMUtUbGZ2bWgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiSWl1WGVkSnhvYzJNNlVpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACSACS1.AlISpORtGrouPS-24F.WoRKers.DeV",
+          "serverName": "ACSaCs1.ALIsportgrOUps-24f.WORKerS.dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -635,7 +1095,51 @@
           }
         }
       },
-      "tag": "proxy-15"
+      "tag": "proxy-28"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.21.39.229",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiQzBLVWs1OFc0cWpnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Acsacs1.ALisPOrTGrOups-24f.wOrKeRS.Dev",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-29"
     },
     {
       "protocol": "vless",
@@ -657,11 +1161,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoicXl5YVE2MldSeTUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiQkFjT1lrQmciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "acSACs1.aLiSporTGrOuPS-24F.worKErS.dev",
+          "serverName": "AcSacS1.aliSPorTgrOups-24F.worKeRS.deV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -679,7 +1183,7 @@
           }
         }
       },
-      "tag": "proxy-16"
+      "tag": "proxy-30"
     },
     {
       "protocol": "vless",
@@ -701,11 +1205,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoidldiS0J6Y1hSMEw0bXUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoieUlvNXR0S2ZkN0siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACSacS1.ALISPoRTGrOUPs-24f.woRKeRs.dEv",
+          "serverName": "acSACS1.aLISpORTgrOupS-24F.woRKeRs.DEv",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -723,7 +1227,7 @@
           }
         }
       },
-      "tag": "proxy-17"
+      "tag": "proxy-31"
     },
     {
       "protocol": "vless",
@@ -745,11 +1249,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiVlNGa1JyS2kiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiUXpXTU9URjdoY3B5SyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS4xMzMuNDQuMjEiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "acSACS1.AlISpoRtgRoUps-24f.worKERs.dev",
+          "serverName": "acSaCS1.AliSPOrtGroUpS-24f.WOrKERS.dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -767,7 +1271,7 @@
           }
         }
       },
-      "tag": "proxy-18"
+      "tag": "proxy-32"
     },
     {
       "protocol": "vless",
@@ -789,11 +1293,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiSmVKZ2h4RU45eU1CTjYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiZHBhRXllbmNvQyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS4xMzMuNDQuMjEiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcsACs1.aLIspORTGroUPs-24F.WOrkerS.deV",
+          "serverName": "aCSaCs1.ALispoRTgroupS-24F.WoRKers.dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -811,7 +1315,7 @@
           }
         }
       },
-      "tag": "proxy-19"
+      "tag": "proxy-33"
     },
     {
       "protocol": "vless",
@@ -833,11 +1337,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiS0FlbmRkWnAwT045dEQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMzUuMTI1LjE5MS45Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiWWFaWjZ3WVJyVDMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCSACS1.aLiSPORtgRoUPS-24F.WOrkeRs.dEv",
+          "serverName": "AcsaCS1.aLisPorTgroUps-24f.WOrKeRS.DEv",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -855,7 +1359,7 @@
           }
         }
       },
-      "tag": "proxy-20"
+      "tag": "proxy-34"
     },
     {
       "protocol": "vless",
@@ -877,11 +1381,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiMFk3Y1MwTUpaUGxOIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTM1LjEyNS4xOTEuOSJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoia2NNSjA0VWtRdkNIIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACSacs1.ALIsPoRTgroups-24F.wOrkERS.DEv",
+          "serverName": "acSACS1.aLISpOrTgROups-24f.woRKErs.Dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -899,7 +1403,7 @@
           }
         }
       },
-      "tag": "proxy-21"
+      "tag": "proxy-35"
     },
     {
       "protocol": "vless",
@@ -921,11 +1425,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiZ1B0NTRzY3JRbTczWHVjTCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEzNS4xMjUuMTkxLjkiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiYXhnclJhcjltOEMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCSAcS1.ALIsPoRtgROUPs-24f.WOrkERs.dEv",
+          "serverName": "ACSaCS1.ALiSPoRTGROupS-24F.Workers.dEv",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -943,7 +1447,623 @@
           }
         }
       },
-      "tag": "proxy-22"
+      "tag": "proxy-36"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.248.29",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiWlhDUUowcXhjUnhOIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ACSAcs1.AlisportGrOUpS-24f.WoRkerS.Dev",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-37"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.172.30",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiQU1KYzVZMWZCQ1B4IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "aCsacS1.aLiSpOrTgROUPS-24F.WOrKERs.dev",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-38"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.218.229",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoia2Vma1lPQTI3U3pQREciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "acSACs1.AlIspORtgROuPs-24f.WOrkErS.DEv",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-39"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.185.241",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiN0ZBNlBqUW8iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ACsaCs1.aLISPoRtGrOUPs-24f.WOrKeRS.DEv",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-40"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.192.29",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiSWs3a2VocE5iN3oiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "acsaCS1.aLISPortgROuPs-24F.WorKerS.deV",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-41"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.222.226",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiQWVMSEJxQzgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "AcsacS1.ALIsporTGroupS-24f.wOrKeRS.DEV",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-42"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.5.189",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiTWR2cHRLN0s3bWJrUUw4WCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS4xMzMuNDQuMjEiXX0=?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "acSaCS1.aLiSPoRtGrOUps-24f.WORkeRs.DeV",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-43"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.134.245",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiM2l2cnFpVzN0UyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS4xMzMuNDQuMjEiXX0=?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "AcsACS1.aliSpORTGrouPs-24f.WOrKErS.deV",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-44"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.79.73",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiRldxMjAyVjZLaWciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ACsAcS1.aliSPorTgrouPS-24F.woRKeRs.deV",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-45"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.95.114",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiZzZMTE5ZRjBLV1RrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "acSACS1.aLisportgrOuPS-24F.woRKeRS.dEv",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-46"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.129.53",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoibjlLT0VBNkNqakhabWtJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTk1LjEzMy40NC4yMSJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "acsaCs1.aLispoRTGROUps-24F.WOrkeRs.deV",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-47"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.132.229",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiUkE2d24xUWJKdWUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ACSACS1.aLISpORTgrouPs-24f.wOrKERS.deV",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-48"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.230.21",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiQzBqOWV1aXF3anUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "aCsACS1.alIsPORTgRoUpS-24F.woRkERS.dev",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-49"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.21.86.183",
+            "port": 443,
+            "users": [
+              {
+                "id": "518b6af5-5d17-49bc-8467-2f2d5e573863",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiTnZ6OW5TVTQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxOTUuMTMzLjQ0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ACSAcS1.aLisPortgROUps-24F.workERs.deV",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ],
+          "allowInsecure": true
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": false,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-50"
     },
     {
       "protocol": "dns",
