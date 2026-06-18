@@ -1,5 +1,5 @@
 {
-  "remarks": "Best Ping",
+  "remarks": "MPing",
   "version": {
     "min": "26.2.6"
   },
