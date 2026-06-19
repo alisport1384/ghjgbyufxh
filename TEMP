@@ -73,7 +73,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -301,7 +301,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -521,7 +521,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -741,7 +741,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -961,7 +961,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -1181,7 +1181,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -1401,7 +1401,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -1629,7 +1629,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -1864,7 +1864,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -2091,7 +2091,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -2318,7 +2318,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -2545,7 +2545,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -2772,7 +2772,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -2999,7 +2999,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
@@ -3236,7 +3236,7 @@
                 "port": 10853,
                 "protocol": "dokodemo-door",
                 "settings": {
-                    "address": "1.1.1.1",
+                    "address": "udp://8.8.8.8:53",
                     "network": "tcp,udp",
                     "port": 53
                 },
