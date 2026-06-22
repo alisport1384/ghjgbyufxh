@@ -1,4 +1,4 @@
-trojan://e612cc7f-ac09-9285-0d99-f8c9fde6587e@188.114.99.0:80?encryption=none&security=none&sni=acsacs1-cr.ali-rasouly.workers.dev&fp=firefox&type=ws&host=acsacs1-cr.ali-rasouly.workers.dev&path=/alexsport&pbk=enabled#T-CR-80-1
+trojan://e612cc7f-ac09-9285-0d99-f8c9fde6587e@188.114.99.0:80?encryption=none&security=none&type=ws&host=acsacs1-cr.ali-rasouly.workers.dev&path=/alexsport&pbk=enabled#T-CR-80-1
 trojan://e612cc7f-ac09-9285-0d99-f8c9fde6587e@188.114.98.0:80?encryption=none&security=none&sni=acsacs1-cr.ali-rasouly.workers.dev&fp=firefox&type=ws&host=acsacs1-cr.ali-rasouly.workers.dev&path=/alexsport&pbk=enabled#T-CR-80-1
 trojan://e612cc7f-ac09-9285-0d99-f8c9fde6587e@188.114.97.3:80?encryption=none&security=none&sni=acsacs1-cr.ali-rasouly.workers.dev&fp=firefox&type=ws&host=acsacs1-cr.ali-rasouly.workers.dev&path=/alexsport&pbk=enabled#T-CR-80-1
 trojan://e612cc7f-ac09-9285-0d99-f8c9fde6587e@104.18.37.228:80?encryption=none&security=none&sni=acsacs1-cr.ali-rasouly.workers.dev&fp=firefox&type=ws&host=acsacs1-cr.ali-rasouly.workers.dev&path=/alexsport&pbk=enabled#T-CR-80-1
