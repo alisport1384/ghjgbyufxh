@@ -9311,7 +9311,7 @@
       "proxy"
     ],
     "probeUrl": "https://www.gstatic.com/generate_204",
-    "probeInterval": "1s",
+    "probeInterval": "60s",
     "enableConcurrency": true
   },
   "policy": {
