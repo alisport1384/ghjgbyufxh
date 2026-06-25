@@ -117,7 +117,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.208.202",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -147,7 +147,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.208.202",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -177,7 +177,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.208.202",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -207,7 +207,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.208.202",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -237,7 +237,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.208.202",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -274,7 +274,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.208.202",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -311,7 +311,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.208.202",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -348,7 +348,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.208.202",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -385,7 +385,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.208.202",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -553,3 +553,4 @@
   },
   "stats": {}
 }
+
