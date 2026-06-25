@@ -87,7 +87,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.ali-sport1384.workers.dev",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -117,7 +117,7 @@
       "settings": {
         "servers": [
           {
-            "address": "www.speedtest.net",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -147,7 +147,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.96.3",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -177,7 +177,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.3",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -237,7 +237,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.98.0",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -267,7 +267,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.3",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -297,7 +297,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.ali-sport1384.workers.dev",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -334,7 +334,7 @@
       "settings": {
         "servers": [
           {
-            "address": "www.speedtest.net",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -371,7 +371,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.96.3",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -408,7 +408,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.3",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -482,7 +482,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.98.0",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
@@ -519,7 +519,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.3",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "gX]scPd5Q;{BULsc"
           }
