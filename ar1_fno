@@ -78,7 +78,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.ali-rasouly.workers.dev",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -108,7 +108,7 @@
       "settings": {
         "servers": [
           {
-            "address": "www.speedtest.net",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -138,7 +138,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.21.40.49",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -168,7 +168,7 @@
       "settings": {
         "servers": [
           {
-            "address": "172.67.176.38",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -228,7 +228,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.98.0",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -258,7 +258,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.3",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -288,7 +288,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.ali-rasouly.workers.dev",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -325,7 +325,7 @@
       "settings": {
         "servers": [
           {
-            "address": "www.speedtest.net",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -362,7 +362,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.21.40.49",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -399,7 +399,7 @@
       "settings": {
         "servers": [
           {
-            "address": "172.67.176.38",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -473,7 +473,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.98.0",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
@@ -510,7 +510,7 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.3",
+            "address": "188.114.99.0",
             "port": 80,
             "password": "RjvonHRQ6>{oFdU9"
           }
