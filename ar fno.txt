@@ -87,7 +87,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.33.45",
+            "address": "198.41.209.161",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
