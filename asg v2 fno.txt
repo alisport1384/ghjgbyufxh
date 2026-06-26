@@ -9,8 +9,8 @@
   "dns": {
     "hosts": {
       "dns.adguard-dns.com": [
-        "94.140.15.15",
-        "94.140.14.14"
+        "94.140.14.14",
+        "94.140.15.15"
       ],
       "geosite:category-ads-all": "#3",
       "geosite:category-ads-ir": "#3"
@@ -99,7 +99,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiRUE3RkpQMFdMWFI3ZWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMTYuMjAyLjEzMi4yMDUiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiczIyQUhtamRjdCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -129,7 +129,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiNlp2RmRuaFlVQUkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMTYuMjAyLjEzMi4yMDUiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiSWRVdjFQRFJFVyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -159,7 +159,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiM2VCWkFmRDRGYWZvTSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiNFliNWpTODJ6NWVVV2VWWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -189,7 +189,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoibmpVVDFvOUMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMTYuMjAyLjEzMi4yMDUiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoicUZObDdnVmQzRmx2Nk04WCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -219,7 +219,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiVXJUTEphNkZ4MzM3cXpsdSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjExNi4yMDIuMTMyLjIwNSJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiQ0N0a3NJbW52ZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -249,7 +249,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoialg2UGNuU2JFYm1IIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiU1l1aldQVHMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -279,7 +279,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiWlVUUWlZSTZkR2RuIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiUkhKMmxTMmZyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -309,11 +309,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoicm5qTFY5cFFGZ1AiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMTYuMjAyLjEzMi4yMDUiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiYjB3WFM2OG9iR2NPTlRWOSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcSaCS1.aliSpoRtGrOuPS-24f.WOrkers.dEv",
+          "serverName": "acSAcS1.ALIspOrtGROUpS-24f.WOrKeRS.DEV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -346,11 +346,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiNHBvdEVrYnYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMTYuMjAyLjEzMi4yMDUiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiM29oOGxMVW5rQnh2QUYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "acsAcS1.alisPoRtgrOups-24F.WoRkERS.DeV",
+          "serverName": "aCsACs1.aLiSPoRtGrouPs-24f.wOrkErS.dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -383,11 +383,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiODlicVl0SE1MVll5bVF3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiRnFUVnUwVUtrNkZ2eSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCsAcs1.AlispOrTgrOUPs-24f.wOrkERs.DeV",
+          "serverName": "ACSAcS1.alispOrTGRoups-24f.worKERs.deV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -420,11 +420,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiTzRCVUJXczEyc01VMkQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMTYuMjAyLjEzMi4yMDUiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiWDhYQUI0RWpmIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcSACS1.AlIsportGROuPs-24f.WORKerS.DeV",
+          "serverName": "aCSaCS1.aLisPortgrouPs-24f.wOrKErS.Dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -457,11 +457,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoieUZCTDVjQm5GIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiRTd6NkpIbGJzUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "acSaCs1.alisPORTGRoups-24F.wORKerS.dEv",
+          "serverName": "AcsacS1.ALIspORTGRoUPS-24F.wORKErs.DEV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -494,11 +494,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiSDVscTJJQUJNVzhxWlIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMTYuMjAyLjEzMi4yMDUiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiTk5FVXhYYlFOMDhxVXBQRiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACsaCs1.ALISPorTGRoUpS-24f.WoRkErS.Dev",
+          "serverName": "aCsaCS1.ALisPOrTGrOUps-24F.wORkers.DEv",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -531,11 +531,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoickc1aW5FeDgyV0hkIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTE2LjIwMi4xMzIuMjA1Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiUHpJSlNURGJ2SldIIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCSAcS1.aLisPOrTGROUPs-24F.WORkeRs.deV",
+          "serverName": "aCsacS1.ALispORtgrOups-24f.WOrKErs.DEV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
