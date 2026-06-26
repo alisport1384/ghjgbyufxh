@@ -87,7 +87,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
+            "address": "104.21.7.110",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -124,7 +124,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
+            "address": "104.21.7.110",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -154,7 +154,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
+            "address": "104.21.7.110",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -184,7 +184,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
+            "address": "104.21.7.110",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -214,7 +214,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
+            "address": "104.21.7.110",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -244,7 +244,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
+            "address": "104.21.7.110",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -274,7 +274,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
+            "address": "104.21.7.110",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
