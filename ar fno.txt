@@ -87,7 +87,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -117,7 +117,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -147,7 +147,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -177,7 +177,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -207,7 +207,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -237,7 +237,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -267,7 +267,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -297,7 +297,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -334,7 +334,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -371,7 +371,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -408,7 +408,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -445,7 +445,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -482,7 +482,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -519,7 +519,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
