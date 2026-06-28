@@ -1,0 +1,579 @@
+{
+    "log": {
+        "disabled": true,
+        "timestamp": true
+    },
+    "dns": {
+        "servers": [
+            {
+                "type": "https",
+                "server": "dns.adguard-dns.com",
+                "detour": "âœ… Selector",
+                "tag": "dns-remote"
+            },
+            {
+                "type": "udp",
+                "server": "8.8.8.8",
+                "tag": "dns-direct"
+            },
+            {
+                "type": "hosts",
+                "predefined": {
+                    "dns.adguard-dns.com": [
+                        "94.140.14.14",
+                        "94.140.15.15"
+                    ]
+                },
+                "tag": "hosts"
+            },
+            {
+                "type": "fakeip",
+                "inet4_range": "198.18.0.0/15",
+                "tag": "dns-fake"
+            }
+        ],
+        "rules": [
+            {
+                "ip_accept_any": true,
+                "server": "hosts"
+            },
+            {
+                "clash_mode": "Direct",
+                "server": "dns-direct"
+            },
+            {
+                "clash_mode": "Global",
+                "server": "dns-remote"
+            },
+            {
+                "type": "logical",
+                "mode": "and",
+                "rules": [
+                    {
+                        "rule_set": [
+                            "geosite-ir"
+                        ]
+                    },
+                    {
+                        "rule_set": "geoip-ir"
+                    }
+                ],
+                "action": "route",
+                "server": "dns-direct"
+            },
+            {
+                "inbound": "tun-in",
+                "query_type": [
+                    "A",
+                    "AAAA"
+                ],
+                "action": "route",
+                "server": "dns-fake"
+            }
+        ],
+        "strategy": "ipv4_only",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "address": [
+                "172.19.0.1/28"
+            ],
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "mixed"
+        },
+        {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "listen": "0.0.0.0",
+            "listen_port": 2080
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "ðŸ’¦ 1 - Trojan - Domain : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZjBqaHZYVkd4MEZYZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 2 - Trojan - Domain : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRTFxamkxY0ciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 3 - Trojan - IPv4 : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZ3RUalFsaG8iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 4 - Trojan - IPv4 : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoidTQ3a01KcXRMRyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 5 - Trojan - Clean IP : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiQk8zUDlZYkoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 6 - Trojan - Clean IP : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiT3lPc2tldVhlSVUyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 7 - Trojan - Clean IP : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiakRLNVlUZWRFTkVSNUciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 8 - Trojan - Domain : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCsaCs3.ALI-rAsouLY.WoRKErS.Dev",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiNDJITEhiYnciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 9 - Trojan - Domain : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACSAcs3.alI-rASoULy.worKeRs.dEv",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiT1RjWnRDQ0hUaTg4Z0giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 10 - Trojan - IPv4 : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcSAcs3.ali-RaSOULy.WORkerS.DEV",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiNFc1WnpuTFByZDUzYiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 11 - Trojan - IPv4 : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aCSACs3.ALi-RAsoULY.WOrkERs.dEv",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiYkNxajZGT1hXVkpSIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 12 - Trojan - Clean IP : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "AcSAcS3.aLi-RASoULY.WoRKeRs.DEv",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiTUpMNVc2dTd6SkhnIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 13 - Trojan - Clean IP : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "acsaCs3.Ali-RasouLY.worKeRS.dev",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoieE1OTUE1WkZhR2NaeUhEIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 14 - Trojan - Clean IP : 80",
+            "type": "trojan",
+            "server": "acsacs3.ali-rasouly.workers.dev",
+            "server_port": 80,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ACsACS3.aLi-RAsoUly.wOrkErS.deV",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoid0VhZzJOZmVHT3AiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                }
+            }
+        },
+        {
+            "type": "selector",
+            "tag": "âœ… Selector",
+            "outbounds": [
+                "ðŸ’¦ Best Ping ðŸš€",
+                "ðŸ’¦ 1 - Trojan - Domain : 80",
+                "ðŸ’¦ 2 - Trojan - Domain : 80",
+                "ðŸ’¦ 3 - Trojan - IPv4 : 80",
+                "ðŸ’¦ 4 - Trojan - IPv4 : 80",
+                "ðŸ’¦ 5 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 6 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 7 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 8 - Trojan - Domain : 80",
+                "ðŸ’¦ 9 - Trojan - Domain : 80",
+                "ðŸ’¦ 10 - Trojan - IPv4 : 80",
+                "ðŸ’¦ 11 - Trojan - IPv4 : 80",
+                "ðŸ’¦ 12 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 13 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 14 - Trojan - Clean IP : 80"
+            ],
+            "interrupt_exist_connections": false
+        },
+        {
+            "type": "direct",
+            "tag": "direct",
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "type": "urltest",
+            "tag": "ðŸ’¦ Best Ping ðŸš€",
+            "outbounds": [
+                "ðŸ’¦ 1 - Trojan - Domain : 80",
+                "ðŸ’¦ 2 - Trojan - Domain : 80",
+                "ðŸ’¦ 3 - Trojan - IPv4 : 80",
+                "ðŸ’¦ 4 - Trojan - IPv4 : 80",
+                "ðŸ’¦ 5 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 6 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 7 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 8 - Trojan - Domain : 80",
+                "ðŸ’¦ 9 - Trojan - Domain : 80",
+                "ðŸ’¦ 10 - Trojan - IPv4 : 80",
+                "ðŸ’¦ 11 - Trojan - IPv4 : 80",
+                "ðŸ’¦ 12 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 13 - Trojan - Clean IP : 80",
+                "ðŸ’¦ 14 - Trojan - Clean IP : 80"
+            ],
+            "url": "https://www.gstatic.com/generate_204",
+            "interrupt_exist_connections": false,
+            "interval": "90s"
+        }
+    ],
+    "route": {
+        "rules": [
+            {
+                "ip_cidr": "172.19.0.2",
+                "action": "hijack-dns"
+            },
+            {
+                "clash_mode": "Direct",
+                "outbound": "direct"
+            },
+            {
+                "clash_mode": "Global",
+                "outbound": "âœ… Selector"
+            },
+            {
+                "action": "sniff"
+            },
+            {
+                "protocol": "dns",
+                "action": "hijack-dns"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "network": "udp",
+                "action": "reject"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir"
+                ],
+                "action": "route",
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geoip-ir"
+                ],
+                "action": "route",
+                "outbound": "direct"
+            }
+        ],
+        "rule_set": [
+            {
+                "type": "remote",
+                "tag": "geosite-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+                "download_detour": "direct"
+            },
+            {
+                "type": "remote",
+                "tag": "geoip-ir",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+                "download_detour": "direct"
+            }
+        ],
+        "auto_detect_interface": true,
+        "final": "âœ… Selector"
+    },
+    "ntp": {
+        "enabled": true,
+        "server": "time.cloudflare.com",
+        "server_port": 123,
+        "domain_resolver": "dns-direct",
+        "interval": "30m",
+        "write_to_system": false
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": true
+        },
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "ui",
+            "default_mode": "Rule",
+            "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+            "external_ui_download_detour": "direct"
+        }
+    }
+}
