@@ -103,7 +103,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -133,7 +133,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -163,7 +163,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -193,7 +193,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -223,7 +223,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -253,7 +253,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -283,7 +283,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -313,7 +313,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -350,7 +350,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -387,7 +387,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -424,7 +424,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -461,7 +461,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -498,7 +498,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -535,7 +535,7 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs3.ali-rasouly.workers.dev",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -703,4 +703,3 @@
   },
   "stats": {}
 }
-
