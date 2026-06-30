@@ -105,7 +105,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk1.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -135,7 +135,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -165,7 +165,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -195,7 +195,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk4.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -225,7 +225,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk5.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -255,7 +255,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk6.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -285,7 +285,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk7.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -315,7 +315,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk8.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -352,7 +352,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -389,7 +389,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -426,7 +426,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk4.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -463,7 +463,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk1.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -500,7 +500,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk5.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
@@ -537,7 +537,7 @@
       "settings": {
         "servers": [
           {
-            "address": "chk6.alisport0.qzz.io",
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
             "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
