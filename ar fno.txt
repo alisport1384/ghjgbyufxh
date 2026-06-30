@@ -17,9 +17,6 @@
       {
         "address": "fakedns",
         "domains": [
-          "geosite:category-ir",
-          "full:acsacs3.ali-rasouly.workers.dev",
-          "full:www.speedtest.net",
           "full:min1.alisport0.qzz.io",
           "full:min2.alisport0.qzz.io",
           "full:min3.alisport0.qzz.io",
@@ -54,8 +51,6 @@
       {
         "address": "8.8.8.8",
         "domains": [
-          "full:acsacs3.ali-rasouly.workers.dev",
-          "full:www.speedtest.net",
           "full:min1.alisport0.qzz.io",
           "full:min2.alisport0.qzz.io",
           "full:min3.alisport0.qzz.io",
@@ -715,4 +710,3 @@
   },
   "stats": {}
 }
-
