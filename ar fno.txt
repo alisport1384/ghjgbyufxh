@@ -18,14 +18,20 @@
         "address": "fakedns",
         "domains": [
           "geosite:category-ir",
-          "full:acsacs3.ali-rasouly.workers.dev",
-          "full:www.speedtest.net",
           "full:min1.alisport0.qzz.io",
           "full:min2.alisport0.qzz.io",
           "full:min3.alisport0.qzz.io",
           "full:min4.alisport0.qzz.io",
           "full:min5.alisport0.qzz.io",
-          "full:min6.alisport0.qzz.io"
+          "full:min6.alisport0.qzz.io",
+          "full:chk1.alisport0.qzz.io",
+          "full:chk2.alisport0.qzz.io",
+          "full:chk3.alisport0.qzz.io",
+          "full:chk4.alisport0.qzz.io",
+          "full:chk5.alisport0.qzz.io",
+          "full:chk6.alisport0.qzz.io",
+          "full:chk7.alisport0.qzz.io",
+          "full:chk8.alisport0.qzz.io"
         ],
         "skipFallback": false
       },
@@ -46,14 +52,20 @@
       {
         "address": "8.8.8.8",
         "domains": [
-          "full:acsacs3.ali-rasouly.workers.dev",
-          "full:www.speedtest.net",
           "full:min1.alisport0.qzz.io",
           "full:min2.alisport0.qzz.io",
           "full:min3.alisport0.qzz.io",
           "full:min4.alisport0.qzz.io",
           "full:min5.alisport0.qzz.io",
-          "full:min6.alisport0.qzz.io"
+          "full:min6.alisport0.qzz.io",
+          "full:chk1.alisport0.qzz.io",
+          "full:chk2.alisport0.qzz.io",
+          "full:chk3.alisport0.qzz.io",
+          "full:chk4.alisport0.qzz.io",
+          "full:chk5.alisport0.qzz.io",
+          "full:chk6.alisport0.qzz.io",
+          "full:chk7.alisport0.qzz.io",
+          "full:chk8.alisport0.qzz.io"
         ],
         "skipFallback": true
       }
@@ -699,4 +711,3 @@
   },
   "stats": {}
 }
-
