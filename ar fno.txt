@@ -18,6 +18,8 @@
         "address": "fakedns",
         "domains": [
           "geosite:category-ir",
+          "full:acsacs3.ali-rasouly.workers.dev",
+          "full:www.speedtest.net",
           "full:min1.alisport0.qzz.io",
           "full:min2.alisport0.qzz.io",
           "full:min3.alisport0.qzz.io",
@@ -52,6 +54,8 @@
       {
         "address": "8.8.8.8",
         "domains": [
+          "full:acsacs3.ali-rasouly.workers.dev",
+          "full:www.speedtest.net",
           "full:min1.alisport0.qzz.io",
           "full:min2.alisport0.qzz.io",
           "full:min3.alisport0.qzz.io",
@@ -201,7 +205,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min2.alisport0.qzz.io",
+            "address": "min4.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -231,7 +235,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min1.alisport0.qzz.io",
+            "address": "min5.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -261,7 +265,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min1.alisport0.qzz.io",
+            "address": "min6.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -291,7 +295,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min3.alisport0.qzz.io",
+            "address": "chk1.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -321,7 +325,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min2.alisport0.qzz.io",
+            "address": "chk5.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -358,7 +362,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min1.alisport0.qzz.io",
+            "address": "chk6.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -395,7 +399,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min3.alisport0.qzz.io",
+            "address": "chk7.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -432,7 +436,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min1.alisport0.qzz.io",
+            "address": "chk8.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -469,7 +473,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min2.alisport0.qzz.io",
+            "address": "chk2.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -506,7 +510,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min3.alisport0.qzz.io",
+            "address": "chk3.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -543,7 +547,7 @@
       "settings": {
         "servers": [
           {
-            "address": "min1.alisport0.qzz.io",
+            "address": "chk4.alisport0.qzz.io",
             "port": 80,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -711,3 +715,4 @@
   },
   "stats": {}
 }
+
