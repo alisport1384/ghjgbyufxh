@@ -288,7 +288,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min1.alisport0.qzz.io",
+          "host": "min3.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiQm1qa21CaWJzWEljRUFuVSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
         },
         "security": "none",
