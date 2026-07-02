@@ -1,5 +1,5 @@
 {
-  "remarks": "AutoSelect(BestPing)",
+  "remarks": "(TT)AutoSelect(BestPing)",
   "version": {
     "min": "26.2.6"
   },
