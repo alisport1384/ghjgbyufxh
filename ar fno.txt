@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "ðŸ’¦ 1 - Trojan - Domain : 80",
+        "remarks": "1 - Trojan - Domain : 8080",
         "version": {
             "min": "26.2.6"
         },
@@ -281,7 +281,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 2 - Trojan - Domain : 80",
+        "remarks": "2 - Trojan - Domain : 8880",
         "version": {
             "min": "26.2.6"
         },
@@ -560,7 +560,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 3 - Trojan - IPv4 : 80",
+        "remarks": "3 - Trojan - IPv4 : 2052",
         "version": {
             "min": "26.2.6"
         },
@@ -819,7 +819,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 4 - Trojan - IPv4 : 80",
+        "remarks": "4 - Trojan - IPv4 : 2082",
         "version": {
             "min": "26.2.6"
         },
@@ -1079,7 +1079,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 5 - Trojan - Clean IP : 80",
+        "remarks": "5 - Trojan 2086",
         "version": {
             "min": "26.2.6"
         },
@@ -1358,7 +1358,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 6 - Trojan - Clean IP : 80",
+        "remarks": "6 - Trojan 2095",
         "version": {
             "min": "26.2.6"
         },
@@ -1637,7 +1637,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 7 - Trojan - Clean IP : 80",
+        "remarks": "7 - Trojan 8080",
         "version": {
             "min": "26.2.6"
         },
@@ -1916,7 +1916,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 8 - Trojan - Clean IP : 80",
+        "remarks": "8 - Trojan 8880",
         "version": {
             "min": "26.2.6"
         },
@@ -2196,7 +2196,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 9 - Trojan - Clean IP : 80",
+        "remarks": "9 - Trojan 2052",
         "version": {
             "min": "26.2.6"
         },
@@ -2475,7 +2475,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 10 - Trojan - Clean IP : 80",
+        "remarks": "10 - Trojan 2082",
         "version": {
             "min": "26.2.6"
         },
@@ -2754,7 +2754,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 11 - Trojan - Clean IP : 80",
+        "remarks": "11 - Trojan 2086",
         "version": {
             "min": "26.2.6"
         },
@@ -3034,7 +3034,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 12 - Trojan - Clean IP : 80",
+        "remarks": "12 - Trojan 2095",
         "version": {
             "min": "26.2.6"
         },
@@ -3313,7 +3313,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 13 - Trojan - Domain : 443",
+        "remarks": "13 - Trojan - Domain : 8443",
         "version": {
             "min": "26.2.6"
         },
@@ -3599,7 +3599,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 14 - Trojan - Domain : 443",
+        "remarks": "14 - Trojan - Domain : 2053",
         "version": {
             "min": "26.2.6"
         },
@@ -3885,7 +3885,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 15 - Trojan - IPv4 : 443",
+        "remarks": "15 - Trojan - IPv4 : 2083",
         "version": {
             "min": "26.2.6"
         },
@@ -4151,7 +4151,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 16 - Trojan - IPv4 : 443",
+        "remarks": "16 - Trojan - IPv4 : 2087",
         "version": {
             "min": "26.2.6"
         },
@@ -4417,7 +4417,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 17 - Trojan - Clean IP : 443",
+        "remarks": "17 - Trojan 2096",
         "version": {
             "min": "26.2.6"
         },
@@ -4703,7 +4703,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 18 - Trojan - Clean IP : 443",
+        "remarks": "18 - Trojan 8443",
         "version": {
             "min": "26.2.6"
         },
@@ -4989,7 +4989,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 19 - Trojan - Clean IP : 443",
+        "remarks": "19 - Trojan 2053",
         "version": {
             "min": "26.2.6"
         },
@@ -5275,7 +5275,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 20 - Trojan - Clean IP : 443",
+        "remarks": "20 - Trojan 2083",
         "version": {
             "min": "26.2.6"
         },
@@ -5561,7 +5561,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 21 - Trojan - Clean IP : 443",
+        "remarks": "21 - Trojan 2087",
         "version": {
             "min": "26.2.6"
         },
@@ -5847,7 +5847,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 22 - Trojan - Clean IP : 443",
+        "remarks": "22 - Trojan 2096",
         "version": {
             "min": "26.2.6"
         },
@@ -6133,7 +6133,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 23 - Trojan - Clean IP : 443",
+        "remarks": "23 - Trojan 8443",
         "version": {
             "min": "26.2.6"
         },
@@ -6419,7 +6419,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ 24 - Trojan - Clean IP : 443",
+        "remarks": "24 - Trojan 2053",
         "version": {
             "min": "26.2.6"
         },
@@ -6705,7 +6705,7 @@
         "stats": {}
     },
     {
-        "remarks": "ðŸ’¦ Best Ping ðŸš€",
+        "remarks": "AutoSelect(BestPing)",
         "version": {
             "min": "26.2.6"
         },
