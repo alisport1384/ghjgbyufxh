@@ -135,7 +135,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiY1hVbTJkY0EzVFEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -414,7 +414,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiaUVRak9LUjBXWFl4IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "none",
@@ -673,7 +673,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiZmVQMDhLdGZzRlduUXN3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "none",
@@ -933,7 +933,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiWW1FNTZlaWJ3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "none",
@@ -1212,7 +1212,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoib1NmNnhBMzQ3bHNqTWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -1491,7 +1491,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiVVRKSXYzbXdxeElzN20iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -1770,7 +1770,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiRXlwQ2l1YmJlY2EiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -2050,7 +2050,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiVHNkYzhKN1B3T253dSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "none",
@@ -2329,7 +2329,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoibEVidk9LT1M5IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "none",
@@ -2608,7 +2608,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiV2VzOHdKNEIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -2888,7 +2888,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiUHBic0RHeW4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -3167,7 +3167,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiaDN2S2lHZEpKUzEyWlc5aSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "none",
@@ -3446,7 +3446,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoidWp0R0JDV2FhVXI1Sm9IWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "tls",
@@ -3732,7 +3732,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoicUVuRVowUVM3WE5sREc0NSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "tls",
@@ -3998,7 +3998,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiSkpibmFpWW8iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "tls",
@@ -4264,7 +4264,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiMEdmSHJ6ZjU4U2xoIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "tls",
@@ -4550,7 +4550,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiSU85ZTUyYWtMc3cxdTQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "tls",
@@ -4836,7 +4836,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoidTV1Y1lDQ2xGTnJ5dEpFIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "tls",
@@ -5122,7 +5122,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiT1h2cGNhR2VmRDMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "tls",
@@ -5408,7 +5408,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoibkNiSmM4VWZMIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "tls",
@@ -5694,7 +5694,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiTURKQ2VWVkVRIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "tls",
@@ -5980,7 +5980,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiTndpcFFmMmVTZVRVSWEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "tls",
@@ -6266,7 +6266,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiZ0tHWUFsM2Q2cCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "tls",
@@ -6552,7 +6552,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiYXZac0VQTjdvdmkzSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "tls",
@@ -6838,7 +6838,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiY1hVbTJkY0EzVFEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -6868,7 +6868,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiaUVRak9LUjBXWFl4IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "none",
@@ -6898,7 +6898,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiZmVQMDhLdGZzRlduUXN3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "none",
@@ -6928,7 +6928,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiWW1FNTZlaWJ3IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "none",
@@ -6958,7 +6958,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoib1NmNnhBMzQ3bHNqTWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -6988,7 +6988,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiVVRKSXYzbXdxeElzN20iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -7018,7 +7018,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiRXlwQ2l1YmJlY2EiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -7048,7 +7048,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiVHNkYzhKN1B3T253dSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "none",
@@ -7078,7 +7078,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoibEVidk9LT1M5IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "none",
@@ -7108,7 +7108,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiV2VzOHdKNEIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -7138,7 +7138,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiUHBic0RHeW4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "none",
@@ -7168,7 +7168,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiaDN2S2lHZEpKUzEyWlc5aSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "none",
@@ -7198,7 +7198,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoidWp0R0JDV2FhVXI1Sm9IWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "tls",
@@ -7235,7 +7235,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoicUVuRVowUVM3WE5sREc0NSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "tls",
@@ -7272,7 +7272,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiSkpibmFpWW8iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "tls",
@@ -7309,7 +7309,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiMEdmSHJ6ZjU4U2xoIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "tls",
@@ -7346,7 +7346,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiSU85ZTUyYWtMc3cxdTQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "tls",
@@ -7383,7 +7383,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoidTV1Y1lDQ2xGTnJ5dEpFIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "tls",
@@ -7420,7 +7420,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiT1h2cGNhR2VmRDMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "tls",
@@ -7457,7 +7457,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoibkNiSmM4VWZMIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "tls",
@@ -7494,7 +7494,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiTURKQ2VWVkVRIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19?ed=2560"
                     },
                     "security": "tls",
@@ -7531,7 +7531,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiTndpcFFmMmVTZVRVSWEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=?ed=2560"
                     },
                     "security": "tls",
@@ -7568,7 +7568,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiZ0tHWUFsM2Q2cCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "tls",
@@ -7605,7 +7605,7 @@
                 "streamSettings": {
                     "network": "ws",
                     "wsSettings": {
-                        "host": "acsacs3.ali-rasouly.workers.dev",
+                        "host": "chk1.alisport0.qzz.io",
                         "path": "/eyJqdW5rIjoiYXZac0VQTjdvdmkzSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==?ed=2560"
                     },
                     "security": "tls",
