@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1 - Trojan - Domain : 8080",
+        "remarks": "1 - Trojan  : 8080",
         "version": {
             "min": "26.2.6"
         },
@@ -281,7 +281,7 @@
         "stats": {}
     },
     {
-        "remarks": "2 - Trojan - Domain : 8880",
+        "remarks": "2 - Trojan  : 8880",
         "version": {
             "min": "26.2.6"
         },
@@ -3313,7 +3313,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 - Trojan - Domain : 8443",
+        "remarks": "13 - Trojan  : 8443",
         "version": {
             "min": "26.2.6"
         },
@@ -3599,7 +3599,7 @@
         "stats": {}
     },
     {
-        "remarks": "14 - Trojan - Domain : 2053",
+        "remarks": "14 - Trojan  : 2053",
         "version": {
             "min": "26.2.6"
         },
