@@ -41,7 +41,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -114,7 +114,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
 
                     ],
                     "skipFallback": false
@@ -149,7 +150,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -222,7 +223,9 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -255,7 +258,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -328,7 +331,9 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
+
 
                     ],
                     "skipFallback": true
@@ -504,7 +509,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -577,7 +582,9 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -654,7 +661,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -727,7 +734,9 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
+
                     ],
                     "skipFallback": false
                 },
@@ -761,7 +770,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -834,7 +843,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -867,7 +877,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -940,7 +950,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -1115,7 +1126,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -1188,7 +1199,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -1265,7 +1277,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -1338,7 +1350,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -1372,7 +1385,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -1445,7 +1458,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -1623,7 +1637,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -1696,7 +1710,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -1773,7 +1788,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -1846,7 +1861,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
 
                     ],
                     "skipFallback": false
@@ -1881,7 +1897,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -1954,7 +1970,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -2132,7 +2149,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -2205,7 +2222,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -2282,7 +2300,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -2355,7 +2373,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -2389,7 +2408,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -2462,7 +2481,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -2495,7 +2515,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -2568,7 +2588,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -2743,7 +2764,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -2816,7 +2837,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -2893,7 +2915,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -2966,7 +2988,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -3000,7 +3023,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -3073,7 +3096,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -3106,7 +3130,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -3179,7 +3203,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -3354,7 +3379,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -3427,7 +3452,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -3504,7 +3530,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -3577,7 +3603,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -3611,7 +3638,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -3684,7 +3711,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -3717,7 +3745,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -3790,7 +3818,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -3965,7 +3994,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -4038,7 +4067,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -4115,7 +4145,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -4188,7 +4218,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -4222,7 +4253,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -4295,7 +4326,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -4328,7 +4360,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -4401,7 +4433,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
 
                     ],
                     "skipFallback": true
@@ -4577,7 +4610,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -4650,7 +4683,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -4727,7 +4761,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -4800,7 +4834,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -4834,7 +4869,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -4907,7 +4942,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -4940,7 +4976,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -5013,7 +5049,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -5188,7 +5225,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -5261,7 +5298,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -5338,7 +5376,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -5411,7 +5449,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -5445,7 +5484,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -5518,7 +5557,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -5551,7 +5591,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -5624,7 +5664,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -5799,7 +5840,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -5872,7 +5913,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -5949,7 +5991,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -6022,7 +6064,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -6056,7 +6099,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -6129,7 +6172,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -6162,7 +6206,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -6235,7 +6279,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
 
                     ],
                     "skipFallback": true
@@ -6411,7 +6456,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -6484,7 +6529,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -6561,7 +6607,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -6634,7 +6680,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -6668,7 +6715,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -6741,7 +6788,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -6774,7 +6822,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -6847,7 +6895,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -7022,7 +7071,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -7095,7 +7144,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -7172,7 +7222,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -7245,7 +7295,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -7279,7 +7330,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -7352,7 +7403,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -7385,7 +7437,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -7458,7 +7510,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -7640,7 +7693,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -7713,7 +7766,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -7790,7 +7844,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -7863,7 +7917,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -7897,7 +7952,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -7970,7 +8025,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -8003,7 +8059,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -8076,7 +8132,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -8258,7 +8315,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -8331,7 +8388,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -8408,7 +8466,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -8481,7 +8539,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -8515,7 +8574,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -8588,7 +8647,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -8773,7 +8833,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -8846,7 +8906,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -8923,7 +8984,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -8996,7 +9057,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -9030,7 +9092,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -9103,7 +9165,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -9288,7 +9351,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -9361,7 +9424,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -9438,7 +9502,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -9511,7 +9575,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -9545,7 +9610,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -9618,7 +9683,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -9651,7 +9717,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -9724,7 +9790,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -9906,7 +9973,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -9979,7 +10046,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -10056,7 +10124,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -10129,7 +10197,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -10163,7 +10232,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -10236,7 +10305,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -10269,7 +10339,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -10342,7 +10412,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -10524,7 +10595,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -10597,7 +10668,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -10674,7 +10746,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -10747,7 +10819,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -10781,7 +10854,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -10854,7 +10927,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -10887,7 +10961,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -10960,7 +11034,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -11142,7 +11217,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -11215,7 +11290,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -11292,7 +11368,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -11365,7 +11441,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -11399,7 +11476,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -11472,7 +11549,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -11505,7 +11583,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -11578,7 +11656,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -11760,7 +11839,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -11833,7 +11912,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -11910,7 +11990,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -11983,7 +12063,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -12017,7 +12098,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -12090,7 +12171,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -12123,7 +12205,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -12196,7 +12278,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -12378,7 +12461,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -12451,7 +12534,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -12528,7 +12612,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -12601,7 +12685,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -12635,7 +12720,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -12708,7 +12793,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -12741,7 +12827,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -12814,7 +12900,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -12996,7 +13083,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -13069,7 +13156,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -13146,7 +13234,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -13219,7 +13307,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -13253,7 +13342,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -13326,7 +13415,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -13359,7 +13449,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -13432,7 +13522,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -13614,7 +13705,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -13687,7 +13778,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -13764,7 +13856,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -13837,7 +13929,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -13871,7 +13964,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -13944,7 +14037,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -13977,7 +14071,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -14050,7 +14144,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -14232,7 +14327,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -14305,7 +14400,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
@@ -14382,7 +14478,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -14455,7 +14551,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": false
                 },
@@ -14489,7 +14586,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -14562,7 +14659,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "expectIPs": [
                         "geoip:ir"
@@ -14595,7 +14693,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -14668,7 +14766,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "skipFallback": true
                 }
@@ -15617,7 +15716,7 @@
           "full:icanhazip.com",
           "full:polygonscan.com",
           "full:character.ai",
-          "full:developers.cloudflare.com",
+
           "full:www.supabase.com",
           "full:www.trustwallet.com",
           "full:trezor.io",
@@ -15690,7 +15789,8 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com",
+          "full:developers.cloudflare.com"
+
                     ],
                     "outboundTag": "direct",
                     "type": "field"
