@@ -556,7 +556,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.218.156",
+            "address": "78.46.0.176",
             "port": 2053,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -593,7 +593,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.218.156",
+            "address": "78.46.0.176",
             "port": 2083,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -630,7 +630,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.218.156",
+            "address": "78.46.0.176",
             "port": 2087,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -667,7 +667,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.218.156",
+            "address": "78.46.0.176",
             "port": 2096,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -704,7 +704,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.218.156",
+            "address": "78.46.0.176",
             "port": 2087,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -741,7 +741,7 @@
       "settings": {
         "servers": [
           {
-            "address": "104.18.218.156",
+            "address": "78.46.0.176",
             "port": 2083,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
@@ -909,6 +909,3 @@
   },
   "stats": {}
 }
-
-
-
