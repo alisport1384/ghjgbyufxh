@@ -20,8 +20,8 @@
                 "type": "hosts",
                 "predefined": {
                     "dns.adguard-dns.com": [
-                        "94.140.14.14",
-                        "94.140.15.15"
+                        "94.140.15.15",
+                        "94.140.14.14"
                     ]
                 },
                 "tag": "hosts"
@@ -104,11 +104,11 @@
             "network": "tcp",
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiZjBqaHZYVkd4MEZYZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==",
+                "path": "/eyJqdW5rIjoiR2lwaFNvV1lZNE4xaiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                    "Host": "chk1.alisport0.qzz.io"
                 }
             },
             "domain_resolver": "dns-direct"
@@ -116,18 +116,18 @@
         {
             "tag": "ðŸ’¦ 2 - Trojan - Domain : 80",
             "type": "trojan",
-            "server": "chk2.alisport0.qzz.io",
+            "server": "chk1.alisport0.qzz.io",
             "server_port": 80,
             "tcp_fast_open": false,
             "password": "H_Vd}#hqvkJ5X6V5",
             "network": "tcp",
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiRTFxamkxY0ciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "path": "/eyJqdW5rIjoiVHdhTjZSekdreUdJIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                    "Host": "chk1.alisport0.qzz.io"
                 }
             },
             "domain_resolver": "dns-direct"
@@ -135,292 +135,494 @@
         {
             "tag": "ðŸ’¦ 3 - Trojan - IPv4 : 80",
             "type": "trojan",
-            "server": "chk3.alisport0.qzz.io",
+            "server": "chk1.alisport0.qzz.io",
             "server_port": 80,
             "tcp_fast_open": false,
             "password": "H_Vd}#hqvkJ5X6V5",
             "network": "tcp",
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiZ3RUalFsaG8iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "path": "/eyJqdW5rIjoidjFBeDB0U1giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                    "Host": "chk1.alisport0.qzz.io"
                 }
             }
         },
         {
             "tag": "ðŸ’¦ 4 - Trojan - IPv4 : 80",
             "type": "trojan",
-            "server": "chk4.alisport0.qzz.io",
-            "server_port": 80,
-            "tcp_fast_open": false,
-            "password": "H_Vd}#hqvkJ5X6V5",
-            "network": "tcp",
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoidTQ3a01KcXRMRyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 5 - Trojan - Clean IP : 80",
-            "type": "trojan",
-            "server": "chk5.alisport0.qzz.io",
-            "server_port": 80,
-            "tcp_fast_open": false,
-            "password": "H_Vd}#hqvkJ5X6V5",
-            "network": "tcp",
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiQk8zUDlZYkoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 6 - Trojan - Clean IP : 80",
-            "type": "trojan",
-            "server": "chk6.alisport0.qzz.io",
-            "server_port": 80,
-            "tcp_fast_open": false,
-            "password": "H_Vd}#hqvkJ5X6V5",
-            "network": "tcp",
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiT3lPc2tldVhlSVUyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 7 - Trojan - Clean IP : 80",
-            "type": "trojan",
-            "server": "chk7.alisport0.qzz.io",
-            "server_port": 80,
-            "tcp_fast_open": false,
-            "password": "H_Vd}#hqvkJ5X6V5",
-            "network": "tcp",
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiakRLNVlUZWRFTkVSNUciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "ðŸ’¦ 8 - Trojan - Domain : 80",
-            "type": "trojan",
-            "server": "chk8.alisport0.qzz.io",
-            "server_port": 80,
-            "tcp_fast_open": false,
-            "password": "H_Vd}#hqvkJ5X6V5",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "aCsaCs3.ALI-rAsouLY.WoRKErS.Dev",
-                "record_fragment": false,
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiNDJITEhiYnciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
-                "max_early_data": 2560,
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
-                }
-            },
-            "domain_resolver": "dns-direct"
-        },
-        {
-            "tag": "ðŸ’¦ 9 - Trojan - Domain : 80",
-            "type": "trojan",
             "server": "chk1.alisport0.qzz.io",
             "server_port": 80,
             "tcp_fast_open": false,
             "password": "H_Vd}#hqvkJ5X6V5",
             "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ACSAcs3.alI-rASoULy.worKeRs.dEv",
-                "record_fragment": false,
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiT1RjWnRDQ0hUaTg4Z0giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "path": "/eyJqdW5rIjoiUEpJWXRobEpIT2VFV3h2cyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 5 - Trojan - Domain : 8080",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8080,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiTlZkT0NRNHJRN3lQRiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
                 }
             },
             "domain_resolver": "dns-direct"
         },
         {
-            "tag": "ðŸ’¦ 10 - Trojan - IPv4 : 80",
+            "tag": "ðŸ’¦ 6 - Trojan - Domain : 8080",
             "type": "trojan",
-            "server": "chk2.alisport0.qzz.io",
-            "server_port": 80,
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8080,
             "tcp_fast_open": false,
             "password": "H_Vd}#hqvkJ5X6V5",
             "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "AcSAcs3.ali-RaSOULy.WORkerS.DEV",
-                "record_fragment": false,
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiNFc1WnpuTFByZDUzYiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjY0LjE4OC42OC4xMSJdfQ==",
+                "path": "/eyJqdW5rIjoiODZ6b0s2NGQzIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 7 - Trojan - IPv4 : 8080",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8080,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoibFRRVXFKSjhGNXl1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
                 }
             }
         },
         {
-            "tag": "ðŸ’¦ 11 - Trojan - IPv4 : 80",
+            "tag": "ðŸ’¦ 8 - Trojan - IPv4 : 8080",
             "type": "trojan",
-            "server": "chk3.alisport0.qzz.io",
-            "server_port": 80,
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8080,
             "tcp_fast_open": false,
             "password": "H_Vd}#hqvkJ5X6V5",
             "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "aCSACs3.ALi-RAsoULY.WOrkERs.dEv",
-                "record_fragment": false,
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiYkNxajZGT1hXVkpSIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19",
+                "path": "/eyJqdW5rIjoiTk1lNDYwdEYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                    "Host": "chk1.alisport0.qzz.io"
                 }
             }
         },
         {
-            "tag": "ðŸ’¦ 12 - Trojan - Clean IP : 80",
+            "tag": "ðŸ’¦ 9 - Trojan - Domain : 8880",
             "type": "trojan",
-            "server": "chk4.alisport0.qzz.io",
-            "server_port": 80,
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8880,
             "tcp_fast_open": false,
             "password": "H_Vd}#hqvkJ5X6V5",
             "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "AcSAcS3.aLi-RASoULY.WoRKeRs.DEv",
-                "record_fragment": false,
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiTUpMNVc2dTd6SkhnIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19",
+                "path": "/eyJqdW5rIjoiUzNaOTBqSFdqIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 10 - Trojan - Domain : 8880",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8880,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiWjYzZmpSOTdDdGVLVFRqIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 11 - Trojan - IPv4 : 8880",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8880,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiV2xRdlM0Nlo5RGt6Ym5hUyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
                 }
             }
         },
         {
-            "tag": "ðŸ’¦ 13 - Trojan - Clean IP : 80",
+            "tag": "ðŸ’¦ 12 - Trojan - IPv4 : 8880",
             "type": "trojan",
-            "server": "chk5.alisport0.qzz.io",
-            "server_port": 80,
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8880,
             "tcp_fast_open": false,
             "password": "H_Vd}#hqvkJ5X6V5",
             "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "server_name": "acsaCs3.Ali-RasouLY.worKeRS.dev",
-                "record_fragment": false,
-                "insecure": false,
-                "alpn": [
-                    "http/1.1"
-                ],
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoieE1OTUE1WkZhR2NaeUhEIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNjQuMTg4LjY4LjExIl19",
+                "path": "/eyJqdW5rIjoia0FKMXFJWVM3emE5IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                    "Host": "chk1.alisport0.qzz.io"
                 }
             }
         },
         {
-            "tag": "ðŸ’¦ 14 - Trojan - Clean IP : 80",
+            "tag": "ðŸ’¦ 13 - Trojan - Domain : 2052",
             "type": "trojan",
-            "server": "chk6.alisport0.qzz.io",
-            "server_port": 80,
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2052,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiVlZiOVdqa1ZWNnZGIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 14 - Trojan - Domain : 2052",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2052,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiMlFrRWdHTHNad1dFRUwiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 15 - Trojan - IPv4 : 2052",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2052,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiWE5waXlyOGEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 16 - Trojan - IPv4 : 2052",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2052,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiY2xzd1EwcnJnZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 17 - Trojan - Domain : 2082",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2082,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoidDFSTVZBcmF6cThacWMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 18 - Trojan - Domain : 2082",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2082,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoidTJlY0pVNlh3UkwiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 19 - Trojan - IPv4 : 2082",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2082,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiY01tSUhjVUVpeFgxcTciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 20 - Trojan - IPv4 : 2082",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2082,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiY3FqZVJzVXgzIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 21 - Trojan - Domain : 2086",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2086,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiTlV5N2loR2pGZGxMZDFTSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 22 - Trojan - Domain : 2086",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2086,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoibDVjOElXZHNGWTkwOHgxIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 23 - Trojan - IPv4 : 2086",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2086,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRTd5ellENFdsV0VBNlRCIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 24 - Trojan - IPv4 : 2086",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2086,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRUJVYW9iNUJFM0ZReSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 25 - Trojan - Domain : 2095",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2095,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiUnNLWnFSVXZBVEV1IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 26 - Trojan - Domain : 2095",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2095,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiS1RXNEdNM1F2NVRCUXdqIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 27 - Trojan - IPv4 : 2095",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2095,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiMzBOQ1FuU3pkZUxXMDMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 28 - Trojan - IPv4 : 2095",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2095,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoia2ZxQ1RtZ2ZFZkFnIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 29 - Trojan - Domain : 443",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 443,
             "tcp_fast_open": false,
             "password": "H_Vd}#hqvkJ5X6V5",
             "network": "tcp",
             "tls": {
                 "enabled": true,
-                "server_name": "ACsACS3.aLi-RAsoUly.wOrkErS.deV",
+                "server_name": "chk1.alisport0.qzz.io",
                 "record_fragment": false,
                 "insecure": false,
                 "alpn": [
@@ -433,11 +635,736 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoid0VhZzJOZmVHT3AiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI2NC4xODguNjguMTEiXX0=",
+                "path": "/eyJqdW5rIjoiblBuOG5Eb1FOMFRtTG8iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
                 "max_early_data": 2560,
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "acsacs3.ali-rasouly.workers.dev"
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 30 - Trojan - Domain : 443",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoibVFSdTR4TEciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 31 - Trojan - IPv4 : 443",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiVEg2UW1pYjZIbFBPdSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 32 - Trojan - IPv4 : 443",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 443,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZHdHQWZ2TzAiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 33 - Trojan - Domain : 8443",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoidTBlVEJmYVRqIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 34 - Trojan - Domain : 8443",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiakxoTWZ6NWtXMTM0ZTFMciIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 35 - Trojan - IPv4 : 8443",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiR1c1SkNhODFuTiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 36 - Trojan - IPv4 : 8443",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 8443,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiTnpVa0wyUjNjVmFHam4iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 37 - Trojan - Domain : 2053",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoib1BZUWpZWm9jYSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 38 - Trojan - Domain : 2053",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiM0J5WEVUbHoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 39 - Trojan - IPv4 : 2053",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZEE1MWZNM09FNk9haUM2IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 40 - Trojan - IPv4 : 2053",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2053,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiQnlCanl3eHU5dDQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 41 - Trojan - Domain : 2083",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiQVdIZ1pVVExwVkpoIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 42 - Trojan - Domain : 2083",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoib1hSTVcwR0Z1cGNROXoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 43 - Trojan - IPv4 : 2083",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiTHhQMDIwYkZHNSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 44 - Trojan - IPv4 : 2083",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2083,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoidFZXandOYUtTbDJvcVQzIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 45 - Trojan - Domain : 2087",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoib0R3dHdUUk9pZ1Q1ck1SSCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 46 - Trojan - Domain : 2087",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiTzBRZEttemdkTiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 47 - Trojan - IPv4 : 2087",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoieTAzREVtZXVNc2FqVVoiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 48 - Trojan - IPv4 : 2087",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2087,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRW5KZ0JMR3lUIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 49 - Trojan - Domain : 2096",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoieDVFZHFVSzF5IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTcyLjg2Ljk1LjIzNiJdfQ==",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 50 - Trojan - Domain : 2096",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiSHNQV29aQ2FUSCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            },
+            "domain_resolver": "dns-direct"
+        },
+        {
+            "tag": "ðŸ’¦ 51 - Trojan - IPv4 : 2096",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiMmIybzlYb01zZ1BpYyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE3Mi44Ni45NS4yMzYiXX0=",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
+                }
+            }
+        },
+        {
+            "tag": "ðŸ’¦ 52 - Trojan - IPv4 : 2096",
+            "type": "trojan",
+            "server": "chk1.alisport0.qzz.io",
+            "server_port": 2096,
+            "tcp_fast_open": false,
+            "password": "H_Vd}#hqvkJ5X6V5",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chk1.alisport0.qzz.io",
+                "record_fragment": false,
+                "insecure": false,
+                "alpn": [
+                    "http/1.1"
+                ],
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiOEttZFRvbGVTaVgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNzIuODYuOTUuMjM2Il19",
+                "max_early_data": 2560,
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "chk1.alisport0.qzz.io"
                 }
             }
         },
@@ -450,16 +1377,54 @@
                 "ðŸ’¦ 2 - Trojan - Domain : 80",
                 "ðŸ’¦ 3 - Trojan - IPv4 : 80",
                 "ðŸ’¦ 4 - Trojan - IPv4 : 80",
-                "ðŸ’¦ 5 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 6 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 7 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 8 - Trojan - Domain : 80",
-                "ðŸ’¦ 9 - Trojan - Domain : 80",
-                "ðŸ’¦ 10 - Trojan - IPv4 : 80",
-                "ðŸ’¦ 11 - Trojan - IPv4 : 80",
-                "ðŸ’¦ 12 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 13 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 14 - Trojan - Clean IP : 80"
+                "ðŸ’¦ 5 - Trojan - Domain : 8080",
+                "ðŸ’¦ 6 - Trojan - Domain : 8080",
+                "ðŸ’¦ 7 - Trojan - IPv4 : 8080",
+                "ðŸ’¦ 8 - Trojan - IPv4 : 8080",
+                "ðŸ’¦ 9 - Trojan - Domain : 8880",
+                "ðŸ’¦ 10 - Trojan - Domain : 8880",
+                "ðŸ’¦ 11 - Trojan - IPv4 : 8880",
+                "ðŸ’¦ 12 - Trojan - IPv4 : 8880",
+                "ðŸ’¦ 13 - Trojan - Domain : 2052",
+                "ðŸ’¦ 14 - Trojan - Domain : 2052",
+                "ðŸ’¦ 15 - Trojan - IPv4 : 2052",
+                "ðŸ’¦ 16 - Trojan - IPv4 : 2052",
+                "ðŸ’¦ 17 - Trojan - Domain : 2082",
+                "ðŸ’¦ 18 - Trojan - Domain : 2082",
+                "ðŸ’¦ 19 - Trojan - IPv4 : 2082",
+                "ðŸ’¦ 20 - Trojan - IPv4 : 2082",
+                "ðŸ’¦ 21 - Trojan - Domain : 2086",
+                "ðŸ’¦ 22 - Trojan - Domain : 2086",
+                "ðŸ’¦ 23 - Trojan - IPv4 : 2086",
+                "ðŸ’¦ 24 - Trojan - IPv4 : 2086",
+                "ðŸ’¦ 25 - Trojan - Domain : 2095",
+                "ðŸ’¦ 26 - Trojan - Domain : 2095",
+                "ðŸ’¦ 27 - Trojan - IPv4 : 2095",
+                "ðŸ’¦ 28 - Trojan - IPv4 : 2095",
+                "ðŸ’¦ 29 - Trojan - Domain : 443",
+                "ðŸ’¦ 30 - Trojan - Domain : 443",
+                "ðŸ’¦ 31 - Trojan - IPv4 : 443",
+                "ðŸ’¦ 32 - Trojan - IPv4 : 443",
+                "ðŸ’¦ 33 - Trojan - Domain : 8443",
+                "ðŸ’¦ 34 - Trojan - Domain : 8443",
+                "ðŸ’¦ 35 - Trojan - IPv4 : 8443",
+                "ðŸ’¦ 36 - Trojan - IPv4 : 8443",
+                "ðŸ’¦ 37 - Trojan - Domain : 2053",
+                "ðŸ’¦ 38 - Trojan - Domain : 2053",
+                "ðŸ’¦ 39 - Trojan - IPv4 : 2053",
+                "ðŸ’¦ 40 - Trojan - IPv4 : 2053",
+                "ðŸ’¦ 41 - Trojan - Domain : 2083",
+                "ðŸ’¦ 42 - Trojan - Domain : 2083",
+                "ðŸ’¦ 43 - Trojan - IPv4 : 2083",
+                "ðŸ’¦ 44 - Trojan - IPv4 : 2083",
+                "ðŸ’¦ 45 - Trojan - Domain : 2087",
+                "ðŸ’¦ 46 - Trojan - Domain : 2087",
+                "ðŸ’¦ 47 - Trojan - IPv4 : 2087",
+                "ðŸ’¦ 48 - Trojan - IPv4 : 2087",
+                "ðŸ’¦ 49 - Trojan - Domain : 2096",
+                "ðŸ’¦ 50 - Trojan - Domain : 2096",
+                "ðŸ’¦ 51 - Trojan - IPv4 : 2096",
+                "ðŸ’¦ 52 - Trojan - IPv4 : 2096"
             ],
             "interrupt_exist_connections": false
         },
@@ -476,16 +1441,54 @@
                 "ðŸ’¦ 2 - Trojan - Domain : 80",
                 "ðŸ’¦ 3 - Trojan - IPv4 : 80",
                 "ðŸ’¦ 4 - Trojan - IPv4 : 80",
-                "ðŸ’¦ 5 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 6 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 7 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 8 - Trojan - Domain : 80",
-                "ðŸ’¦ 9 - Trojan - Domain : 80",
-                "ðŸ’¦ 10 - Trojan - IPv4 : 80",
-                "ðŸ’¦ 11 - Trojan - IPv4 : 80",
-                "ðŸ’¦ 12 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 13 - Trojan - Clean IP : 80",
-                "ðŸ’¦ 14 - Trojan - Clean IP : 80"
+                "ðŸ’¦ 5 - Trojan - Domain : 8080",
+                "ðŸ’¦ 6 - Trojan - Domain : 8080",
+                "ðŸ’¦ 7 - Trojan - IPv4 : 8080",
+                "ðŸ’¦ 8 - Trojan - IPv4 : 8080",
+                "ðŸ’¦ 9 - Trojan - Domain : 8880",
+                "ðŸ’¦ 10 - Trojan - Domain : 8880",
+                "ðŸ’¦ 11 - Trojan - IPv4 : 8880",
+                "ðŸ’¦ 12 - Trojan - IPv4 : 8880",
+                "ðŸ’¦ 13 - Trojan - Domain : 2052",
+                "ðŸ’¦ 14 - Trojan - Domain : 2052",
+                "ðŸ’¦ 15 - Trojan - IPv4 : 2052",
+                "ðŸ’¦ 16 - Trojan - IPv4 : 2052",
+                "ðŸ’¦ 17 - Trojan - Domain : 2082",
+                "ðŸ’¦ 18 - Trojan - Domain : 2082",
+                "ðŸ’¦ 19 - Trojan - IPv4 : 2082",
+                "ðŸ’¦ 20 - Trojan - IPv4 : 2082",
+                "ðŸ’¦ 21 - Trojan - Domain : 2086",
+                "ðŸ’¦ 22 - Trojan - Domain : 2086",
+                "ðŸ’¦ 23 - Trojan - IPv4 : 2086",
+                "ðŸ’¦ 24 - Trojan - IPv4 : 2086",
+                "ðŸ’¦ 25 - Trojan - Domain : 2095",
+                "ðŸ’¦ 26 - Trojan - Domain : 2095",
+                "ðŸ’¦ 27 - Trojan - IPv4 : 2095",
+                "ðŸ’¦ 28 - Trojan - IPv4 : 2095",
+                "ðŸ’¦ 29 - Trojan - Domain : 443",
+                "ðŸ’¦ 30 - Trojan - Domain : 443",
+                "ðŸ’¦ 31 - Trojan - IPv4 : 443",
+                "ðŸ’¦ 32 - Trojan - IPv4 : 443",
+                "ðŸ’¦ 33 - Trojan - Domain : 8443",
+                "ðŸ’¦ 34 - Trojan - Domain : 8443",
+                "ðŸ’¦ 35 - Trojan - IPv4 : 8443",
+                "ðŸ’¦ 36 - Trojan - IPv4 : 8443",
+                "ðŸ’¦ 37 - Trojan - Domain : 2053",
+                "ðŸ’¦ 38 - Trojan - Domain : 2053",
+                "ðŸ’¦ 39 - Trojan - IPv4 : 2053",
+                "ðŸ’¦ 40 - Trojan - IPv4 : 2053",
+                "ðŸ’¦ 41 - Trojan - Domain : 2083",
+                "ðŸ’¦ 42 - Trojan - Domain : 2083",
+                "ðŸ’¦ 43 - Trojan - IPv4 : 2083",
+                "ðŸ’¦ 44 - Trojan - IPv4 : 2083",
+                "ðŸ’¦ 45 - Trojan - Domain : 2087",
+                "ðŸ’¦ 46 - Trojan - Domain : 2087",
+                "ðŸ’¦ 47 - Trojan - IPv4 : 2087",
+                "ðŸ’¦ 48 - Trojan - IPv4 : 2087",
+                "ðŸ’¦ 49 - Trojan - Domain : 2096",
+                "ðŸ’¦ 50 - Trojan - Domain : 2096",
+                "ðŸ’¦ 51 - Trojan - IPv4 : 2096",
+                "ðŸ’¦ 52 - Trojan - IPv4 : 2096"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interrupt_exist_connections": false,
