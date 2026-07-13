@@ -1,5 +1,5 @@
 {
-  "remarks": "FINAL2_cleanip&mydom_AutoSelect(BestPing)",
+  "remarks": "FINAL2_cleanip&dom_AutoSelect(BestPing)",
   "version": {
     "min": "26.2.6"
   },
@@ -126,7 +126,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoicVZybUZWcWFoY24iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "none",
@@ -156,7 +156,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoid0JLUDVWQTZFd3l6IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
@@ -186,7 +186,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiM3NtS2xzb2hVVnRudWlSIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
@@ -216,7 +216,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiVjZrc3YyMGFOIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
@@ -246,7 +246,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiMkVzSkhXTXVsIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
@@ -276,7 +276,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiaENyaW4xZU1kRjhBWGxwRyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "none",
@@ -306,7 +306,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiTTlTelVRclU1bzhPTk0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "none",
@@ -336,12 +336,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiTXVUa1hKTWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "min3.alisport0.qzz.io",
+          "serverName": "dom.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -373,12 +373,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiQUhqUU96MFc0OEduc0siLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "min3.alisport0.qzz.io",
+          "serverName": "dom.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -410,12 +410,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiMUlRcVZ4YWsyeSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "min3.alisport0.qzz.io",
+          "serverName": "dom.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -447,12 +447,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiY2puUEFVNXFBbXVOIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "min3.alisport0.qzz.io",
+          "serverName": "dom.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -484,12 +484,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiRG13QkpJU2RTZTMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "min3.alisport0.qzz.io",
+          "serverName": "dom.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -521,12 +521,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoidkhMZlZQSlppV2FqTjVxayIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "min3.alisport0.qzz.io",
+          "serverName": "dom.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -558,12 +558,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "min3.alisport0.qzz.io",
+          "host": "dom.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoia05pSU1VQ1QyaFk5SyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "min3.alisport0.qzz.io",
+          "serverName": "dom.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
