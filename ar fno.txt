@@ -1,5 +1,5 @@
 {
-  "remarks": "ar4_fno_chk_defDOM",
+  "remarks": "chk&80&80_AutoSelect(BestPing)",
   "version": {
     "min": "26.2.6"
   },
@@ -7,30 +7,232 @@
     "loglevel": "none"
   },
   "dns": {
+    "hosts": {
+      "dns.adguard-dns.com": [
+        "94.140.15.15",
+        "94.140.14.14"
+      ]
+    },
     "servers": [
       {
-        "address": "https://0.0.0.1/dns-query",
+        "address": "fakedns",
+        "domains": [
+          "full:faster.rainzone.ir",
+          "full:octopusss4.com",
+          "full:vi.mojaz-persian-music.ir",
+          "full:ssj.new-persian-song.ir",
+          "full:etherscan.io",
+          "full:ipify.org",
+          "full:api.apify.org",
+          "full:bscscan.com",
+          "full:unpkg.com",
+          "full:ifconfig.co",
+          "full:support.cloudflare.com",
+          "full:theathletic.com",
+          "full:www.etherscan.io",
+          "full:curve.fi",
+          "full:www.phantom.app",
+          "full:www.ledger.com",
+          "full:arbiscan.io",
+          "full:www.blockchain.com",
+          "full:blog.cloudflare.com",
+          "full:trustwallet.com",
+          "full:icanhazip.com",
+          "full:polygonscan.com",
+          "full:character.ai",
+          "full:developers.cloudflare.com",
+          "full:www.supabase.com",
+          "full:www.trustwallet.com",
+          "full:trezor.io",
+          "full:cloudflareinsights.com",
+          "full:www.icanhazip.com",
+          "full:ipapi.co",
+          "full:cloudflarestream.com",
+          "full:postman.com",
+          "full:warp.cloudflare.com",
+          "full:www.postman.com",
+          "full:community.cloudflare.com",
+          "full:www.auth0.com",
+          "full:www.hcaptcha.com",
+          "full:turso.tech",
+          "full:www.planetscale.com",
+          "full:www.browserstack.com",
+          "full:neon.tech",
+          "full:battle.net",
+          "full:www.sproutsocial.com",
+          "full:www.framer.com",
+          "full:wikimedia.org",
+          "full:hootsuite.com",
+          "full:mailchimp.com",
+          "full:www.hubspot.com",
+          "full:www.brilliant.org",
+          "full:community.cloudflare.com",
+          "full:stream.cloudflare.com",
+          "full:buffer.com",
+          "full:www.indiegogo.com",
+          "full:warp.cloudflare.com",
+          "full:learn.cloudflare.com",
+          "full:nuxtjs.org",
+          "full:cloudflarestream.com",
+          "full:calendly.com",
+          "full:r2.cloudflarestorage.com",
+          "full:www.cal.com",
+          "full:static.canva.com",
+          "full:www.metamask.io",
+          "full:workers.dev",
+          "full:www.canva.com",
+          "full:www.phantom.app",
+          "full:postman-echo.com",
+          "full:www.trustwallet.com",
+          "full:www.uniswap.org",
+          "full:security.vercel.com",
+          "full:media.discordapp.net",
+          "full:blog.cloudflare.com",
+          "full:dash.cloudflare.com",
+          "full:www.gitlab.com",
+          "full:ledger.com",
+          "full:www.ledger.com",
+          "full:superhuman.com",
+          "full:trezor.io",
+          "full:cloudflarestream.com",
+          "full:workers.cloudflare.com",
+          "full:warp.cloudflare.com",
+          "full:www.postman.com",
+          "full:support.cloudflare.com",
+          "full:www.auth0.com",
+          "full:www.hcaptcha.com",
+          "full:app.uniswap.org",
+          "full:www.monday.com",
+          "full:bit.dev",
+          "full:www.linear.app",
+          "full:www.bit.dev",
+          "full:codesandbox.io",
+          "full:codepen.io",
+          "full:tanstack.com",
+          "full:radar.cloudflare.com",
+          "full:logrocket.com",
+          "full:teams.cloudflare.com",
+          "full:api.cloudflare.com",
+          "full:developers.cloudflare.com"
+
+        ],
+        "skipFallback": false
+      },
+      {
+        "address": "https://dns.adguard-dns.com/dns-query",
         "tag": "remote-dns"
       },
       {
-        "address": "0.0.0.1",
+        "address": "8.8.8.8",
         "domains": [
+          "geosite:category-ir"
+        ],
+        "expectIPs": [
+          "geoip:ir"
+        ],
+        "skipFallback": true
+      },
+      {
+        "address": "8.8.8.8",
+        "domains": [
+          "full:faster.rainzone.ir",
+          "full:octopusss4.com",
+          "full:vi.mojaz-persian-music.ir",
+          "full:ssj.new-persian-song.ir",
+          "full:etherscan.io",
+          "full:ipify.org",
+          "full:api.apify.org",
+          "full:bscscan.com",
+          "full:unpkg.com",
+          "full:ifconfig.co",
+          "full:support.cloudflare.com",
+          "full:theathletic.com",
+          "full:www.etherscan.io",
+          "full:curve.fi",
+          "full:www.phantom.app",
+          "full:www.ledger.com",
+          "full:arbiscan.io",
+          "full:www.blockchain.com",
+          "full:blog.cloudflare.com",
+          "full:trustwallet.com",
+          "full:icanhazip.com",
+          "full:polygonscan.com",
+          "full:character.ai",
+          "full:developers.cloudflare.com",
+          "full:www.supabase.com",
+          "full:www.trustwallet.com",
+          "full:trezor.io",
+          "full:cloudflareinsights.com",
+          "full:www.icanhazip.com",
+          "full:ipapi.co",
+          "full:cloudflarestream.com",
+          "full:postman.com",
+          "full:warp.cloudflare.com",
+          "full:www.postman.com",
+          "full:community.cloudflare.com",
+          "full:www.auth0.com",
+          "full:www.hcaptcha.com",
+          "full:turso.tech",
+          "full:www.planetscale.com",
+          "full:www.browserstack.com",
+          "full:neon.tech",
+          "full:battle.net",
+          "full:www.sproutsocial.com",
+          "full:www.framer.com",
+          "full:wikimedia.org",
+          "full:hootsuite.com",
+          "full:mailchimp.com",
+          "full:www.hubspot.com",
+          "full:www.brilliant.org",
+          "full:community.cloudflare.com",
+          "full:stream.cloudflare.com",
+          "full:buffer.com",
+          "full:www.indiegogo.com",
+          "full:warp.cloudflare.com",
+          "full:learn.cloudflare.com",
+          "full:nuxtjs.org",
+          "full:cloudflarestream.com",
+          "full:calendly.com",
+          "full:r2.cloudflarestorage.com",
+          "full:www.cal.com",
+          "full:static.canva.com",
+          "full:www.metamask.io",
+          "full:workers.dev",
+          "full:www.canva.com",
+          "full:www.phantom.app",
+          "full:postman-echo.com",
+          "full:www.trustwallet.com",
+          "full:www.uniswap.org",
+          "full:security.vercel.com",
+          "full:media.discordapp.net",
+          "full:blog.cloudflare.com",
+          "full:dash.cloudflare.com",
+          "full:www.gitlab.com",
+          "full:ledger.com",
+          "full:www.ledger.com",
+          "full:superhuman.com",
+          "full:trezor.io",
+          "full:cloudflarestream.com",
+          "full:workers.cloudflare.com",
+          "full:warp.cloudflare.com",
+          "full:www.postman.com",
+          "full:support.cloudflare.com",
+          "full:www.auth0.com",
+          "full:www.hcaptcha.com",
+          "full:app.uniswap.org",
+          "full:www.monday.com",
+          "full:bit.dev",
+          "full:www.linear.app",
+          "full:www.bit.dev",
+          "full:codesandbox.io",
+          "full:codepen.io",
+          "full:tanstack.com",
+          "full:radar.cloudflare.com",
+          "full:logrocket.com",
+          "full:teams.cloudflare.com",
+          "full:api.cloudflare.com",
+          "full:developers.cloudflare.com"
 
-          "full:min1.alisport0.qzz.io",
-          "full:min2.alisport0.qzz.io",
-          "full:min3.alisport0.qzz.io",
-          "full:min4.alisport0.qzz.io",
-          "full:min5.alisport0.qzz.io",
-          "full:min6.alisport0.qzz.io",
-          "full:chk1.alisport0.qzz.io",
-          "full:chk2.alisport0.qzz.io",
-          "full:chk3.alisport0.qzz.io",
-          "full:chk4.alisport0.qzz.io",
-          "full:chk5.alisport0.qzz.io",
-          "full:chk6.alisport0.qzz.io",
-          "full:chk7.alisport0.qzz.io",
-          "full:chk8.alisport0.qzz.io",
-          "full:dom.alisport0.qzz.io"
 
         ],
         "skipFallback": true
@@ -51,7 +253,8 @@
       "sniffing": {
         "destOverride": [
           "http",
-          "tls"
+          "tls",
+          "fakedns"
         ],
         "enabled": true,
         "routeOnly": true
@@ -63,7 +266,7 @@
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
-        "address": "1.1.1.1",
+        "address": "udp://8.8.8.8:53",
         "network": "tcp,udp",
         "port": 53
       },
@@ -72,31 +275,25 @@
   ],
   "outbounds": [
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk7.alisport0.qzz.io",
-            "port": 2086,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk1.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/iyCBBUadvEOA89vMBnIgBrGlN?ed=2560"
+          "host": "chk1.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoicVZybUZWcWFoY24iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -108,31 +305,25 @@
       "tag": "proxy-1"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk1.alisport0.qzz.io",
-            "port": 2086,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk2.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/KQTa5lT4ft2Xn2jd5LV0lQANfIA?ed=2560"
+          "host": "chk2.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoid0JLUDVWQTZFd3l6IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -144,31 +335,25 @@
       "tag": "proxy-2"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk1.alisport0.qzz.io",
-            "port": 2086,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk3.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/7ilK5CXLnnAXE4ALd1jvC9pj3dQvTO6?ed=2560"
+          "host": "chk3.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiM3NtS2xzb2hVVnRudWlSIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -180,31 +365,25 @@
       "tag": "proxy-3"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
-            "port": 2086,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk4.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/VD64oIJYRAA3Xj38Qw7ADX?ed=2560"
+          "host": "chk4.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiVjZrc3YyMGFOIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -216,31 +395,25 @@
       "tag": "proxy-4"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
             "address": "chk5.alisport0.qzz.io",
-            "port": 2086,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/71f9aGxL9kb2XfQzYcDvif9NwoHV?ed=2560"
+          "host": "chk5.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiMkVzSkhXTXVsIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -252,31 +425,25 @@
       "tag": "proxy-5"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
-            "port": 2086,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk6.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/Hd5FmnjaxZ4DePyZFPizZEMt?ed=2560"
+          "host": "chk6.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiaENyaW4xZU1kRjhBWGxwRyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -288,38 +455,25 @@
       "tag": "proxy-6"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk8.alisport0.qzz.io",
-            "port": 2096,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk7.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/WfRSItXKYJfv1iLoE1mNJz24yCVtkQtD?ed=2560"
+          "host": "chk7.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiTTlTelVRclU1bzhPTk0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "n8GHskieFf-RoFpJUQ-xe2V3VT.ALi-RaSOuly.WORkERs.deV",
-          "fingerprint": "ios",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
+        "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -331,38 +485,32 @@
       "tag": "proxy-7"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
-            "port": 2096,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk8.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/tbd6mBHCYDcOQvSy96xJ5Hnc?ed=2560"
+          "host": "chk8.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiTXVUa1hKTWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "N8ghSKIefF-roFpjUq-xE2V3vT.ALI-rAsOULY.wORKeRs.DEV",
-          "fingerprint": "ios",
+          "serverName": "AcsaCs3.aLI-rAsOULy.WorkERs.deV",
+          "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
           ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -374,38 +522,32 @@
       "tag": "proxy-8"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
-            "port": 2096,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk1.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/UfNuQtlyKiCxyM4JVwh0t8g19Z?ed=2560"
+          "host": "chk1.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiQUhqUU96MFc0OEduc0siLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "N8gHSkIEfF-ROfpjuQ-xE2V3Vt.ALi-RAsouLY.WOrKERS.dEv",
-          "fingerprint": "ios",
+          "serverName": "acSacs3.alI-rAsOuLy.worKerS.dev",
+          "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
           ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -417,38 +559,32 @@
       "tag": "proxy-9"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk4.alisport0.qzz.io",
-            "port": 2096,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk2.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/sctiC4UbUH629GlLBVoKgC5eNtYRzax?ed=2560"
+          "host": "chk2.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiMUlRcVZ4YWsyeSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "N8ghSKieFF-rOFPJUQ-xe2v3vT.ALi-rasOULY.WOrkeRS.deV",
-          "fingerprint": "ios",
+          "serverName": "ACsACs3.aLi-rAsOUlY.WoRKers.dEv",
+          "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
           ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -460,38 +596,32 @@
       "tag": "proxy-10"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "chk6.alisport0.qzz.io",
-            "port": 2096,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "address": "chk3.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/9xCNxxua5QNRWNzeMh6EWfy?ed=2560"
+          "host": "chk3.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiY2puUEFVNXFBbXVOIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "n8GhskiefF-rOfPjuq-xE2v3vT.ALI-RAsOuLy.workERs.dEv",
-          "fingerprint": "ios",
+          "serverName": "ACsacS3.aLI-rAsOulY.woRkeRS.dev",
+          "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
           ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -503,38 +633,32 @@
       "tag": "proxy-11"
     },
     {
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
             "address": "chk4.alisport0.qzz.io",
-            "port": 2096,
-            "users": [
-              {
-                "id": "91821f63-cc4b-45b5-b796-fd10ece980e3",
-                "encryption": "none"
-              }
-            ]
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "n8ghskieff-rofpjuq-xe2v3vt.ali-rasouly.workers.dev",
-          "path": "/vl/qImrwmiiHH9VRMGfWgX9rM?ed=2560"
+          "host": "chk4.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoiRG13QkpJU2RTZTMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "n8ghskIEFF-ROFpjUQ-xe2v3Vt.Ali-rasoULY.WorkeRs.DEV",
-          "fingerprint": "ios",
+          "serverName": "ACSAcS3.ALI-rAsOUlY.WOrKeRs.deV",
+          "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
           ]
         },
         "sockopt": {
           "domainStrategy": "UseIP",
-          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -544,6 +668,80 @@
         }
       },
       "tag": "proxy-12"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "chk5.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "chk5.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoidkhMZlZQSlppV2FqTjVxayIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Acsacs3.aLI-RaSoUlY.WorkerS.dEv",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-13"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "chk6.alisport0.qzz.io",
+            "port": 80,
+            "password": "H_Vd}#hqvkJ5X6V5"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "chk6.alisport0.qzz.io",
+          "path": "/eyJqdW5rIjoia05pSU1VQ1QyaFk5SyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "acSAcS3.ali-RAsOuLY.WOrkERS.dEV",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-14"
     },
     {
       "protocol": "dns",
@@ -622,6 +820,20 @@
       {
         "network": "udp",
         "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:category-ir"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:ir"
+        ],
+        "outboundTag": "direct",
         "type": "field"
       },
       {
