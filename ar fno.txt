@@ -1,5 +1,5 @@
 {
-  "remarks": "chk&80&80_AutoSelect(BestPing)",
+  "remarks": "FINAL2_chk1_AutoSelect(BestPing)",
   "version": {
     "min": "26.2.6"
   },
@@ -17,6 +17,21 @@
       {
         "address": "fakedns",
         "domains": [
+          "full:min1.alisport0.qzz.io",
+          "full:min2.alisport0.qzz.io",
+          "full:min3.alisport0.qzz.io",
+          "full:min4.alisport0.qzz.io",
+          "full:min5.alisport0.qzz.io",
+          "full:min6.alisport0.qzz.io",
+          "full:chk1.alisport0.qzz.io",
+          "full:chk2.alisport0.qzz.io",
+          "full:chk3.alisport0.qzz.io",
+          "full:chk4.alisport0.qzz.io",
+          "full:chk5.alisport0.qzz.io",
+          "full:chk6.alisport0.qzz.io",
+          "full:chk7.alisport0.qzz.io",
+          "full:chk8.alisport0.qzz.io",
+          "full:dom.alisport0.qzz.io",
           "full:faster.rainzone.ir",
           "full:octopusss4.com",
           "full:vi.mojaz-persian-music.ir",
@@ -113,7 +128,72 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com"
+          "full:developers.cloudflare.com",
+          "full:solar.appleseraj.ir",
+          "full:belgho.appleseraj.ir",
+          "full:sw.App-Cloud.ir",
+          "full:Ccdn7-pro.postshup.ir",
+          "full:Nl.App-Cloud.ir",
+          "full:kingcloud.biack.ir",
+          "full:chanel-fastt.lavazembaranjon.ir",
+          "full:go.iranfree.de5.net",
+          "full:kingcloud.biack.ir",
+          "full:forallpanel.srtongston.ir",
+          "full:Nn.postshup.ir",
+          "full:myip.check.nonpath.ir",
+          "full:polja.foot8all.ir",
+          "full:joker.ahang-alpha.ir",
+          "full:direct.novaano.ir",
+          "full:html.iranpood.com",
+          "full:h.cafearen.ir",
+          "full:pars.shopbertar.ir",
+          "full:it.feywebsite.ir",
+          "full:mnzxc.foot8all.ir",
+          "full:de-fardad.oorluma.ir",
+          "full:fardad-de.lorluma.ir",
+          "full:fl.app-cloud.ir",
+          "full:kingcloud.biack.ir",
+          "full:askwodf.foot8all.ir",
+          "full:bot.sobhanpor.ir",
+          "full:nl.linuxbase.ir",
+          "full:it.linuxbase.ir",
+          "full:mnzxc.foot8all.ir",
+          "full:qapoi.foot8all.ir",
+          "full:cdn3.portalcode.ir",
+          "full:wqoefj.rainzone.ir",
+          "full:odqwd.foot8all.ir",
+          "full:it.feywebsite.ir",
+          "full:forallpanel.srtongston.ir",
+          "full:Bbbhhgf.dadashinet10.ir",
+          "full:cdn2.portalcode.ir",
+          "full:usv4.monopolitass.ir",
+          "full:p2.fastraytel9880.ir",
+          "full:20e1roj9ul.splus.ir",
+          "full:20e1roj9ul.alibaba.ir",
+          "full:20e1roj9ul.cafebazaar.ir",
+          "full:h.cafearen.ir",
+          "full:swa.linuxbase.ir",
+          "full:tr3.vidora4k.ir",
+          "full:Ger.App-Cloud.ir",
+          "full:talianaccentclouding.iranlast.com",
+          "full:united.lorluma.ir",
+          "full:eeaaadas1.iranonelauna.ir",
+          "full:Mine.server-wolf.ir",
+          "full:NL2-UNlimiTed.pavilof.ir",
+          "full:irandaily.ir",
+          "full:c.downloadphysics.ir",
+          "full:talianaccentclouding.iranlast.com",
+          "full:germanclouding.iranlast.com",
+          "full:jush.sukario.ir",
+          "full:s1.eldoradu.ir",
+          "full:xlsf.sellink.ir",
+          "full:D--e.App-Cloud.ir",
+          "full:uss-a.App-Cloud.ir",
+          "full:sw-Ws.App-Cloud.ir",
+          "full:Fl.App-Cloud.ir",
+          "full:Ger.App-Cloud.ir",
+          "full:Pl-AllNet.OnlinerNet.Ir",
+          "full:britain.lorluma.ir"
 
         ],
         "skipFallback": false
@@ -135,6 +215,21 @@
       {
         "address": "8.8.8.8",
         "domains": [
+          "full:min1.alisport0.qzz.io",
+          "full:min2.alisport0.qzz.io",
+          "full:min3.alisport0.qzz.io",
+          "full:min4.alisport0.qzz.io",
+          "full:min5.alisport0.qzz.io",
+          "full:min6.alisport0.qzz.io",
+          "full:chk1.alisport0.qzz.io",
+          "full:chk2.alisport0.qzz.io",
+          "full:chk3.alisport0.qzz.io",
+          "full:chk4.alisport0.qzz.io",
+          "full:chk5.alisport0.qzz.io",
+          "full:chk6.alisport0.qzz.io",
+          "full:chk7.alisport0.qzz.io",
+          "full:chk8.alisport0.qzz.io",
+          "full:dom.alisport0.qzz.io",
           "full:faster.rainzone.ir",
           "full:octopusss4.com",
           "full:vi.mojaz-persian-music.ir",
@@ -231,7 +326,73 @@
           "full:logrocket.com",
           "full:teams.cloudflare.com",
           "full:api.cloudflare.com",
-          "full:developers.cloudflare.com"
+          "full:developers.cloudflare.com",
+          "full:solar.appleseraj.ir",
+          "full:belgho.appleseraj.ir",
+          "full:sw.App-Cloud.ir",
+          "full:Ccdn7-pro.postshup.ir",
+          "full:Nl.App-Cloud.ir",
+          "full:kingcloud.biack.ir",
+          "full:chanel-fastt.lavazembaranjon.ir",
+          "full:go.iranfree.de5.net",
+          "full:kingcloud.biack.ir",
+          "full:forallpanel.srtongston.ir",
+          "full:Nn.postshup.ir",
+          "full:myip.check.nonpath.ir",
+          "full:polja.foot8all.ir",
+          "full:joker.ahang-alpha.ir",
+          "full:direct.novaano.ir",
+          "full:html.iranpood.com",
+          "full:h.cafearen.ir",
+          "full:pars.shopbertar.ir",
+          "full:it.feywebsite.ir",
+          "full:mnzxc.foot8all.ir",
+          "full:de-fardad.oorluma.ir",
+          "full:fardad-de.lorluma.ir",
+          "full:fl.app-cloud.ir",
+          "full:kingcloud.biack.ir",
+          "full:askwodf.foot8all.ir",
+          "full:bot.sobhanpor.ir",
+          "full:nl.linuxbase.ir",
+          "full:it.linuxbase.ir",
+          "full:mnzxc.foot8all.ir",
+          "full:qapoi.foot8all.ir",
+          "full:cdn3.portalcode.ir",
+          "full:wqoefj.rainzone.ir",
+          "full:odqwd.foot8all.ir",
+          "full:it.feywebsite.ir",
+          "full:forallpanel.srtongston.ir",
+          "full:Bbbhhgf.dadashinet10.ir",
+          "full:cdn2.portalcode.ir",
+          "full:usv4.monopolitass.ir",
+          "full:p2.fastraytel9880.ir",
+          "full:20e1roj9ul.splus.ir",
+          "full:20e1roj9ul.alibaba.ir",
+          "full:20e1roj9ul.cafebazaar.ir",
+          "full:h.cafearen.ir",
+          "full:swa.linuxbase.ir",
+          "full:tr3.vidora4k.ir",
+          "full:Ger.App-Cloud.ir",
+          "full:talianaccentclouding.iranlast.com",
+          "full:united.lorluma.ir",
+          "full:eeaaadas1.iranonelauna.ir",
+          "full:Mine.server-wolf.ir",
+          "full:NL2-UNlimiTed.pavilof.ir",
+          "full:irandaily.ir",
+          "full:c.downloadphysics.ir",
+          "full:talianaccentclouding.iranlast.com",
+          "full:germanclouding.iranlast.com",
+          "full:jush.sukario.ir",
+          "full:s1.eldoradu.ir",
+          "full:xlsf.sellink.ir",
+          "full:D--e.App-Cloud.ir",
+          "full:uss-a.App-Cloud.ir",
+          "full:sw-Ws.App-Cloud.ir",
+          "full:Fl.App-Cloud.ir",
+          "full:Ger.App-Cloud.ir",
+          "full:Pl-AllNet.OnlinerNet.Ir",
+          "full:britain.lorluma.ir"
+
 
 
         ],
@@ -280,7 +441,7 @@
         "servers": [
           {
             "address": "chk1.alisport0.qzz.io",
-            "port": 80,
+            "port": 8080,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -309,8 +470,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 8880,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -318,7 +479,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk2.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoid0JLUDVWQTZFd3l6IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
@@ -339,8 +500,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2052,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -348,7 +509,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk3.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiM3NtS2xzb2hVVnRudWlSIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
@@ -369,8 +530,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk4.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2082,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -378,7 +539,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk4.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiVjZrc3YyMGFOIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
@@ -399,8 +560,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk5.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2086,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -408,7 +569,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk5.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiMkVzSkhXTXVsIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "none",
@@ -429,8 +590,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk6.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2086,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -438,7 +599,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk6.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiaENyaW4xZU1kRjhBWGxwRyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "none",
@@ -459,8 +620,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk7.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2095,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -468,7 +629,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk7.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiTTlTelVRclU1bzhPTk0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "none",
@@ -489,8 +650,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk8.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 8443,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -498,12 +659,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk8.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiTXVUa1hKTWgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcsaCs3.aLI-rAsOULy.WorkERs.deV",
+          "serverName": "min1.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -527,7 +688,7 @@
         "servers": [
           {
             "address": "chk1.alisport0.qzz.io",
-            "port": 80,
+            "port": 2053,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -540,7 +701,7 @@
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "acSacs3.alI-rAsOuLy.worKerS.dev",
+          "serverName": "min1.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -563,8 +724,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2083,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -572,12 +733,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk2.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiMUlRcVZ4YWsyeSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACsACs3.aLi-rAsOUlY.WoRKers.dEv",
+          "serverName": "min1.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -600,8 +761,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2087,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -609,12 +770,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk3.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiY2puUEFVNXFBbXVOIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTIuMTE4LjguMjA2Il19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACsacS3.aLI-rAsOulY.woRkeRS.dev",
+          "serverName": "min1.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -637,8 +798,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk4.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2096,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -646,12 +807,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk4.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoiRG13QkpJU2RTZTMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5Mi4xMTguOC4yMDYiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACSAcS3.ALI-rAsOUlY.WOrKeRs.deV",
+          "serverName": "min1.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -674,8 +835,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk5.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2087,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -683,12 +844,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk5.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoidkhMZlZQSlppV2FqTjVxayIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "Acsacs3.aLI-RaSoUlY.WorkerS.dEv",
+          "serverName": "min1.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -711,8 +872,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk6.alisport0.qzz.io",
-            "port": 80,
+            "address": "chk1.alisport0.qzz.io",
+            "port": 2083,
             "password": "H_Vd}#hqvkJ5X6V5"
           }
         ]
@@ -720,12 +881,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "chk6.alisport0.qzz.io",
+          "host": "chk1.alisport0.qzz.io",
           "path": "/eyJqdW5rIjoia05pSU1VQ1QyaFk5SyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkyLjExOC44LjIwNiJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "acSAcS3.ali-RAsOuLY.WOrkERS.dEV",
+          "serverName": "min1.alisport0.qzz.io",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
