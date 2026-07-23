@@ -1,5 +1,5 @@
 {
-  "remarks": "ar4_no_tls_ru_Ping",
+  "remarks": "ar4_no_tls_ru2_Ping",
   "version": {
     "min": "26.2.6"
   },
