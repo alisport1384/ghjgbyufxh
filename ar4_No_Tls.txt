@@ -1,5 +1,5 @@
 {
-  "remarks": "ar4_no_tls_ru2_Ping",
+  "remarks": "ar4_no_tls_ru_Ping",
   "version": {
     "min": "26.2.6"
   },
@@ -108,7 +108,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "7auq4q7mkx0041zqc.ali-rasouly.workers.dev",
+            "address": "188.42.89.214",
             "port": 80,
             "users": [
               {
@@ -143,7 +143,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.176.38",
+            "address": "188.42.88.68",
             "port": 80,
             "users": [
               {
@@ -178,7 +178,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.40.49",
+            "address": "188.42.88.200",
             "port": 80,
             "users": [
               {
