@@ -1,5 +1,5 @@
 {
-  "remarks": "(TT)AutoSelect(BestPing)",
+  "remarks": "(TLS_PORT)(BestPing)",
   "version": {
     "min": "26.2.6"
   },
@@ -9,128 +9,13 @@
   "dns": {
     "hosts": {
       "dns.adguard-dns.com": [
-        "94.140.14.14",
-        "94.140.15.15"
+        "94.140.15.15",
+        "94.140.14.14"
       ],
       "geosite:category-ads-all": "#3",
       "geosite:category-ads-ir": "#3"
     },
     "servers": [
-      {
-        "address": "fakedns",
-        "domains": [
-          "geosite:category-ir",
-          "full:acsacs1.alisportgroups-24f.workers.dev",
-          "full:www.speedtest.net",
-          "full:chk1.alisport0.qzz.io",
-          "full:chk2.alisport0.qzz.io",
-          "full:chk3.alisport0.qzz.io",
-          "full:chk4.alisport0.qzz.io",
-          "full:chk5.alisport0.qzz.io",
-          "full:chk6.alisport0.qzz.io",
-          "full:chk7.alisport0.qzz.io",
-          "full:chk8.alisport0.qzz.io",
-          "full:faster.rainzone.ir",
-          "full:octopusss4.com",
-          "full:vi.mojaz-persian-music.ir",
-          "full:ssj.new-persian-song.ir",
-          "full:etherscan.io",
-          "full:ipify.org",
-          "full:api.apify.org",
-          "full:bscscan.com",
-          "full:unpkg.com",
-          "full:ifconfig.co",
-          "full:support.cloudflare.com",
-          "full:theathletic.com",
-          "full:www.etherscan.io",
-          "full:curve.fi",
-          "full:www.phantom.app",
-          "full:www.ledger.com",
-          "full:arbiscan.io",
-          "full:www.blockchain.com",
-          "full:blog.cloudflare.com",
-          "full:trustwallet.com",
-          "full:icanhazip.com",
-          "full:polygonscan.com",
-          "full:character.ai",
-          "full:developers.cloudflare.com",
-          "full:www.supabase.com",
-          "full:www.trustwallet.com",
-          "full:trezor.io",
-          "full:cloudflareinsights.com",
-          "full:www.icanhazip.com",
-          "full:ipapi.co",
-          "full:cloudflarestream.com",
-          "full:postman.com",
-          "full:warp.cloudflare.com",
-          "full:www.postman.com",
-          "full:community.cloudflare.com",
-          "full:www.auth0.com",
-          "full:www.hcaptcha.com",
-          "full:turso.tech",
-          "full:www.planetscale.com",
-          "full:www.browserstack.com",
-          "full:neon.tech",
-          "full:battle.net",
-          "full:www.sproutsocial.com",
-          "full:www.framer.com",
-          "full:wikimedia.org",
-          "full:hootsuite.com",
-          "full:mailchimp.com",
-          "full:www.hubspot.com",
-          "full:www.brilliant.org",
-          "full:community.cloudflare.com",
-          "full:stream.cloudflare.com",
-          "full:buffer.com",
-          "full:www.indiegogo.com",
-          "full:warp.cloudflare.com",
-          "full:learn.cloudflare.com",
-          "full:nuxtjs.org",
-          "full:cloudflarestream.com",
-          "full:calendly.com",
-          "full:r2.cloudflarestorage.com",
-          "full:www.cal.com",
-          "full:static.canva.com",
-          "full:www.metamask.io",
-          "full:workers.dev",
-          "full:www.canva.com",
-          "full:www.phantom.app",
-          "full:postman-echo.com",
-          "full:www.trustwallet.com",
-          "full:www.uniswap.org",
-          "full:security.vercel.com",
-          "full:media.discordapp.net",
-          "full:blog.cloudflare.com",
-          "full:dash.cloudflare.com",
-          "full:www.gitlab.com",
-          "full:ledger.com",
-          "full:www.ledger.com",
-          "full:superhuman.com",
-          "full:trezor.io",
-          "full:cloudflarestream.com",
-          "full:workers.cloudflare.com",
-          "full:warp.cloudflare.com",
-          "full:www.postman.com",
-          "full:support.cloudflare.com",
-          "full:www.auth0.com",
-          "full:www.hcaptcha.com",
-          "full:app.uniswap.org",
-          "full:www.monday.com",
-          "full:bit.dev",
-          "full:www.linear.app",
-          "full:www.bit.dev",
-          "full:codesandbox.io",
-          "full:codepen.io",
-          "full:tanstack.com",
-          "full:radar.cloudflare.com",
-          "full:logrocket.com",
-          "full:teams.cloudflare.com",
-          "full:api.cloudflare.com",
-          "full:developers.cloudflare.com"
-
-        ],
-        "skipFallback": false
-      },
       {
         "address": "https://dns.adguard-dns.com/dns-query",
         "tag": "remote-dns"
@@ -149,113 +34,7 @@
         "address": "8.8.8.8",
         "domains": [
           "full:acsacs1.alisportgroups-24f.workers.dev",
-          "full:www.speedtest.net",
-          "full:chk1.alisport0.qzz.io",
-          "full:chk2.alisport0.qzz.io",
-          "full:chk3.alisport0.qzz.io",
-          "full:chk4.alisport0.qzz.io",
-          "full:chk5.alisport0.qzz.io",
-          "full:chk6.alisport0.qzz.io",
-          "full:chk7.alisport0.qzz.io",
-          "full:chk8.alisport0.qzz.io",
-          "full:faster.rainzone.ir",
-          "full:octopusss4.com",
-          "full:vi.mojaz-persian-music.ir",
-          "full:ssj.new-persian-song.ir",
-          "full:etherscan.io",
-          "full:ipify.org",
-          "full:api.apify.org",
-          "full:bscscan.com",
-          "full:unpkg.com",
-          "full:ifconfig.co",
-          "full:support.cloudflare.com",
-          "full:theathletic.com",
-          "full:www.etherscan.io",
-          "full:curve.fi",
-          "full:www.phantom.app",
-          "full:www.ledger.com",
-          "full:arbiscan.io",
-          "full:www.blockchain.com",
-          "full:blog.cloudflare.com",
-          "full:trustwallet.com",
-          "full:icanhazip.com",
-          "full:polygonscan.com",
-          "full:character.ai",
-          "full:developers.cloudflare.com",
-          "full:www.supabase.com",
-          "full:www.trustwallet.com",
-          "full:trezor.io",
-          "full:cloudflareinsights.com",
-          "full:www.icanhazip.com",
-          "full:ipapi.co",
-          "full:cloudflarestream.com",
-          "full:postman.com",
-          "full:warp.cloudflare.com",
-          "full:www.postman.com",
-          "full:community.cloudflare.com",
-          "full:www.auth0.com",
-          "full:www.hcaptcha.com",
-          "full:turso.tech",
-          "full:www.planetscale.com",
-          "full:www.browserstack.com",
-          "full:neon.tech",
-          "full:battle.net",
-          "full:www.sproutsocial.com",
-          "full:www.framer.com",
-          "full:wikimedia.org",
-          "full:hootsuite.com",
-          "full:mailchimp.com",
-          "full:www.hubspot.com",
-          "full:www.brilliant.org",
-          "full:community.cloudflare.com",
-          "full:stream.cloudflare.com",
-          "full:buffer.com",
-          "full:www.indiegogo.com",
-          "full:warp.cloudflare.com",
-          "full:learn.cloudflare.com",
-          "full:nuxtjs.org",
-          "full:cloudflarestream.com",
-          "full:calendly.com",
-          "full:r2.cloudflarestorage.com",
-          "full:www.cal.com",
-          "full:static.canva.com",
-          "full:www.metamask.io",
-          "full:workers.dev",
-          "full:www.canva.com",
-          "full:www.phantom.app",
-          "full:postman-echo.com",
-          "full:www.trustwallet.com",
-          "full:www.uniswap.org",
-          "full:security.vercel.com",
-          "full:media.discordapp.net",
-          "full:blog.cloudflare.com",
-          "full:dash.cloudflare.com",
-          "full:www.gitlab.com",
-          "full:ledger.com",
-          "full:www.ledger.com",
-          "full:superhuman.com",
-          "full:trezor.io",
-          "full:cloudflarestream.com",
-          "full:workers.cloudflare.com",
-          "full:warp.cloudflare.com",
-          "full:www.postman.com",
-          "full:support.cloudflare.com",
-          "full:www.auth0.com",
-          "full:www.hcaptcha.com",
-          "full:app.uniswap.org",
-          "full:www.monday.com",
-          "full:bit.dev",
-          "full:www.linear.app",
-          "full:www.bit.dev",
-          "full:codesandbox.io",
-          "full:codepen.io",
-          "full:tanstack.com",
-          "full:radar.cloudflare.com",
-          "full:logrocket.com",
-          "full:teams.cloudflare.com",
-          "full:api.cloudflare.com",
-          "full:developers.cloudflare.com"
-
+          "full:www.speedtest.net"
         ],
         "skipFallback": true
       }
@@ -275,8 +54,7 @@
       "sniffing": {
         "destOverride": [
           "http",
-          "tls",
-          "fakedns"
+          "tls"
         ],
         "enabled": true,
         "routeOnly": true
@@ -288,7 +66,7 @@
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
-        "address": "udp://8.8.8.8:53",
+        "address": "1.1.1.1",
         "network": "tcp,udp",
         "port": 53
       },
@@ -301,8 +79,8 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.99.0",
-            "port": 80,
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -311,7 +89,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiajJtU1dkNjlJYiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjIuMTk4LjY0Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiZ09nWjUwcUZtajVUb2JGSyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -331,8 +109,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
-            "port": 80,
+            "address": "www.speedtest.net",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -341,7 +119,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiSkdvMVhPT2VxOFQzOHhFZCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjIuMTk4LjY0Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiVmp5RnRrbnQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -361,8 +139,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
-            "port": 80,
+            "address": "104.21.39.229",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -371,7 +149,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoibHpXRHZ6R1ZSRnEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDkuMTIyLjE5OC42NCJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiN0pYaWdpZ3F0QmNWSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -391,8 +169,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk4.alisport0.qzz.io",
-            "port": 80,
+            "address": "172.67.149.174",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -401,7 +179,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiVEYxVTFMRElKRjUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDkuMTIyLjE5OC42NCJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiOEVVbG5LaE5haGdRRGRJIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuNTguMTMuMyJdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -421,8 +199,8 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.98.0",
-            "port": 80,
+            "address": "188.114.99.0",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -431,7 +209,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiQWNZWllZOWtHayIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjIuMTk4LjY0Il19?ed=2560"
+          "path": "/eyJqdW5rIjoic2JJVEVYM1YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -451,8 +229,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk6.alisport0.qzz.io",
-            "port": 80,
+            "address": "188.114.98.0",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -461,7 +239,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiQzhBbUZlUVRMcVp4YUMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDkuMTIyLjE5OC42NCJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoibmFBTTdyRW44IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuNTguMTMuMyJdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -481,8 +259,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk7.alisport0.qzz.io",
-            "port": 80,
+            "address": "188.114.97.3",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -491,7 +269,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoic3I1MmxSNHZiY3JsQmc5IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTA5LjEyMi4xOTguNjQiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiZnc5MlBwdmFySSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -511,8 +289,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk8.alisport0.qzz.io",
-            "port": 80,
+            "address": "acsacs1.alisportgroups-24f.workers.dev",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -521,11 +299,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoibjFoZklvSXJLIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTA5LjEyMi4xOTguNjQiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiZHZScjZsVnUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcsAcS1.alIsPoRtGrOuPs-24f.WoRkeRs.dev",
+          "serverName": "ACsacS1.aLIsPOrTGrOUps-24f.WoRKERS.dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -548,8 +326,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk1.alisport0.qzz.io",
-            "port": 80,
+            "address": "www.speedtest.net",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -558,11 +336,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiVWY1S24xUDBQM3BURCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjIuMTk4LjY0Il19?ed=2560"
+          "path": "/eyJqdW5rIjoib0hXdTZUWlBneE5wQTlDdSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACsAcs1.ALiSPortGrOUPs-24F.WOrkeRS.DEv",
+          "serverName": "ACsAcS1.aLISpOrtgROUPS-24F.wOrKERS.DeV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -585,8 +363,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk2.alisport0.qzz.io",
-            "port": 80,
+            "address": "104.21.39.229",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -595,11 +373,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoieEJ4Y3hmM1kiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDkuMTIyLjE5OC42NCJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiQkc3R0hBY1A5dCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACsAcs1.AlISpoRTGRoUps-24F.worKerS.dev",
+          "serverName": "acSAcS1.aLISpOrtGRoupS-24F.woRKERS.DeV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -622,8 +400,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk3.alisport0.qzz.io",
-            "port": 80,
+            "address": "172.67.149.174",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -632,11 +410,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiUkduYWdGR3BzN2EzMCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjIuMTk4LjY0Il19?ed=2560"
+          "path": "/eyJqdW5rIjoiaDlINEdJSm9vNTdDd2FEIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuNTguMTMuMyJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCsaCs1.aLiSPoRtGrOups-24F.woRkErs.DEv",
+          "serverName": "ACSaCS1.alisPoRTGroUPs-24f.wOrKErS.dEv",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -659,8 +437,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk4.alisport0.qzz.io",
-            "port": 80,
+            "address": "188.114.99.0",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -669,11 +447,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiWGhQUFVaWnoyb3kiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDkuMTIyLjE5OC42NCJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiOTB1ZjE4OFBhU3YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACsacS1.aLiSPoRtGROuPs-24F.workeRs.dev",
+          "serverName": "ACSaCS1.alISPoRtGroups-24F.WorkerS.DEv",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -696,8 +474,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk5.alisport0.qzz.io",
-            "port": 80,
+            "address": "188.114.98.0",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -706,11 +484,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiTlJVTU4yblBpQVRsU1giLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDkuMTIyLjE5OC42NCJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiRGJJR2Vwbnpuc3IiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "acSaCS1.aLIspORTgROUps-24F.WorkerS.deV",
+          "serverName": "aCsaCS1.aLiSPORtgROups-24f.WOrkErs.Dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -733,8 +511,8 @@
       "settings": {
         "servers": [
           {
-            "address": "chk6.alisport0.qzz.io",
-            "port": 80,
+            "address": "188.114.97.3",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -743,11 +521,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiZE51eHBOWDEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDkuMTIyLjE5OC42NCJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiQXZpOXpEcFlaaldVUkgwVSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCSACS1.ALiSporTgRoUps-24F.WoRkeRS.deV",
+          "serverName": "AcSacs1.ALISpORTGrOuPs-24F.WOrkERs.DEV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
