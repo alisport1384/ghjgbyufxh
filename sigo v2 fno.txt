@@ -1,5 +1,5 @@
 {
-  "remarks": "AutoSelect(MMBestPing)",
+  "remarks": "(TLS_PORT)Best Ping",
   "version": {
     "min": "26.2.6"
   },
@@ -7,30 +7,15 @@
     "loglevel": "none"
   },
   "dns": {
-    "hosts": {
-      "geosite:category-ads-all": "#3",
-      "geosite:category-ads-ir": "#3"
-    },
     "servers": [
       {
         "address": "https://8.8.8.8/dns-query",
         "tag": "remote-dns"
       },
       {
-        "address": "0.0.0.1",
+        "address": "8.8.8.8",
         "domains": [
-          "geosite:category-ir"
-        ],
-        "expectIPs": [
-          "geoip:ir"
-        ],
-        "skipFallback": true
-      },
-      {
-        "address": "0.0.0.1",
-        "domains": [
-          "full:acsacs2.sigomendez33.workers.dev",
-          "full:www.speedtest.net"
+          "full:vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev"
         ],
         "skipFallback": true
       }
@@ -40,7 +25,7 @@
   },
   "inbounds": [
     {
-      "listen": "0.0.0.0",
+      "listen": "127.0.0.1",
       "port": 10808,
       "protocol": "mixed",
       "settings": {
@@ -58,7 +43,7 @@
       "tag": "mixed-in"
     },
     {
-      "listen": "0.0.0.0",
+      "listen": "127.0.0.1",
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
@@ -71,21 +56,26 @@
   ],
   "outbounds": [
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "acsacs2.sigomendez33.workers.dev",
+            "address": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
             "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiOEZHUFdTVE9SUGxRWDJmVSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/gsPyRWGwjXiXN5ttsw78S?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -101,21 +91,26 @@
       "tag": "proxy-1"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "188.114.97.3",
             "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiTXlBcnN3OXNRemJwTSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/JEHrgz98pHemkaVhhF?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -131,21 +126,26 @@
       "tag": "proxy-2"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "172.67.208.82",
+            "address": "188.114.96.3",
             "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiM1N3WHRGNkREelVNVmxxZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/KwqQFuPrjiQyAymYHNBuCbfm6?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -161,21 +161,26 @@
       "tag": "proxy-3"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "104.21.50.184",
+            "address": "188.114.99.0",
             "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiWUUwTGZZbUw1amEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDMuOTcuODguMTMzIl19?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/YncztFURYhSC6UF5N4mW03?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -191,21 +196,26 @@
       "tag": "proxy-4"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "188.114.99.0",
+            "address": "188.114.98.0",
             "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiYkcxbEd1N09YIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTAzLjk3Ljg4LjEzMyJdfQ==?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/Xnw8eSosfpOGalGTn?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -221,21 +231,26 @@
       "tag": "proxy-5"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "188.114.98.0",
+            "address": "188.114.97.3",
             "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoibHBET0hrQk0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDMuOTcuODguMTMzIl19?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/6FAtNuwX9gHoRjU68BG3GDE?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -251,23 +266,35 @@
       "tag": "proxy-6"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "188.114.97.3",
-            "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "address": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+            "port": 443,
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiNkxva3VmMVdsaGhVZHMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDMuOTcuODguMTMzIl19?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/M9K3vzd7LqpedZvv7KA2lZhmJ?ed=2560"
         },
-        "security": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "VO0Bg2ZdWBBZQORewR5nUKQ-h.SIgOMeNDez33-f73.wOrkERs.DEv",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "sockopt": {
           "domainStrategy": "UseIP",
           "happyEyeballs": {
@@ -281,25 +308,30 @@
       "tag": "proxy-7"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "acsacs2.sigomendez33.workers.dev",
-            "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "address": "188.114.97.3",
+            "port": 443,
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoic2JtOXlhbXM5ZjNmIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTAzLjk3Ljg4LjEzMyJdfQ==?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/vxHHNcOZNAernYeeaxdNlC?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcSACs2.SiGoMenDEz33.wORkeRS.dEv",
+          "serverName": "Vo0bg2ZdWBbZqOREWR5NUKQ-h.SigoMenDEZ33-F73.woRkeRS.Dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -318,25 +350,30 @@
       "tag": "proxy-8"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "address": "188.114.96.3",
+            "port": 443,
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiRURTcTB3Nkw2IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTAzLjk3Ljg4LjEzMyJdfQ==?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/9B9XAeAP5ZPB3kpNH7IEktaG0Y7e?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCSaCS2.sIgOmendez33.WORkeRS.deV",
+          "serverName": "Vo0bg2zDwbBzQoRewr5NUkq-H.SigoMenDez33-F73.WorkeRS.dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -355,25 +392,30 @@
       "tag": "proxy-9"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "172.67.208.82",
-            "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "address": "188.114.99.0",
+            "port": 443,
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiY1NRaU4zdTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDMuOTcuODguMTMzIl19?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/L5oyOmC2WbabXzI1Pw?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcsACS2.sigomeNDeZ33.WorkErs.dev",
+          "serverName": "Vo0Bg2zdWbBZqorEWR5nukq-h.SiGomendEZ33-f73.workErs.dEV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -392,25 +434,30 @@
       "tag": "proxy-10"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "104.21.50.184",
-            "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "address": "188.114.98.0",
+            "port": 443,
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiQVRqWGdyRktOcnZYU1AiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDMuOTcuODguMTMzIl19?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/ZuvXtjbcCTqKysIBBUkmOdvpU?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcsAcs2.sIgOMenDEZ33.woRkers.Dev",
+          "serverName": "vo0bG2ZdWbBzqoREwr5Nukq-h.sIgOmENdeZ33-F73.worKeRs.Dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -429,25 +476,30 @@
       "tag": "proxy-11"
     },
     {
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "188.114.99.0",
-            "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
+            "address": "188.114.97.3",
+            "port": 443,
+            "users": [
+              {
+                "id": "0a4c8a79-cc2e-4150-b949-c122d6132c4a",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiTE5WcHg1Q1MiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDMuOTcuODguMTMzIl19?ed=2560"
+          "host": "vo0bg2zdwbbzqorewr5nukq-h.sigomendez33-f73.workers.dev",
+          "path": "/vl/Vs2bLKAIFu8jcAJP7L?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACSAcS2.sigOMENdez33.WOrkeRS.DEv",
+          "serverName": "vo0Bg2ZDWBbZqoreWr5NUkQ-h.SigomEnDEZ33-f73.WORKErs.Dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -464,80 +516,6 @@
         }
       },
       "tag": "proxy-12"
-    },
-    {
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "188.114.98.0",
-            "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoiYURnQlZ0MU1hQW1UOEJTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTAzLjk3Ljg4LjEzMyJdfQ==?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "aCSAcs2.SigOmENdeZ33.workeRS.Dev",
-          "fingerprint": "firefox",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-13"
-    },
-    {
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "188.114.97.3",
-            "port": 80,
-            "password": "tb)f>02Jt3OUZpuo"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "acsacs2.sigomendez33.workers.dev",
-          "path": "/eyJqdW5rIjoidmpwbmNvY08wb1FXZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwMy45Ny44OC4xMzMiXX0=?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "AcSAcS2.sigoMENdeZ33.WORKErs.dEV",
-          "fingerprint": "firefox",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-14"
     },
     {
       "protocol": "dns",
@@ -616,28 +594,6 @@
       {
         "network": "udp",
         "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:category-ads-all",
-          "geosite:category-ads-ir"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:category-ir"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "geoip:ir"
-        ],
-        "outboundTag": "direct",
         "type": "field"
       },
       {
