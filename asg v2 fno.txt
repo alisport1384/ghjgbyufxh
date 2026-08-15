@@ -1,5 +1,5 @@
 {
-  "remarks": "AutoSelect(BestPing)",
+  "remarks": "(TLS_PORT)(BestPing)",
   "version": {
     "min": "26.2.6"
   },
@@ -9,30 +9,13 @@
   "dns": {
     "hosts": {
       "dns.adguard-dns.com": [
-        "94.140.14.14",
-        "94.140.15.15"
+        "94.140.15.15",
+        "94.140.14.14"
       ],
       "geosite:category-ads-all": "#3",
       "geosite:category-ads-ir": "#3"
     },
     "servers": [
-      {
-        "address": "fakedns",
-        "domains": [
-          "geosite:category-ir",
-          "full:acsacs1.alisportgroups-24f.workers.dev",
-          "full:www.speedtest.net",
-          "full:chk1.alisport0.qzz.io",
-          "full:chk2.alisport0.qzz.io",
-          "full:chk3.alisport0.qzz.io",
-          "full:chk4.alisport0.qzz.io",
-          "full:chk5.alisport0.qzz.io",
-          "full:chk6.alisport0.qzz.io",
-          "full:chk7.alisport0.qzz.io",
-          "full:chk8.alisport0.qzz.io"
-        ],
-        "skipFallback": false
-      },
       {
         "address": "https://dns.adguard-dns.com/dns-query",
         "tag": "remote-dns"
@@ -51,15 +34,7 @@
         "address": "8.8.8.8",
         "domains": [
           "full:acsacs1.alisportgroups-24f.workers.dev",
-          "full:www.speedtest.net",
-          "full:chk1.alisport0.qzz.io",
-          "full:chk2.alisport0.qzz.io",
-          "full:chk3.alisport0.qzz.io",
-          "full:chk4.alisport0.qzz.io",
-          "full:chk5.alisport0.qzz.io",
-          "full:chk6.alisport0.qzz.io",
-          "full:chk7.alisport0.qzz.io",
-          "full:chk8.alisport0.qzz.io"
+          "full:www.speedtest.net"
         ],
         "skipFallback": true
       }
@@ -79,8 +54,7 @@
       "sniffing": {
         "destOverride": [
           "http",
-          "tls",
-          "fakedns"
+          "tls"
         ],
         "enabled": true,
         "routeOnly": true
@@ -92,7 +66,7 @@
       "port": 10853,
       "protocol": "dokodemo-door",
       "settings": {
-        "address": "udp://8.8.8.8:53",
+        "address": "1.1.1.1",
         "network": "tcp,udp",
         "port": 53
       },
@@ -106,7 +80,7 @@
         "servers": [
           {
             "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -115,7 +89,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiczIyQUhtamRjdCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiZ09nWjUwcUZtajVUb2JGSyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -135,8 +109,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "www.speedtest.net",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -145,7 +119,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiSWRVdjFQRFJFVyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiVmp5RnRrbnQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -165,8 +139,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "104.21.39.229",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -175,7 +149,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiNFliNWpTODJ6NWVVV2VWWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiN0pYaWdpZ3F0QmNWSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -195,8 +169,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "172.67.149.174",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -205,7 +179,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoicUZObDdnVmQzRmx2Nk04WCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiOEVVbG5LaE5haGdRRGRJIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuNTguMTMuMyJdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -225,8 +199,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "188.114.99.0",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -235,7 +209,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiQ0N0a3NJbW52ZSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoic2JJVEVYM1YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -255,8 +229,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "188.114.98.0",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -265,7 +239,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiU1l1aldQVHMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "path": "/eyJqdW5rIjoibmFBTTdyRW44IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuNTguMTMuMyJdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -285,8 +259,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "188.114.97.3",
+            "port": 2095,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -295,7 +269,7 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiUkhKMmxTMmZyIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiZnc5MlBwdmFySSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
@@ -316,7 +290,7 @@
         "servers": [
           {
             "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -325,11 +299,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiYjB3WFM2OG9iR2NPTlRWOSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiZHZScjZsVnUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "acSAcS1.ALIspOrtGROUpS-24f.WOrKeRS.DEV",
+          "serverName": "ACsacS1.aLIsPOrTGrOUps-24f.WoRKERS.dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -352,8 +326,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "www.speedtest.net",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -362,11 +336,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiM29oOGxMVW5rQnh2QUYiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "path": "/eyJqdW5rIjoib0hXdTZUWlBneE5wQTlDdSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCsACs1.aLiSPoRtGrouPs-24f.wOrkErS.dev",
+          "serverName": "ACsAcS1.aLISpOrtgROUPS-24F.wOrKERS.DeV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -389,8 +363,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "104.21.39.229",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -399,11 +373,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiRnFUVnUwVUtrNkZ2eSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiQkc3R0hBY1A5dCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACSAcS1.alispOrTGRoups-24f.worKERs.deV",
+          "serverName": "acSAcS1.aLISpOrtGRoupS-24F.woRKERS.DeV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -426,8 +400,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "172.67.149.174",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -436,11 +410,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiWDhYQUI0RWpmIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiaDlINEdJSm9vNTdDd2FEIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuNTguMTMuMyJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCSaCS1.aLisPortgrouPs-24f.wOrKErS.Dev",
+          "serverName": "ACSaCS1.alisPoRTGroUPs-24f.wOrKErS.dEv",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -463,8 +437,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "188.114.99.0",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -473,11 +447,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiRTd6NkpIbGJzUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+          "path": "/eyJqdW5rIjoiOTB1ZjE4OFBhU3YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcsacS1.ALIspORTGRoUPS-24F.wORKErs.DEV",
+          "serverName": "ACSaCS1.alISPoRtGroups-24F.WorkerS.DEv",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -500,8 +474,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "188.114.98.0",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -510,11 +484,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiTk5FVXhYYlFOMDhxVXBQRiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiRGJJR2Vwbnpuc3IiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCsaCS1.ALisPOrTGrOUps-24F.wORkers.DEv",
+          "serverName": "aCsaCS1.aLiSPORtgROups-24f.WOrkErs.Dev",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
@@ -537,8 +511,8 @@
       "settings": {
         "servers": [
           {
-            "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 80,
+            "address": "188.114.97.3",
+            "port": 443,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -547,11 +521,11 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiUHpJSlNURGJ2SldIIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiQXZpOXpEcFlaaldVUkgwVSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCsacS1.ALispORtgrOups-24f.WOrKErs.DEV",
+          "serverName": "AcSacs1.ALISpORTGrOuPs-24F.WOrkERs.DEV",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
