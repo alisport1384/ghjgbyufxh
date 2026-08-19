@@ -1,5 +1,5 @@
 {
-  "remarks": "(TLS_PORT)(BestPing)",
+  "remarks": "(TT)ipv6_Best_Ping",
   "version": {
     "min": "26.2.6"
   },
@@ -9,26 +9,122 @@
   "dns": {
     "hosts": {
       "dns.adguard-dns.com": [
+        "94.140.14.14",
         "94.140.15.15",
-        "94.140.14.14"
-      ],
-      "geosite:category-ads-all": "#3",
-      "geosite:category-ads-ir": "#3"
+        "2a10:50c0::ad1:ff",
+        "2a10:50c0::ad2:ff"
+      ]
     },
     "servers": [
       {
-        "address": "https://dns.adguard-dns.com/dns-query",
-        "tag": "remote-dns"
+        "address": "fakedns",
+        "domains": [
+          "full:acsacs1.alisportgroups-24f.workers.dev",
+          "full:www.speedtest.net",
+          "full:faster.rainzone.ir",
+          "full:octopusss4.com",
+          "full:vi.mojaz-persian-music.ir",
+          "full:ssj.new-persian-song.ir",
+          "full:etherscan.io",
+          "full:ipify.org",
+          "full:api.apify.org",
+          "full:bscscan.com",
+          "full:unpkg.com",
+          "full:ifconfig.co",
+          "full:support.cloudflare.com",
+          "full:theathletic.com",
+          "full:www.etherscan.io",
+          "full:curve.fi",
+          "full:www.phantom.app",
+          "full:www.ledger.com",
+          "full:arbiscan.io",
+          "full:www.blockchain.com",
+          "full:blog.cloudflare.com",
+          "full:trustwallet.com",
+          "full:icanhazip.com",
+          "full:polygonscan.com",
+          "full:character.ai",
+          "full:developers.cloudflare.com",
+          "full:www.supabase.com",
+          "full:www.trustwallet.com",
+          "full:trezor.io",
+          "full:cloudflareinsights.com",
+          "full:www.icanhazip.com",
+          "full:ipapi.co",
+          "full:cloudflarestream.com",
+          "full:postman.com",
+          "full:warp.cloudflare.com",
+          "full:www.postman.com",
+          "full:community.cloudflare.com",
+          "full:www.auth0.com",
+          "full:www.hcaptcha.com",
+          "full:turso.tech",
+          "full:www.planetscale.com",
+          "full:www.browserstack.com",
+          "full:neon.tech",
+          "full:battle.net",
+          "full:www.sproutsocial.com",
+          "full:www.framer.com",
+          "full:wikimedia.org",
+          "full:hootsuite.com",
+          "full:mailchimp.com",
+          "full:www.hubspot.com",
+          "full:www.brilliant.org",
+          "full:community.cloudflare.com",
+          "full:stream.cloudflare.com",
+          "full:buffer.com",
+          "full:www.indiegogo.com",
+          "full:warp.cloudflare.com",
+          "full:learn.cloudflare.com",
+          "full:nuxtjs.org",
+          "full:cloudflarestream.com",
+          "full:calendly.com",
+          "full:r2.cloudflarestorage.com",
+          "full:www.cal.com",
+          "full:static.canva.com",
+          "full:www.metamask.io",
+          "full:workers.dev",
+          "full:www.canva.com",
+          "full:www.phantom.app",
+          "full:postman-echo.com",
+          "full:www.trustwallet.com",
+          "full:www.uniswap.org",
+          "full:security.vercel.com",
+          "full:media.discordapp.net",
+          "full:blog.cloudflare.com",
+          "full:dash.cloudflare.com",
+          "full:www.gitlab.com",
+          "full:ledger.com",
+          "full:www.ledger.com",
+          "full:superhuman.com",
+          "full:trezor.io",
+          "full:cloudflarestream.com",
+          "full:workers.cloudflare.com",
+          "full:warp.cloudflare.com",
+          "full:www.postman.com",
+          "full:support.cloudflare.com",
+          "full:www.auth0.com",
+          "full:www.hcaptcha.com",
+          "full:app.uniswap.org",
+          "full:www.monday.com",
+          "full:bit.dev",
+          "full:www.linear.app",
+          "full:www.bit.dev",
+          "full:codesandbox.io",
+          "full:codepen.io",
+          "full:tanstack.com",
+          "full:radar.cloudflare.com",
+          "full:logrocket.com",
+          "full:teams.cloudflare.com",
+          "full:api.cloudflare.com",
+          "full:developers.cloudflare.com"
+
+        ],
+        "skipFallback": false
       },
       {
-        "address": "8.8.8.8",
-        "domains": [
-          "geosite:category-ir"
-        ],
-        "expectIPs": [
-          "geoip:ir"
-        ],
-        "skipFallback": true
+        "address": "https://dns.adguard-dns.com/dns-query",
+        "tag": "remote-dns"
       },
       {
         "address": "8.8.8.8",
@@ -54,7 +150,8 @@
       "sniffing": {
         "destOverride": [
           "http",
-          "tls"
+          "tls",
+          "fakedns"
         ],
         "enabled": true,
         "routeOnly": true
@@ -80,7 +177,7 @@
         "servers": [
           {
             "address": "acsacs1.alisportgroups-24f.workers.dev",
-            "port": 2095,
+            "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -89,11 +186,12 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiZ09nWjUwcUZtajVUb2JGSyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoib1RjNEtLcEVTRmI4IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTQwLjgyLjM0LjIxIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -110,7 +208,7 @@
         "servers": [
           {
             "address": "www.speedtest.net",
-            "port": 2095,
+            "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -119,11 +217,12 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiVmp5RnRrbnQiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
+          "path": "/eyJqdW5rIjoicXdPbWRoYXVqSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0MC44Mi4zNC4yMSJdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -139,8 +238,8 @@
       "settings": {
         "servers": [
           {
-            "address": "104.21.39.229",
-            "port": 2095,
+            "address": "172.67.149.174",
+            "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -149,11 +248,12 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiN0pYaWdpZ3F0QmNWSSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiYmk1c29jdWprdVhNIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTQwLjgyLjM0LjIxIl19?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -169,8 +269,8 @@
       "settings": {
         "servers": [
           {
-            "address": "172.67.149.174",
-            "port": 2095,
+            "address": "104.21.39.229",
+            "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -179,11 +279,12 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiOEVVbG5LaE5haGdRRGRJIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuNTguMTMuMyJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiSWRmMDVkR0kiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNDAuODIuMzQuMjEiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -199,8 +300,8 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.99.0",
-            "port": 2095,
+            "address": "[2606:4700:3032::6815:27e5]",
+            "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -209,11 +310,12 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoic2JJVEVYM1YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
+          "path": "/eyJqdW5rIjoibmNYTzU1dEFMUzRLUiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0MC44Mi4zNC4yMSJdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -229,8 +331,8 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.98.0",
-            "port": 2095,
+            "address": "[2606:4700:3032::ac43:95ae]",
+            "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -239,11 +341,12 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoibmFBTTdyRW44IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuNTguMTMuMyJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiUW5GMnlpUHMwS1h5cWciLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNDAuODIuMzQuMjEiXX0=?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -259,8 +362,8 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.3",
-            "port": 2095,
+            "address": "188.114.99.0",
+            "port": 80,
             "password": "5mmSOloP]M:atRGl"
           }
         ]
@@ -269,11 +372,12 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiZnc5MlBwdmFySSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiTUZnSHZRMkEwaSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0MC44Mi4zNC4yMSJdfQ==?ed=2560"
         },
         "security": "none",
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -283,6 +387,68 @@
         }
       },
       "tag": "proxy-7"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.114.98.0",
+            "port": 80,
+            "password": "5mmSOloP]M:atRGl"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiWG5JVGNMbEZVbkNERiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0MC44Mi4zNC4yMSJdfQ==?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-8"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.114.97.3",
+            "port": 80,
+            "password": "5mmSOloP]M:atRGl"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoidVFJazJUM1c0IiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTQwLjgyLjM0LjIxIl19?ed=2560"
+        },
+        "security": "none",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-9"
     },
     {
       "protocol": "trojan",
@@ -299,18 +465,20 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiZHZScjZsVnUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
+          "path": "/eyJqdW5rIjoic0JFb1BhM0xURiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0MC44Mi4zNC4yMSJdfQ==?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACsacS1.aLIsPOrTGrOUps-24f.WoRKERS.dev",
-          "fingerprint": "firefox",
+          "serverName": "aCsacS1.ALISpORtGRoUPs-24f.wOrKErs.dev",
+          "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -319,7 +487,7 @@
           }
         }
       },
-      "tag": "proxy-8"
+      "tag": "proxy-10"
     },
     {
       "protocol": "trojan",
@@ -336,18 +504,20 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoib0hXdTZUWlBneE5wQTlDdSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiZzZPRnh3clM3UFUiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNDAuODIuMzQuMjEiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACsAcS1.aLISpOrtgROUPS-24F.wOrKERS.DeV",
-          "fingerprint": "firefox",
+          "serverName": "ACSaCs1.AlIsPoRTgrOUPS-24F.WOrkErs.DEv",
+          "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -356,44 +526,7 @@
           }
         }
       },
-      "tag": "proxy-9"
-    },
-    {
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "104.21.39.229",
-            "port": 443,
-            "password": "5mmSOloP]M:atRGl"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiQkc3R0hBY1A5dCIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "acSAcS1.aLISpOrtGRoupS-24F.woRKERS.DeV",
-          "fingerprint": "firefox",
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "tryDelayMs": 250,
-            "prioritizeIPv6": false,
-            "interleave": 2,
-            "maxConcurrentTry": 4
-          }
-        }
-      },
-      "tag": "proxy-10"
+      "tag": "proxy-11"
     },
     {
       "protocol": "trojan",
@@ -410,18 +543,20 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiaDlINEdJSm9vNTdDd2FEIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuNTguMTMuMyJdfQ==?ed=2560"
+          "path": "/eyJqdW5rIjoiNzhzNlZ3emMwWFJ6aEZOIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTQwLjgyLjM0LjIxIl19?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACSaCS1.alisPoRTGroUPs-24f.wOrKErS.dEv",
-          "fingerprint": "firefox",
+          "serverName": "AcSACS1.ALISPORTgRoupS-24f.worKerS.DEv",
+          "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -430,7 +565,124 @@
           }
         }
       },
-      "tag": "proxy-11"
+      "tag": "proxy-12"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "104.21.39.229",
+            "port": 443,
+            "password": "5mmSOloP]M:atRGl"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoibkVkZmFKU2toYW8xTmpxIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTQwLjgyLjM0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ACsACs1.aliSPOrTGRoUPs-24F.WorKers.dEV",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "udp://8.8.8.8"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-13"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "[2606:4700:3032::6815:27e5]",
+            "port": 443,
+            "password": "5mmSOloP]M:atRGl"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiQlRsV2xBTTEzUDYzYiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0MC44Mi4zNC4yMSJdfQ==?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "AcSaCs1.ALISPORtgrouPS-24f.worKErs.DeV",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "udp://8.8.8.8"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-14"
+    },
+    {
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "[2606:4700:3032::ac43:95ae]",
+            "port": 443,
+            "password": "5mmSOloP]M:atRGl"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "host": "acsacs1.alisportgroups-24f.workers.dev",
+          "path": "/eyJqdW5rIjoiSG5OTjJSSHAwIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTQwLjgyLjM0LjIxIl19?ed=2560"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "aCSaCs1.ALIsPOrTGrouPs-24f.workERs.DEv",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "udp://8.8.8.8"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        }
+      },
+      "tag": "proxy-15"
     },
     {
       "protocol": "trojan",
@@ -447,18 +699,20 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiOTB1ZjE4OFBhU3YiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
+          "path": "/eyJqdW5rIjoiS28wbjVocXpJQ2UiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNDAuODIuMzQuMjEiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ACSaCS1.alISPoRtGroups-24F.WorkerS.DEv",
-          "fingerprint": "firefox",
+          "serverName": "acsacs1.alispOrTgROups-24F.WORKerS.Dev",
+          "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -467,7 +721,7 @@
           }
         }
       },
-      "tag": "proxy-12"
+      "tag": "proxy-16"
     },
     {
       "protocol": "trojan",
@@ -484,18 +738,20 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiRGJJR2Vwbnpuc3IiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC4xMy4zIl19?ed=2560"
+          "path": "/eyJqdW5rIjoibkdtYWpBaFMiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNDAuODIuMzQuMjEiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "aCsaCS1.aLiSPORtgROups-24f.WOrkErs.Dev",
-          "fingerprint": "firefox",
+          "serverName": "ACSAcs1.ALiSPOrTGrOuPS-24f.woRkers.dEv",
+          "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -504,7 +760,7 @@
           }
         }
       },
-      "tag": "proxy-13"
+      "tag": "proxy-17"
     },
     {
       "protocol": "trojan",
@@ -521,18 +777,20 @@
         "network": "ws",
         "wsSettings": {
           "host": "acsacs1.alisportgroups-24f.workers.dev",
-          "path": "/eyJqdW5rIjoiQXZpOXpEcFlaaldVUkgwVSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjEzLjMiXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiT0VmSUdyNkEiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxNDAuODIuMzQuMjEiXX0=?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "AcSacs1.ALISpORTGrOuPs-24F.WOrkERs.DEV",
-          "fingerprint": "firefox",
+          "serverName": "ACsaCS1.aLIsportGROuPS-24F.WorkERS.DEv",
+          "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
-          ]
+          ],
+          "echConfigList": "udp://8.8.8.8"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
           "happyEyeballs": {
             "tryDelayMs": 250,
             "prioritizeIPv6": false,
@@ -541,7 +799,7 @@
           }
         }
       },
-      "tag": "proxy-14"
+      "tag": "proxy-18"
     },
     {
       "protocol": "dns",
@@ -620,28 +878,6 @@
       {
         "network": "udp",
         "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:category-ads-all",
-          "geosite:category-ads-ir"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:category-ir"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "geoip:ir"
-        ],
-        "outboundTag": "direct",
         "type": "field"
       },
       {
