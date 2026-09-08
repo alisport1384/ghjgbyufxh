@@ -1,5 +1,5 @@
 {
-  "remarks": "VLESS -SUP Domain : 443",
+  "remarks": "A_VLESS -SUP Domain : 443",
   "version": {
     "min": "26.2.6"
   },
