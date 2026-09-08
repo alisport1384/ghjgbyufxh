@@ -1,5 +1,5 @@
 {
-  "remarks": "VLESS - Domain : 443",
+  "remarks": "VLESS -SUP Domain : 443",
   "version": {
     "min": "26.2.6"
   },
@@ -8,19 +8,21 @@
   },
   "dns": {
     "hosts": {
-      "safe.dns.yandex.ru": [
-        "77.88.8.88"
+      "dns.adguard-dns.com": [
+        "94.140.14.14",
+        "94.140.15.15"
       ]
     },
     "servers": [
       {
-        "address": "https://safe.dns.yandex.ru/dns-query",
+        "address": "https://dns.adguard-dns.com/dns-query",
         "tag": "remote-dns"
       },
       {
         "address": "8.8.8.8",
         "domains": [
-          "full:7auq4q7mkx0041zqc.ali-rasouly.workers.dev"
+          "full:7auq4q7mkx0041zqc.ali-rasouly.workers.dev",
+          "full:acsacs.alisport0.dpdns.org"
         ],
         "skipFallback": true
       }
@@ -65,7 +67,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "7auq4q7mkx0041zqc.ali-rasouly.workers.dev",
+            "address": "acsacs.alisport0.dpdns.org",
             "port": 443,
             "users": [
               {
@@ -79,12 +81,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "host": "7auq4q7mkx0041zqc.ali-rasouly.workers.dev",
-          "path": "/vl/0LkVuto96ENSLdYymtyxrh5W7i5XHk73?ed=2560"
+          "host": "acsacs.alisport0.dpdns.org",
+          "path": "/vl/9mlQpt1eI1ZseKyiWtVYmoBg?ed=2560"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "7Auq4q7MkX0041zqc.AlI-rasOULY.WORkERs.DEv",
+          "serverName": "acsacs.alisport0.dpdns.org",
           "fingerprint": "firefox",
           "alpn": [
             "http/1.1"
