@@ -1,2 +1,0 @@
-vless://e612cc7f-ac09-9285-0d99-f8c9fde6587e@acsacs1-cr.ali-rasouly.workers.dev:443?encryption=none&security=tls&sni=acsacs1-cr.ali-rasouly.workers.dev&fp=firefox&type=ws&host=acsacs1-cr.ali-rasouly.workers.dev&path=/alexsport&pbk=enabled#V-CR-443-1
-trojan://e612cc7f-ac09-9285-0d99-f8c9fde6587e@acsacs1-cr.ali-rasouly.workers.dev:443?encryption=none&security=tls&sni=acsacs1-cr.ali-rasouly.workers.dev&fp=firefox&type=ws&host=acsacs1-cr.ali-rasouly.workers.dev&path=/alexsport&pbk=enabled#T-CR-443-1
